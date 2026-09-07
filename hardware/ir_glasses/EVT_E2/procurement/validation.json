@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-09-07",
+  "bom_groups": 25,
+  "unique_designators": 122,
+  "quantity_per_board": 122,
+  "quantity_for_two_boards": 244,
+  "pd_net_quantity": 32,
+  "populated_side": "F.Cu",
+  "domestic_live_stock_verified_groups": 0,
+  "domestic_fetch_attempts": 24,
+  "customer_supply_selected_groups": 1,
+  "debug_spares_in_assembly_bom": false
+}

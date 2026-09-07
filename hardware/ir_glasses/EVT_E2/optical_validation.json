@@ -1,0 +1,676 @@
+{
+  "source_pcb": "ir_glasses.kicad_pcb",
+  "source_sha256": "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61",
+  "checked_at_utc": "2026-09-06T19:16:19.970713+00:00",
+  "measurement_engine": "KiCad 10 native pad polygons / Shapely planar distances",
+  "pad_polygon_max_error_mm": 0.0001,
+  "pad_polygon_error_direction": "Outside; conservative distance for curved pads",
+  "geometry_checks": "PASS",
+  "electrical_optical_performance": "NOT_MEASURED",
+  "all_32_optical_copper_clearances_at_least_mm": 0.35,
+  "LED_closer_to_eye_cutout_all_16_pairs": true,
+  "PD_input_copper_total_length_mm": {
+    "PD_IN1": 66.00887729,
+    "PD_IN2": 81.28215139,
+    "PD_IN3": 88.16409227,
+    "PD_IN4": 74.47364669,
+    "PD_IN5": 35.15313372,
+    "PD_IN6": 12.1766484,
+    "PD_IN7": 24.39069053,
+    "PD_IN8": 58.38812438,
+    "PD_IN9": 66.5996006,
+    "PD_IN10": 68.38759663,
+    "PD_IN11": 89.31095773,
+    "PD_IN12": 67.27953216,
+    "PD_IN13": 44.30264288,
+    "PD_IN14": 21.07919312,
+    "PD_IN15": 23.98776219,
+    "PD_IN16": 50.99979952
+  },
+  "PD_input_via_count": {
+    "PD_IN1": 3,
+    "PD_IN2": 4,
+    "PD_IN3": 3,
+    "PD_IN4": 3,
+    "PD_IN5": 2,
+    "PD_IN6": 2,
+    "PD_IN7": 3,
+    "PD_IN8": 3,
+    "PD_IN9": 3,
+    "PD_IN10": 2,
+    "PD_IN11": 3,
+    "PD_IN12": 3,
+    "PD_IN13": 2,
+    "PD_IN14": 2,
+    "PD_IN15": 2,
+    "PD_IN16": 2
+  },
+  "PD_input_copper_length_by_layer_mm": {
+    "PD_IN1": {
+      "F.Cu": 8.6406486,
+      "In1.Cu": 9.33198052,
+      "In2.Cu": 0,
+      "B.Cu": 48.03624817
+    },
+    "PD_IN2": {
+      "F.Cu": 9.83305692,
+      "In1.Cu": 6.74974747,
+      "In2.Cu": 64.69934701,
+      "B.Cu": 0
+    },
+    "PD_IN3": {
+      "F.Cu": 4.70642131,
+      "In1.Cu": 0,
+      "In2.Cu": 66.67802654,
+      "B.Cu": 16.77964442
+    },
+    "PD_IN4": {
+      "F.Cu": 24.74754458,
+      "In1.Cu": 27.49467722,
+      "In2.Cu": 22.23142488,
+      "B.Cu": 0
+    },
+    "PD_IN5": {
+      "F.Cu": 9.32807056,
+      "In1.Cu": 25.82506316,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    },
+    "PD_IN6": {
+      "F.Cu": 8.54319603,
+      "In1.Cu": 0,
+      "In2.Cu": 0,
+      "B.Cu": 3.63345238
+    },
+    "PD_IN7": {
+      "F.Cu": 7.96017249,
+      "In1.Cu": 16.43051804,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    },
+    "PD_IN8": {
+      "F.Cu": 8.96580759,
+      "In1.Cu": 16.29075175,
+      "In2.Cu": 33.13156504,
+      "B.Cu": 0
+    },
+    "PD_IN9": {
+      "F.Cu": 21.05366489,
+      "In1.Cu": 33.4740057,
+      "In2.Cu": 12.07193001,
+      "B.Cu": 0
+    },
+    "PD_IN10": {
+      "F.Cu": 6.37825485,
+      "In1.Cu": 62.00934178,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    },
+    "PD_IN11": {
+      "F.Cu": 9.55928435,
+      "In1.Cu": 24.01957102,
+      "In2.Cu": 0,
+      "B.Cu": 55.73210235
+    },
+    "PD_IN12": {
+      "F.Cu": 8.06759101,
+      "In1.Cu": 24.790838,
+      "In2.Cu": 0,
+      "B.Cu": 34.42110314
+    },
+    "PD_IN13": {
+      "F.Cu": 7.56277329,
+      "In1.Cu": 36.73986958,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    },
+    "PD_IN14": {
+      "F.Cu": 10.48505218,
+      "In1.Cu": 0,
+      "In2.Cu": 10.59414093,
+      "B.Cu": 0
+    },
+    "PD_IN15": {
+      "F.Cu": 13.26716798,
+      "In1.Cu": 10.72059422,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    },
+    "PD_IN16": {
+      "F.Cu": 9.72981901,
+      "In1.Cu": 41.26998051,
+      "In2.Cu": 0,
+      "B.Cu": 0
+    }
+  },
+  "length_note": "Native routed copper sum includes branches and fanout; it is not point-to-point path length, extracted parasitic capacitance or measured electrical delay. Via barrel length is excluded.",
+  "measured_min_pad_to_edge_mm": 0.49995902,
+  "optical_pad_clearances": [
+    {
+      "ref": "PD10",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997353
+    },
+    {
+      "ref": "PD10",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998769
+    },
+    {
+      "ref": "PD7",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50001292
+    },
+    {
+      "ref": "PD7",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50003044
+    },
+    {
+      "ref": "D13",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53281122
+    },
+    {
+      "ref": "D13",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50005709
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998746
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997259
+    },
+    {
+      "ref": "PD9",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53350516
+    },
+    {
+      "ref": "PD9",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53652688
+    },
+    {
+      "ref": "PD14",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.51650509
+    },
+    {
+      "ref": "PD14",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.52699329
+    },
+    {
+      "ref": "D11",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997025
+    },
+    {
+      "ref": "D11",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998657
+    },
+    {
+      "ref": "PD1",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.5000369
+    },
+    {
+      "ref": "PD1",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50004128
+    },
+    {
+      "ref": "PD12",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49995902
+    },
+    {
+      "ref": "PD12",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49996204
+    },
+    {
+      "ref": "D8",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.5356077
+    },
+    {
+      "ref": "D8",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53416284
+    },
+    {
+      "ref": "PD5",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50004234
+    },
+    {
+      "ref": "PD5",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.52545264
+    },
+    {
+      "ref": "D9",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.54452398
+    },
+    {
+      "ref": "D9",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50333524
+    },
+    {
+      "ref": "PD4",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49996204
+    },
+    {
+      "ref": "PD4",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49995902
+    },
+    {
+      "ref": "PD3",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50000564
+    },
+    {
+      "ref": "PD3",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998824
+    },
+    {
+      "ref": "D5",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50005709
+    },
+    {
+      "ref": "D5",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53281122
+    },
+    {
+      "ref": "PD11",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998669
+    },
+    {
+      "ref": "PD11",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49999957
+    },
+    {
+      "ref": "D6",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49999737
+    },
+    {
+      "ref": "D6",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50001242
+    },
+    {
+      "ref": "PD16",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.53629726
+    },
+    {
+      "ref": "PD16",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.61291509
+    },
+    {
+      "ref": "D12",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50005384
+    },
+    {
+      "ref": "D12",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50004455
+    },
+    {
+      "ref": "PD2",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998754
+    },
+    {
+      "ref": "PD2",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997338
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50004455
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50005384
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.54991188
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.52553466
+    },
+    {
+      "ref": "D7",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997105
+    },
+    {
+      "ref": "D7",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998525
+    },
+    {
+      "ref": "PD8",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50130315
+    },
+    {
+      "ref": "PD8",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.56948198
+    },
+    {
+      "ref": "D15",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49999646
+    },
+    {
+      "ref": "D15",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997927
+    },
+    {
+      "ref": "PD15",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50003994
+    },
+    {
+      "ref": "PD15",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50005896
+    },
+    {
+      "ref": "D16",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50002055
+    },
+    {
+      "ref": "D16",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50002824
+    },
+    {
+      "ref": "D3",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998657
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997025
+    },
+    {
+      "ref": "D14",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50001233
+    },
+    {
+      "ref": "D14",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49999728
+    },
+    {
+      "ref": "PD13",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.52545264
+    },
+    {
+      "ref": "PD13",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.50004234
+    },
+    {
+      "ref": "PD6",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.52699353
+    },
+    {
+      "ref": "PD6",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.51650527
+    },
+    {
+      "ref": "D10",
+      "pin": "1",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49997259
+    },
+    {
+      "ref": "D10",
+      "pin": "2",
+      "inside_board": true,
+      "pad_to_edge_mm": 0.49998746
+    }
+  ],
+  "optical_pairs": [
+    {
+      "channel": 1,
+      "led_center_to_eye_opening_mm": 1.1500303,
+      "pd_center_to_eye_opening_mm": 1.25003949,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 60.632,
+      "pd_rotation_deg": 69.734
+    },
+    {
+      "channel": 2,
+      "led_center_to_eye_opening_mm": 1.14998305,
+      "pd_center_to_eye_opening_mm": 1.24998328,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 6.53,
+      "pd_rotation_deg": 8.481
+    },
+    {
+      "channel": 3,
+      "led_center_to_eye_opening_mm": 1.14998093,
+      "pd_center_to_eye_opening_mm": 1.25000063,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -11.779,
+      "pd_rotation_deg": -7.387
+    },
+    {
+      "channel": 4,
+      "led_center_to_eye_opening_mm": 1.15005113,
+      "pd_center_to_eye_opening_mm": 1.24996112,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -74.093,
+      "pd_rotation_deg": -64.946
+    },
+    {
+      "channel": 5,
+      "led_center_to_eye_opening_mm": 1.1500509,
+      "pd_center_to_eye_opening_mm": 1.25003874,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -102.15,
+      "pd_rotation_deg": -88.524
+    },
+    {
+      "channel": 6,
+      "led_center_to_eye_opening_mm": 1.15000723,
+      "pd_center_to_eye_opening_mm": 1.24998465,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -174.743,
+      "pd_rotation_deg": -168.75
+    },
+    {
+      "channel": 7,
+      "led_center_to_eye_opening_mm": 1.14998086,
+      "pd_center_to_eye_opening_mm": 1.25002484,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 172.509,
+      "pd_rotation_deg": 176.212
+    },
+    {
+      "channel": 8,
+      "led_center_to_eye_opening_mm": 1.1497776,
+      "pd_center_to_eye_opening_mm": 1.25000239,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 87.41,
+      "pd_rotation_deg": 106.613
+    },
+    {
+      "channel": 9,
+      "led_center_to_eye_opening_mm": 1.150013,
+      "pd_center_to_eye_opening_mm": 1.24965583,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -63.186,
+      "pd_rotation_deg": -70.355
+    },
+    {
+      "channel": 10,
+      "led_center_to_eye_opening_mm": 1.14998305,
+      "pd_center_to_eye_opening_mm": 1.24998343,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -6.53,
+      "pd_rotation_deg": -8.481
+    },
+    {
+      "channel": 11,
+      "led_center_to_eye_opening_mm": 1.14998093,
+      "pd_center_to_eye_opening_mm": 1.24999596,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 11.779,
+      "pd_rotation_deg": 7.387
+    },
+    {
+      "channel": 12,
+      "led_center_to_eye_opening_mm": 1.15005113,
+      "pd_center_to_eye_opening_mm": 1.24996112,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 74.093,
+      "pd_rotation_deg": 64.946
+    },
+    {
+      "channel": 13,
+      "led_center_to_eye_opening_mm": 1.1500509,
+      "pd_center_to_eye_opening_mm": 1.25003874,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 102.15,
+      "pd_rotation_deg": 88.524
+    },
+    {
+      "channel": 14,
+      "led_center_to_eye_opening_mm": 1.15000714,
+      "pd_center_to_eye_opening_mm": 1.24998448,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": 174.743,
+      "pd_rotation_deg": 168.75
+    },
+    {
+      "channel": 15,
+      "led_center_to_eye_opening_mm": 1.14999065,
+      "pd_center_to_eye_opening_mm": 1.25005277,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -173.002,
+      "pd_rotation_deg": -174.859
+    },
+    {
+      "channel": 16,
+      "led_center_to_eye_opening_mm": 1.15002533,
+      "pd_center_to_eye_opening_mm": 1.24996423,
+      "led_closer_to_eye_opening": true,
+      "led_rotation_deg": -87.24,
+      "pd_rotation_deg": -104.792
+    }
+  ],
+  "feedback_components": {
+    "RF1-RF16": "100 kohm",
+    "CF1-CF16": "22 pF"
+  },
+  "unverified_tests": [
+    "Long PD input trace noise and signal-to-noise ratio",
+    "LED-switching coupling and optical/electrical crosstalk",
+    "TIA stability with actual input capacitance",
+    "Multiplexer/ADC sampling settling time",
+    "Dark baseline, illuminated response and saturation margin"
+  ],
+  "performance_note": "Geometric checks do not demonstrate electrical or optical performance. Long PD input traces still require prototype measurements; no noise, coupling, bandwidth or settling-time pass is claimed."
+}

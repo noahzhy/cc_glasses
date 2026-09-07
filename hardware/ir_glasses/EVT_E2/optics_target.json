@@ -1,0 +1,770 @@
+{
+  "D1": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K1"
+    },
+    "xy": [
+      -13.2012,
+      14.1302
+    ],
+    "angle": 60.632,
+    "page": "left",
+    "sch": [
+      40,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD1": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN1",
+      "4": "PD_IN1",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -11.2278,
+      9.7937
+    ],
+    "angle": 69.734,
+    "page": "left",
+    "sch": [
+      40,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D2": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K2"
+    },
+    "xy": [
+      -28.6922,
+      21.6029
+    ],
+    "angle": 6.53,
+    "page": "left",
+    "sch": [
+      138,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD2": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN2",
+      "4": "PD_IN2",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -23.7675,
+      21.021
+    ],
+    "angle": 8.481,
+    "page": "left",
+    "sch": [
+      138,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D3": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K3"
+    },
+    "xy": [
+      -49.2309,
+      20.5578
+    ],
+    "angle": -11.779,
+    "page": "left",
+    "sch": [
+      236,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD3": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN3",
+      "4": "PD_IN3",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -44.4082,
+      21.4508
+    ],
+    "angle": -7.387,
+    "page": "left",
+    "sch": [
+      236,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D4": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K4"
+    },
+    "xy": [
+      -61.5099,
+      8.9754
+    ],
+    "angle": -74.093,
+    "page": "left",
+    "sch": [
+      334,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD4": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN4",
+      "4": "PD_IN4",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -60.1048,
+      13.5678
+    ],
+    "angle": -64.946,
+    "page": "left",
+    "sch": [
+      334,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D5": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K5"
+    },
+    "xy": [
+      -63.4235,
+      -11.073
+    ],
+    "angle": -102.15,
+    "page": "left",
+    "sch": [
+      40,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD5": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN5",
+      "4": "PD_IN5",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -64.106,
+      -6.4206
+    ],
+    "angle": -88.524,
+    "page": "left",
+    "sch": [
+      40,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D6": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K6"
+    },
+    "xy": [
+      -47.0945,
+      -18.7019
+    ],
+    "angle": -174.743,
+    "page": "left",
+    "sch": [
+      138,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD6": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN6",
+      "4": "PD_IN6",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -51.9618,
+      -18.1737
+    ],
+    "angle": -168.75,
+    "page": "left",
+    "sch": [
+      138,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D7": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K7"
+    },
+    "xy": [
+      -25.088,
+      -18.3684
+    ],
+    "angle": 172.509,
+    "page": "left",
+    "sch": [
+      236,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD7": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN7",
+      "4": "PD_IN7",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -29.969,
+      -18.9984
+    ],
+    "angle": 176.212,
+    "page": "left",
+    "sch": [
+      236,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D8": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K8"
+    },
+    "xy": [
+      -7.9085,
+      -6.2466
+    ],
+    "angle": 87.41,
+    "page": "left",
+    "sch": [
+      334,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD8": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN8",
+      "4": "PD_IN8",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      -8.1673,
+      -10.9335
+    ],
+    "angle": 106.613,
+    "page": "left",
+    "sch": [
+      334,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D9": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K9"
+    },
+    "xy": [
+      13.2532,
+      14.2161
+    ],
+    "angle": -63.186,
+    "page": "right",
+    "sch": [
+      40,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD9": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN9",
+      "4": "PD_IN9",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      11.2061,
+      9.7917
+    ],
+    "angle": -70.355,
+    "page": "right",
+    "sch": [
+      40,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D10": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K10"
+    },
+    "xy": [
+      28.6922,
+      21.6029
+    ],
+    "angle": -6.53,
+    "page": "right",
+    "sch": [
+      138,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD10": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN10",
+      "4": "PD_IN10",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      23.7675,
+      21.021
+    ],
+    "angle": -8.481,
+    "page": "right",
+    "sch": [
+      138,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D11": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K11"
+    },
+    "xy": [
+      49.2309,
+      20.5578
+    ],
+    "angle": 11.779,
+    "page": "right",
+    "sch": [
+      236,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD11": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN11",
+      "4": "PD_IN11",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      44.4082,
+      21.4508
+    ],
+    "angle": 7.387,
+    "page": "right",
+    "sch": [
+      236,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D12": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K12"
+    },
+    "xy": [
+      61.5099,
+      8.9754
+    ],
+    "angle": 74.093,
+    "page": "right",
+    "sch": [
+      334,
+      32
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD12": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN12",
+      "4": "PD_IN12",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      60.1048,
+      13.5678
+    ],
+    "angle": 64.946,
+    "page": "right",
+    "sch": [
+      334,
+      65
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D13": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K13"
+    },
+    "xy": [
+      63.4235,
+      -11.073
+    ],
+    "angle": 102.15,
+    "page": "right",
+    "sch": [
+      40,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD13": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN13",
+      "4": "PD_IN13",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      64.106,
+      -6.4206
+    ],
+    "angle": 88.524,
+    "page": "right",
+    "sch": [
+      40,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D14": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K14"
+    },
+    "xy": [
+      47.0945,
+      -18.7019
+    ],
+    "angle": 174.743,
+    "page": "right",
+    "sch": [
+      138,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD14": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN14",
+      "4": "PD_IN14",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      51.9618,
+      -18.1737
+    ],
+    "angle": 168.75,
+    "page": "right",
+    "sch": [
+      138,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D15": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K15"
+    },
+    "xy": [
+      25.0707,
+      -18.4212
+    ],
+    "angle": -173.002,
+    "page": "right",
+    "sch": [
+      236,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD15": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN15",
+      "4": "PD_IN15",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      29.9941,
+      -19.0219
+    ],
+    "angle": -174.859,
+    "page": "right",
+    "sch": [
+      236,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  },
+  "D16": {
+    "symbol": "LED",
+    "value": "IR11-21C/TR8",
+    "footprint": "IR_Glasses:Everlight_IR11_21C",
+    "nets": {
+      "1": "3V3",
+      "2": "LED_K16"
+    },
+    "xy": [
+      7.9303,
+      -6.3114
+    ],
+    "angle": -87.24,
+    "page": "right",
+    "sch": [
+      334,
+      137
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "IR11-21C/TR8",
+    "lcsc": "C16745"
+  },
+  "PD16": {
+    "symbol": "PD15_22B",
+    "value": "PD15-22B/TR8",
+    "footprint": "IR_Glasses:Everlight_PD15_22B",
+    "nets": {
+      "1": "PD_IN16",
+      "4": "PD_IN16",
+      "2": "AGND",
+      "3": "AGND"
+    },
+    "xy": [
+      8.1743,
+      -11.0235
+    ],
+    "angle": -104.792,
+    "page": "right",
+    "sch": [
+      334,
+      170
+    ],
+    "side": "front",
+    "manufacturer": "Everlight",
+    "mpn": "PD15-22B/TR8",
+    "lcsc": "C161211"
+  }
+}

@@ -1,0 +1,3 @@
+#VRML V2.0 utf8
+# Mechanical envelope only; not a manufacturer model.
+Transform { translation 0 0 0.21653543307086615 children [ Shape { appearance Appearance { material Material { diffuseColor .08 .08 .1 } } geometry Box { size 1.2598425196850394 1.062992125984252 0.4330708661417323 } } ] }

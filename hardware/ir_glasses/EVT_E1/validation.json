@@ -1,0 +1,23 @@
+{
+  "revision": "EVT E1",
+  "engineering_bom": "FROZEN",
+  "production_release": "HOLD_PD_SUPPLY_AND_FACTORY_DFM",
+  "groups": 25,
+  "populated_per_board": 122,
+  "assembly_quantity": 2,
+  "fabrication_quantity": 5,
+  "net_parts_for_assembly": 244,
+  "front_populated": 122,
+  "back_populated": 0,
+  "net_mapping_unchanged": true,
+  "placement_unchanged": true,
+  "all_122_identities_match_schematic_pcb_bom": true,
+  "cpl_entries": 122,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "tracks": 4003,
+  "vias": 249,
+  "component_copper_lands_per_board": 442
+}

@@ -1,0 +1,30 @@
+"""Export dedicated ground planes for the router."""
+
+import json
+import shutil
+from pathlib import Path
+
+import pcbnew as pcb
+
+root = Path("hardware/ir_glasses/EVT_C")
+filename = root / "plane_candidate.kicad_pcb"
+board = pcb.LoadBoard(str(root / "ir_glasses.kicad_pcb"))
+pcb.SaveBoard(str(filename), board)
+shutil.copy2(root / "ir_glasses.kicad_pro", root / "plane_candidate.kicad_pro")
+zones = []
+for item in json.loads((root / "zones.json").read_text()):
+    name = item["name"]
+    code = board.FindNet(name).GetNetCode()
+    points = " ".join(
+        f"(xy {x + 110:.6f} {y + 85:.6f})" for x, y in item["coords"][:-1]
+    )
+    zones.append(
+        f'(zone (net {code}) (net_name "{name}") (layer "In1.Cu")'
+        " (hatch edge 0.5) (connect_pads yes (clearance 0.2))"
+        " (min_thickness 0.15) (fill yes (thermal_gap 0.2)"
+        f" (thermal_bridge_width 0.25)) (polygon (pts {points})))"
+    )
+data = filename.read_text().rstrip()
+filename.write_text(data[:-1] + "\n".join(zones) + "\n)")
+board = pcb.LoadBoard(str(filename))
+print(pcb.ExportSpecctraDSN(board, str(root / "plane_candidate.dsn")))

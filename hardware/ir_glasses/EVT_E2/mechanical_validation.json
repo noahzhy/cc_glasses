@@ -1,0 +1,206 @@
+{
+  "nominal_rim_width_mm": 3.0,
+  "old_nominal_rim_width_mm": 3.7,
+  "local_widening": [],
+  "upper_transition_fillet_mm": 0.8,
+  "eye_openings_unchanged": true,
+  "upper_electronics_outline_unchanged_above_local_y_mm": -10.5,
+  "width_mm": 132.3051450373789,
+  "height_mm": 51.95547659636178,
+  "material_area_mm2": 2140.6365690613925,
+  "old_material_area_mm2": 2291.76784036255,
+  "optics": [
+    {
+      "ref": "D1",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.4957,
+      "rotation_deg": 60.632
+    },
+    {
+      "ref": "PD1",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 69.734
+    },
+    {
+      "ref": "D2",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 6.53
+    },
+    {
+      "ref": "PD2",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 8.481
+    },
+    {
+      "ref": "D3",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -11.779
+    },
+    {
+      "ref": "PD3",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -7.387
+    },
+    {
+      "ref": "D4",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -74.093
+    },
+    {
+      "ref": "PD4",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -64.946
+    },
+    {
+      "ref": "D5",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -102.15
+    },
+    {
+      "ref": "PD5",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -88.524
+    },
+    {
+      "ref": "D6",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -174.743
+    },
+    {
+      "ref": "PD6",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.4975,
+      "rotation_deg": -168.75
+    },
+    {
+      "ref": "D7",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 172.509
+    },
+    {
+      "ref": "PD7",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 176.212
+    },
+    {
+      "ref": "D8",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.4997,
+      "rotation_deg": 87.41
+    },
+    {
+      "ref": "PD8",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.4994,
+      "rotation_deg": 106.613
+    },
+    {
+      "ref": "D9",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.4987,
+      "rotation_deg": -63.186
+    },
+    {
+      "ref": "PD9",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.4994,
+      "rotation_deg": -70.355
+    },
+    {
+      "ref": "D10",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -6.53
+    },
+    {
+      "ref": "PD10",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -8.481
+    },
+    {
+      "ref": "D11",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 11.779
+    },
+    {
+      "ref": "PD11",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 7.387
+    },
+    {
+      "ref": "D12",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 74.093
+    },
+    {
+      "ref": "PD12",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 64.946
+    },
+    {
+      "ref": "D13",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 102.15
+    },
+    {
+      "ref": "PD13",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 88.524
+    },
+    {
+      "ref": "D14",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": 174.743
+    },
+    {
+      "ref": "PD14",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.4975,
+      "rotation_deg": 168.75
+    },
+    {
+      "ref": "D15",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -173.002
+    },
+    {
+      "ref": "PD15",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -174.859
+    },
+    {
+      "ref": "D16",
+      "center_to_hole_mm": 1.15,
+      "copper_to_edge_mm": 0.5,
+      "rotation_deg": -87.24
+    },
+    {
+      "ref": "PD16",
+      "center_to_hole_mm": 1.25,
+      "copper_to_edge_mm": 0.4942,
+      "rotation_deg": -104.792
+    }
+  ]
+}

@@ -23,6 +23,7 @@ The script:
 import bpy
 import sys
 import argparse
+from collections import defaultdict
 from mathutils import Matrix, Vector
 
 
@@ -32,6 +33,7 @@ def parse_args():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=str, default="//topview_outline.png")
+    parser.add_argument("--svg-output", type=str, default="//topview_outline.svg")
     parser.add_argument("--width", type=int, default=2048)
     parser.add_argument("--height", type=int, default=2048)
     parser.add_argument("--margin", type=float, default=1.08)
@@ -80,6 +82,54 @@ def world_bbox(objects):
     max_z = max(p.z for p in points)
 
     return min_x, max_x, min_y, max_y, min_z, max_z
+
+
+def write_top_svg(objects, bbox, output):
+    scale_mm = bpy.context.scene.unit_settings.scale_length * 1000
+    min_x, max_x, min_y, max_y, _, _ = bbox
+    width = (max_x - min_x) * scale_mm
+    height = (max_y - min_y) * scale_mm
+    paths = []
+
+    for obj in objects:
+        evaluated = obj.evaluated_get(bpy.context.evaluated_depsgraph_get())
+        mesh = evaluated.to_mesh()
+        edge_faces = defaultdict(list)
+        normal_matrix = evaluated.matrix_world.inverted_safe().transposed().to_3x3()
+
+        try:
+            for polygon in mesh.polygons:
+                for key in polygon.edge_keys:
+                    edge_faces[key].append(
+                        (normal_matrix @ polygon.normal).normalized().z
+                    )
+
+            for (start, end), normals in edge_faces.items():
+                if len(normals) == 2 and normals[0] * normals[1] > 0:
+                    continue
+
+                a = evaluated.matrix_world @ mesh.vertices[start].co
+                b = evaluated.matrix_world @ mesh.vertices[end].co
+                paths.append(
+                    f"M {a.x * scale_mm:.4f} {-a.y * scale_mm:.4f} "
+                    f"L {b.x * scale_mm:.4f} {-b.y * scale_mm:.4f}"
+                )
+        finally:
+            evaluated.to_mesh_clear()
+
+    path_data = " ".join(paths)
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" '
+        f'width="{width:.4f}mm" height="{height:.4f}mm" '
+        f'viewBox="{min_x * scale_mm:.4f} {-max_y * scale_mm:.4f} '
+        f'{width:.4f} {height:.4f}">\n'
+        f'  <path d="{path_data}" fill="none" '
+        f'stroke="black" stroke-width="0.2"/>\n'
+        '</svg>\n'
+    )
+
+    with open(bpy.path.abspath(output), "w", encoding="utf-8") as file:
+        file.write(svg)
 
 
 def create_top_camera(scene, bbox, width, height, margin):
@@ -247,8 +297,10 @@ def main():
         height=args.height,
     )
 
+    write_top_svg(objects, bbox, args.svg_output)
     bpy.ops.render.render(write_still=True)
     print(f"[OK] Saved top-view outline to: {scene.render.filepath}")
+    print(f"[OK] Saved top-view SVG to: {bpy.path.abspath(args.svg_output)}")
 
 
 if __name__ == "__main__":

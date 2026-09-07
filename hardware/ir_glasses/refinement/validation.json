@@ -1,0 +1,39 @@
+{
+  "kicad_version": "10.0.6",
+  "board_dimensions_mm": [
+    156,
+    82,
+    1.6
+  ],
+  "copper_layers": 2,
+  "footprints": 136,
+  "tracks": 1642,
+  "vias": 194,
+  "zones": 2,
+  "track_width_min_mm": 0.15,
+  "via_drill_min_mm": 0.3,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "verified_schematic_pad_assignments": 464,
+  "sensitive_input_total_trace_lengths_mm": {
+    "PD_IN1": 44.12,
+    "PD_IN10": 22.5,
+    "PD_IN11": 18.94,
+    "PD_IN12": 43.72,
+    "PD_IN13": 41.75,
+    "PD_IN14": 32.49,
+    "PD_IN15": 39.62,
+    "PD_IN16": 67.48,
+    "PD_IN2": 21.36,
+    "PD_IN3": 23.04,
+    "PD_IN4": 52.16,
+    "PD_IN5": 48.47,
+    "PD_IN6": 20.12,
+    "PD_IN7": 17.39,
+    "PD_IN8": 48.95,
+    "PD_IN9": 46.36
+  },
+  "status": "EVT prototype; bench, optical and mechanical validation pending"
+}

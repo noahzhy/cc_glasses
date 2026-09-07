@@ -1,0 +1,33 @@
+{
+  "original_footprints": 136,
+  "carrier_footprints": 143,
+  "tracks_unchanged": true,
+  "poses_and_nets_unchanged": true,
+  "cpl_rows": 122,
+  "cpl_identical": true,
+  "all_front": true,
+  "cut_clearances_mm": [
+    0.2999977987709304,
+    0.30000032554420153,
+    0.300000354437819,
+    0.30000126249806935,
+    0.29999687358342425,
+    0.2999969137981536,
+    0.6287686785495197,
+    0.2999974632104511
+  ],
+  "circuit_copper_outside_finished_outline_mm2": 0.0,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "unit_sha256": "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61",
+  "carrier_sha256": "a05a47f7e3f5b6c1ba6e3de42ff256f66cc71f98a3782a9f8b32db2224623e60",
+  "finish": "ENIG",
+  "layer_count": 4,
+  "thickness_mm": 1.6,
+  "nominal_carrier_dimensions_mm": [
+    152.3051450373789,
+    71.95547659636178
+  ],
+  "eye_holes_preserved_mm": 1e-05,
+  "gerber_review": "../gerber_validation.json"
+}

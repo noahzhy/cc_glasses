@@ -1,0 +1,137 @@
+﻿Reference,Value,Footprint,Quantity,Populate,X_mm,Y_mm,Rotation_deg
+U9,STM32C031C6T6,IR_Glasses:LQFP-48_7x7mm_P0.5mm,1,Yes,110,55,0
+U1,TLC59283RGER,IR_Glasses:Texas_RGE0024C_VQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm,1,Yes,110,71,0
+U10,LSM6DS3TR-C,IR_Glasses:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1,Yes,122,52,0
+U6,TLV9061IDBVR,IR_Glasses:SOT-23-5,1,Yes,97,52,0
+J1,TE 0-1734839-5,IR_Glasses:TE_0-1734839-5_1x05-1MP_P0.5mm_Horizontal,1,Yes,135,51,0
+J2,TC2050-IDC-NL / ARM2010,IR_Glasses:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical,1,PCB pads only,83,51,0
+U11,PESD3V3L2BT,IR_Glasses:SOT-23,1,Yes,127,59,0
+D17,PESD3V3S1BA,IR_Glasses:D_SOD-323,1,Yes,141,47,0
+FB1,600R@100MHz 500mA,IR_Glasses:L_0603_1608Metric,1,Yes,100,60,0
+NT1,AGND-GND star,IR_Glasses:NetTie-2_SMD_Pad0.5mm,1,PCB pads only,100,63,0
+R1,2.65k,IR_Glasses:R_0402_1005Metric,1,Yes,106.5,74,0
+R2,10k,IR_Glasses:R_0402_1005Metric,1,Yes,94,50,0
+R3,10k,IR_Glasses:R_0402_1005Metric,1,Yes,94,54,0
+R4,10k,IR_Glasses:R_0402_1005Metric,1,Yes,101,54,0
+R5,100k,IR_Glasses:R_0402_1005Metric,1,Yes,117.5,58,0
+R6,4.7k,IR_Glasses:R_0402_1005Metric,1,Yes,120,49,0
+R7,4.7k,IR_Glasses:R_0402_1005Metric,1,Yes,123,49,0
+R8,22,IR_Glasses:R_0402_1005Metric,1,Yes,131,58,0
+R9,22,IR_Glasses:R_0402_1005Metric,1,Yes,131,61,0
+R10,10k,IR_Glasses:R_0402_1005Metric,1,Yes,114,69,0
+R11,100,IR_Glasses:R_0402_1005Metric,1,Yes,105,82,0
+R12,100,IR_Glasses:R_0402_1005Metric,1,Yes,115,82,0
+R13,47,IR_Glasses:R_0402_1005Metric,1,Yes,97,56,0
+U2,TLV9064IDR,IR_Glasses:SOIC-14_3.9x8.7mm_P1.27mm,1,Yes,71,54,0
+U3,TLV9064IDR,IR_Glasses:SOIC-14_3.9x8.7mm_P1.27mm,1,Yes,71,117,0
+PD1,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,100,72,0
+D1,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,100,68.5,0
+RF1,100k,IR_Glasses:R_0402_1005Metric,1,Yes,65.8,50.9,0
+CF1,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,65.8,52.5,0
+PD2,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,84,62,0
+D2,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,84,58.5,0
+RF2,100k,IR_Glasses:R_0402_1005Metric,1,Yes,65.8,56,0
+CF2,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,65.8,57.6,0
+PD3,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,63,63,0
+D3,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,63,59.5,0
+RF3,100k,IR_Glasses:R_0402_1005Metric,1,Yes,76.2,50.9,0
+CF3,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,76.2,52.5,0
+PD4,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,47,73,0
+D4,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,47,69.5,0
+RF4,100k,IR_Glasses:R_0402_1005Metric,1,Yes,76.2,56,0
+CF4,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,76.2,57.6,0
+PD5,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,44,94,0
+D5,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,44,97.5,0
+RF5,100k,IR_Glasses:R_0402_1005Metric,1,Yes,65.8,113.9,0
+CF5,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,65.8,115.5,0
+PD6,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,60,108,0
+D6,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,60,111.5,0
+RF6,100k,IR_Glasses:R_0402_1005Metric,1,Yes,65.8,119,0
+CF6,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,65.8,120.6,0
+PD7,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,83,108,0
+D7,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,83,111.5,0
+RF7,100k,IR_Glasses:R_0402_1005Metric,1,Yes,76.2,113.9,0
+CF7,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,76.2,115.5,0
+PD8,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,105,94,0
+D8,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,105,97.5,0
+RF8,100k,IR_Glasses:R_0402_1005Metric,1,Yes,76.2,119,0
+CF8,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,76.2,120.6,0
+U7,TMUX1308PWR,IR_Glasses:TSSOP-16_4.4x5mm_P0.65mm,1,Yes,105.5,108,0
+U4,TLV9064IDR,IR_Glasses:SOIC-14_3.9x8.7mm_P1.27mm,1,Yes,149,54,0
+U5,TLV9064IDR,IR_Glasses:SOIC-14_3.9x8.7mm_P1.27mm,1,Yes,149,117,0
+PD9,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,120,72,0
+D9,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,120,68.5,0
+RF9,100k,IR_Glasses:R_0402_1005Metric,1,Yes,143.8,50.9,0
+CF9,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,143.8,52.5,0
+PD10,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,136,62,0
+D10,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,136,58.5,0
+RF10,100k,IR_Glasses:R_0402_1005Metric,1,Yes,143.8,56,0
+CF10,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,143.8,57.6,0
+PD11,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,157,63,0
+D11,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,157,59.5,0
+RF11,100k,IR_Glasses:R_0402_1005Metric,1,Yes,154.2,50.9,0
+CF11,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,154.2,52.5,0
+PD12,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,173,73,0
+D12,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,173,69.5,0
+RF12,100k,IR_Glasses:R_0402_1005Metric,1,Yes,154.2,56,0
+CF12,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,154.2,57.6,0
+PD13,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,176,94,0
+D13,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,176,97.5,0
+RF13,100k,IR_Glasses:R_0402_1005Metric,1,Yes,143.8,113.9,0
+CF13,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,143.8,115.5,0
+PD14,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,160,108,0
+D14,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,160,111.5,0
+RF14,100k,IR_Glasses:R_0402_1005Metric,1,Yes,143.8,119,0
+CF14,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,143.8,120.6,0
+PD15,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,137,108,0
+D15,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,137,111.5,0
+RF15,100k,IR_Glasses:R_0402_1005Metric,1,Yes,154.2,113.9,0
+CF15,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,154.2,115.5,0
+PD16,PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,1,Yes,115,94,0
+D16,IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,1,Yes,115,97.5,0
+RF16,100k,IR_Glasses:R_0402_1005Metric,1,Yes,154.2,119,0
+CF16,22p C0G,IR_Glasses:C_0402_1005Metric,1,Yes,154.2,120.6,0
+U8,TMUX1308PWR,IR_Glasses:TSSOP-16_4.4x5mm_P0.65mm,1,Yes,114.5,108,0
+C1,1u,IR_Glasses:C_0402_1005Metric,1,Yes,91,53,0
+C2,100n,IR_Glasses:C_0402_1005Metric,1,Yes,111,67,0
+C3,100n,IR_Glasses:C_0402_1005Metric,1,Yes,66.2,54,0
+C4,100n,IR_Glasses:C_0402_1005Metric,1,Yes,66.2,117,0
+C5,100n,IR_Glasses:C_0402_1005Metric,1,Yes,144.2,54,0
+C6,100n,IR_Glasses:C_0402_1005Metric,1,Yes,144.2,117,0
+C7,100n,IR_Glasses:C_0402_1005Metric,1,Yes,100,51,0
+C8,100n,IR_Glasses:C_0402_1005Metric,1,Yes,109,103.5,0
+C9,100n,IR_Glasses:C_0402_1005Metric,1,Yes,118,103.5,0
+C10,100n,IR_Glasses:C_0402_1005Metric,1,Yes,103.2,55,0
+C11,100n,IR_Glasses:C_0402_1005Metric,1,Yes,103.2,57,0
+C12,100n,IR_Glasses:C_0402_1005Metric,1,Yes,125,53,0
+C13,100n,IR_Glasses:C_0402_1005Metric,1,Yes,120,55,0
+C14,100n,IR_Glasses:C_0402_1005Metric,1,Yes,139,56,0
+C15,100n,IR_Glasses:C_0402_1005Metric,1,Yes,91,58,0
+C16,100n,IR_Glasses:C_0402_1005Metric,1,Yes,110,64,0
+C17,100n,IR_Glasses:C_0402_1005Metric,1,Yes,117,52,0
+C18,1u,IR_Glasses:C_0402_1005Metric,1,Yes,112,62,0
+C19,1u,IR_Glasses:C_0402_1005Metric,1,Yes,108,48,0
+C20,1u,IR_Glasses:C_0402_1005Metric,1,Yes,126,50,0
+C21,1u,IR_Glasses:C_0402_1005Metric,1,Yes,97,61,0
+C22,1u,IR_Glasses:C_0402_1005Metric,1,Yes,71,60.5,0
+C23,1u,IR_Glasses:C_0402_1005Metric,1,Yes,149,60.5,0
+C24,1u,IR_Glasses:C_0402_1005Metric,1,Yes,140,60,0
+C25,10u,IR_Glasses:C_0603_1608Metric,1,Yes,145,47,0
+C26,10u,IR_Glasses:C_0603_1608Metric,1,Yes,114,74,0
+C27,10u,IR_Glasses:C_0603_1608Metric,1,Yes,93,61,0
+C28,47u 6.3V X5R,IR_Glasses:C_1210_3225Metric,1,Yes,116,65,0
+C29,1n,IR_Glasses:C_0402_1005Metric,1,Yes,105,85,0
+C30,1n,IR_Glasses:C_0402_1005Metric,1,Yes,115,85,0
+C31,100n,IR_Glasses:C_0402_1005Metric,1,Yes,94,57,0
+TP1,3V3,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,89.0,46,0
+TP2,GND,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,92.5,46,0
+TP3,UART_TX,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,96.0,46,0
+TP4,UART_RX,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,99.5,46,0
+TP5,BOOT_TX_PA9,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,103.0,46,0
+TP6,BOOT_RX_PA10,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,106.5,46,0
+TP7,SWCLK_BOOT0,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,110.0,46,0
+TP8,NRST,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,113.5,46,0
+TP9,VREF_1V65,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,117.0,46,0
+TP10,3V3,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,120.5,46,0
+TP11,IMU_INT,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,124.0,46,0
+TP12,3V3_A,IR_Glasses:TestPoint_Pad_D1.0mm,1,PCB pads only,127.5,46,0

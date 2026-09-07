@@ -1,0 +1,26 @@
+﻿Designator,Value,Footprint,Qty_per_board,Net_qty_5_boards,Candidate_LCSC,Status,Source
+U9,STM32C031C6T6,IR_Glasses:LQFP-48_7x7mm_P0.5mm,1,5,C5456218,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C5456218.html
+U1,TLC59283RGER,IR_Glasses:Texas_RGE0024C_VQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm,1,5,C485815,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C485815.html
+U10,LSM6DS3TR-C,IR_Glasses:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1,5,C967633,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C967633.html
+U6,TLV9061IDBVR,IR_Glasses:SOT-23-5,1,5,C398358,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C398358.html
+J1,TE 0-1734839-5,IR_Glasses:TE_0-1734839-5_1x05-1MP_P0.5mm_Horizontal,1,5,,HOLD: superseded; confirm exact stock or redesign footprint,
+U11,PESD3V3L2BT,IR_Glasses:SOT-23,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+D17,PESD3V3S1BA,IR_Glasses:D_SOD-323,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+FB1,600R@100MHz 500mA,IR_Glasses:L_0603_1608Metric,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+R1,2.65k,IR_Glasses:R_0402_1005Metric,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+"R2,R3,R4,R10",10k,IR_Glasses:R_0402_1005Metric,4,20,,"UNRESOLVED: freeze MPN, specifications and supply",
+"R5,RF1,RF2,RF3,RF4,RF5,RF6,RF7,RF8,RF9,RF10,RF11,RF12,RF13,RF14,RF15,RF16",100k,IR_Glasses:R_0402_1005Metric,17,85,,"UNRESOLVED: freeze MPN, specifications and supply",
+"R6,R7",4.7k,IR_Glasses:R_0402_1005Metric,2,10,,"UNRESOLVED: freeze MPN, specifications and supply",
+"R8,R9",22,IR_Glasses:R_0402_1005Metric,2,10,,"UNRESOLVED: freeze MPN, specifications and supply",
+"R11,R12",100,IR_Glasses:R_0402_1005Metric,2,10,,"UNRESOLVED: freeze MPN, specifications and supply",
+R13,47,IR_Glasses:R_0402_1005Metric,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+"U2,U3,U4,U5",TLV9064IPWR,IR_Glasses:TSSOP-14_4.4x5mm_P0.65mm,4,20,C779410,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C779410.html
+"PD1,PD2,PD3,PD4,PD5,PD6,PD7,PD8,PD9,PD10,PD11,PD12,PD13,PD14,PD15,PD16",PD15-22B/TR8,IR_Glasses:Everlight_PD15_22B,16,80,C161211,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C161211.html
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16",IR11-21C/TR8,IR_Glasses:Everlight_IR11_21C,16,80,,"UNRESOLVED: freeze MPN, specifications and supply",
+"CF1,CF2,CF3,CF4,CF5,CF6,CF7,CF8,CF9,CF10,CF11,CF12,CF13,CF14,CF15,CF16",22p C0G,IR_Glasses:C_0402_1005Metric,16,80,,"UNRESOLVED: freeze MPN, specifications and supply",
+"U7,U8",TMUX1308PWR,IR_Glasses:TSSOP-16_4.4x5mm_P0.65mm,2,10,C970231,Candidate only; confirm domestic SMT inventory and attrition,https://www.lcsc.com/product-detail/C970231.html
+"C1,C18,C19,C20,C21,C22,C23,C24",1u,IR_Glasses:C_0402_1005Metric,8,40,,"UNRESOLVED: freeze MPN, specifications and supply",
+"C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C31",100n,IR_Glasses:C_0402_1005Metric,17,85,,"UNRESOLVED: freeze MPN, specifications and supply",
+"C25,C26,C27",10u,IR_Glasses:C_0603_1608Metric,3,15,,"UNRESOLVED: freeze MPN, specifications and supply",
+C28,47u 6.3V X5R,IR_Glasses:C_1210_3225Metric,1,5,,"UNRESOLVED: freeze MPN, specifications and supply",
+"C29,C30",1n,IR_Glasses:C_0402_1005Metric,2,10,,"UNRESOLVED: freeze MPN, specifications and supply",

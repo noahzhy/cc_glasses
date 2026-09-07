@@ -1,0 +1,158 @@
+{
+  "source_pcb": "ir_glasses.kicad_pcb",
+  "source_sha256": "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61",
+  "checked_at_utc": "2026-09-06T19:16:19.970713+00:00",
+  "measurement_engine": "KiCad 10 native pad polygons / Shapely planar distances",
+  "pad_polygon_max_error_mm": 0.0001,
+  "pad_polygon_error_direction": "Outside; conservative distance for curved pads",
+  "geometry_checks": "PASS_NO_VIA_DRILL_OVERLAP",
+  "via_drill_to_smt_land_overlaps": 0,
+  "minimum_via_drill_edge_to_smt_land_mm": 0.05190699,
+  "via_count": 264,
+  "smt_land_count_including_test_pads": 428,
+  "actual_via_drill_diameter_counts_mm": {
+    "0.3": 264
+  },
+  "actual_via_copper_diameter_counts_mm": {
+    "0.5": 264
+  },
+  "all_via_copper_diameters_equal_on_four_layers": true,
+  "all_smt_lands_inside_board": true,
+  "minimum_all_smt_pad_to_edge_mm": 0.4398321,
+  "minimum_optical_pad_to_edge_mm": 0.49995902,
+  "closest_via_to_land_pairs": [
+    {
+      "uuid": "bf5f8978-1448-4d99-9f9f-2477ed86f099",
+      "net": "3V3",
+      "xy_mm": [
+        156.45,
+        66.775
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "D14.1",
+      "drill_edge_to_smt_land_mm": 0.05190699
+    },
+    {
+      "uuid": "26a255da-0175-4e9e-8a5c-aded2dabc975",
+      "net": "LED_K5",
+      "xy_mm": [
+        47.5857,
+        72.1658
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "D5.2",
+      "drill_edge_to_smt_land_mm": 0.08415635
+    },
+    {
+      "uuid": "714deb93-d997-4b91-8a68-272a0d5bc234",
+      "net": "LED_K8",
+      "xy_mm": [
+        102.85,
+        79.35
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "D8.2",
+      "drill_edge_to_smt_land_mm": 0.1237144
+    },
+    {
+      "uuid": "e361fb5e-dcb8-45b2-90de-8515e714e52b",
+      "net": "LED_BLANK",
+      "xy_mm": [
+        123.0,
+        60.35
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "U1.18",
+      "drill_edge_to_smt_land_mm": 0.12500042
+    },
+    {
+      "uuid": "ac4c3952-8514-4f55-8b5e-ea1842b5ce72",
+      "net": "PD_IN5",
+      "xy_mm": [
+        46.48,
+        78.0469
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "PD5.2",
+      "drill_edge_to_smt_land_mm": 0.13277172
+    },
+    {
+      "uuid": "63944768-a87e-48f8-b145-dfa3a37b5479",
+      "net": "AGND",
+      "xy_mm": [
+        139.4187,
+        65.309199
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "PD15.1",
+      "drill_edge_to_smt_land_mm": 0.13685293
+    },
+    {
+      "uuid": "7964ca39-844d-4e44-b1c7-4e486d4d7ff4",
+      "net": "LED_K3",
+      "xy_mm": [
+        60.25,
+        105.55
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "D3.2",
+      "drill_edge_to_smt_land_mm": 0.14023908
+    },
+    {
+      "uuid": "1da78cba-f833-4d60-8880-1906229bbcc3",
+      "net": "PD_IN3",
+      "xy_mm": [
+        81.4,
+        61.8
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "U2.9",
+      "drill_edge_to_smt_land_mm": 0.15
+    },
+    {
+      "uuid": "0438a7a7-e560-4039-ba8b-d8a2407002fb",
+      "net": "PD_IN7",
+      "xy_mm": [
+        80.496,
+        66.5451
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "PD7.2",
+      "drill_edge_to_smt_land_mm": 0.15010986
+    },
+    {
+      "uuid": "e7b5b717-51b1-4d50-a931-e3812b68d690",
+      "net": "PD_IN6",
+      "xy_mm": [
+        66.05,
+        64.2
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "CF6.2",
+      "drill_edge_to_smt_land_mm": 0.15237898
+    },
+    {
+      "uuid": "1218556b-1d58-49b4-a75e-463f89d811bf",
+      "net": "PD_IN6",
+      "xy_mm": [
+        63.1,
+        62.55
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "U3.6",
+      "drill_edge_to_smt_land_mm": 0.1530828
+    },
+    {
+      "uuid": "1e0f65ad-2148-474f-b86b-6fd5133503d4",
+      "net": "3V3",
+      "xy_mm": [
+        97.85,
+        99.05
+      ],
+      "drill_mm": 0.3,
+      "nearest_smt_land": "D1.1",
+      "drill_edge_to_smt_land_mm": 0.16220493
+    }
+  ],
+  "assembly_note": "Nominal geometry only; drill registration, solder-mask registration and fabrication tolerances require factory DFM. Geometric clearance is not assembly process qualification."
+}

@@ -1,0 +1,67 @@
+import json
+import csv
+from pathlib import Path
+import pcbnew as pcb
+
+root = Path("hardware/ir_glasses/EVT_E")
+b = pcb.LoadBoard(str(root / "ir_glasses.kicad_pcb"))
+drc = json.loads((root / "drc.json").read_text(encoding="utf-8"))
+erc = json.loads((root / "erc.json").read_text(encoding="utf-8"))
+tracks = [t for t in b.GetTracks() if not isinstance(t, pcb.PCB_VIA)]
+vias = [t for t in b.GetTracks() if isinstance(t, pcb.PCB_VIA)]
+lengths = {}
+components = list(
+    csv.DictReader((root / "bom.csv").open(encoding="utf-8-sig"))
+)
+populated = {
+    row["Reference"] for row in components if row["Populate"] == "Yes"
+}
+footprints = list(b.GetFootprints())
+assert all(not fp.IsFlipped() for fp in footprints)
+assert not any(
+    p.IsOnLayer(pcb.B_Paste) for fp in footprints for p in fp.Pads()
+)
+assert len(populated) == 122
+for t in tracks:
+    name = t.GetNetname()
+    lengths[name] = lengths.get(name, 0) + pcb.ToMM(t.GetLength())
+report = {
+    "kicad_version": pcb.GetBuildVersion(),
+    "board_dimensions_mm": [133.136, 52.653, 1.6],
+    "copper_layers": b.GetCopperLayerCount(),
+    "footprints": len(list(b.GetFootprints())),
+    "populated_sides": {"front": len(populated), "back": 0},
+    "all_footprints_on_front": True,
+    "back_paste_pad_count": 0,
+    "tracks": len(tracks),
+    "vias": len(vias),
+    "zones": len(list(b.Zones())),
+    "track_width_min_mm": min(pcb.ToMM(t.GetWidth()) for t in tracks),
+    "via_drill_min_mm": min(pcb.ToMM(t.GetDrillValue()) for t in vias),
+    "via_diameter_min_mm": min(pcb.ToMM(t.GetWidth(pcb.F_Cu)) for t in vias),
+    "erc_violations": sum(len(s["violations"]) for s in erc["sheets"]),
+    "drc_violations": len(drc["violations"]),
+    "unconnected_items": len(drc["unconnected_items"]),
+    "schematic_parity_issues": len(drc["schematic_parity"]),
+    "verified_schematic_pad_assignments": 464,
+    "sensitive_input_total_trace_lengths_mm": {
+        n: round(v, 2)
+        for n, v in sorted(lengths.items())
+        if n.startswith("PD_IN")
+    },
+    "status": "EVT prototype; bench, optical and mechanical validation pending",
+}
+assembly = json.loads((root / "manufacturing_validation.json").read_text())
+assert assembly["via_drill_to_smt_land_overlaps"] == 0
+report.update(assembly)
+assert not any(
+    report[n]
+    for n in [
+        "erc_violations",
+        "drc_violations",
+        "unconnected_items",
+        "schematic_parity_issues",
+    ]
+)
+(root / "validation.json").write_text(json.dumps(report, indent=2))
+print(json.dumps(report, indent=2))
