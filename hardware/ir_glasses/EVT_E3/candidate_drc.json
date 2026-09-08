@@ -1,0 +1,336 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T06:18:08",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "routing_candidate.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 10 [VREF_1V65]",
+                    "pos": {
+                        "x": 80.3625,
+                        "y": 61.15
+                    },
+                    "uuid": "fba22ddd-5b04-49cd-b7cc-2ab00a88b7d3"
+                },
+                {
+                    "description": "走线 [VREF_1V65] (F.Cu), 长度: 5.7250 mm",
+                    "pos": {
+                        "x": 80.3625,
+                        "y": 59.85
+                    },
+                    "uuid": "daa3747a-f31c-40f7-bb7c-6ff0e9e637ed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D2 的焊盘 2 [LED_K2]",
+                    "pos": {
+                        "x": 80.065909,
+                        "y": 106.745054
+                    },
+                    "uuid": "a9bfa201-54ca-4ccf-a8df-ab5b7c5a3549"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 3 [LED_K2]",
+                    "pos": {
+                        "x": 119.0625,
+                        "y": 61.75
+                    },
+                    "uuid": "038c601b-9825-450b-8d98-61d24201c254"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [PD_IN9] (F.Cu), 长度: 1.6900 mm",
+                    "pos": {
+                        "x": 139.083,
+                        "y": 59.2
+                    },
+                    "uuid": "ad847ea5-c83c-41a5-9f4d-4c47c09206cb"
+                },
+                {
+                    "description": "F.Cu 上 PD9 的焊盘 2 [PD_IN9]",
+                    "pos": {
+                        "x": 120.76905,
+                        "y": 93.567368
+                    },
+                    "uuid": "fa2fc2e5-ed70-4372-882b-aab375108959"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 12 [LED_K11]",
+                    "pos": {
+                        "x": 122.25,
+                        "y": 63.9375
+                    },
+                    "uuid": "aac191cf-fcb2-407c-8aeb-ce1037301a8a"
+                },
+                {
+                    "description": "F.Cu 上 D11 的焊盘 2 [LED_K11]",
+                    "pos": {
+                        "x": 158.007222,
+                        "y": 105.812972
+                    },
+                    "uuid": "7debec50-5dcf-4c53-ab3a-5714c07efcea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [PD_IN1] (F.Cu), 长度: 0.5586 mm",
+                    "pos": {
+                        "x": 75.2384,
+                        "y": 59.2
+                    },
+                    "uuid": "72a10bfc-ffd3-42b7-9fba-65e36b20dff1"
+                },
+                {
+                    "description": "F.Cu 上 PD1 的焊盘 2 [PD_IN1]",
+                    "pos": {
+                        "x": 98.321907,
+                        "y": 96.013223
+                    },
+                    "uuid": "c92fb497-3472-437d-b648-ff5669ebb1ef"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D20 的焊盘 2 [STATUS_A]",
+                    "pos": {
+                        "x": 59.7875,
+                        "y": 57.9
+                    },
+                    "uuid": "7ade1f1c-fc75-4daa-890e-b26cf56163db"
+                },
+                {
+                    "description": "F.Cu 上 R17 的焊盘 2 [STATUS_A]",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 57.59
+                    },
+                    "uuid": "7a50743a-2ef7-42f3-ba14-dea8c23441f6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D1 的焊盘 2 [LED_K1]",
+                    "pos": {
+                        "x": 96.18578,
+                        "y": 100.219559
+                    },
+                    "uuid": "094d118f-ebae-4423-a62c-1a628036a6b1"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [LED_K1]",
+                    "pos": {
+                        "x": 119.0625,
+                        "y": 61.25
+                    },
+                    "uuid": "5ffaa66d-21d8-4754-9da1-e433253345aa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 D3 的焊盘 2 [LED_K3]",
+                    "pos": {
+                        "x": 59.545422,
+                        "y": 105.302628
+                    },
+                    "uuid": "3f711c67-30a5-45c4-bbe6-d0be6359ea86"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [LED_K3]",
+                    "pos": {
+                        "x": 119.0625,
+                        "y": 62.25
+                    },
+                    "uuid": "e584b3e2-91b4-4705-9403-659de99141a7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 11 [LED_K10]",
+                    "pos": {
+                        "x": 121.75,
+                        "y": 63.9375
+                    },
+                    "uuid": "f4802d55-6035-4618-b12b-8dcbff7f1335"
+                },
+                {
+                    "description": "F.Cu 上 D10 的焊盘 2 [LED_K10]",
+                    "pos": {
+                        "x": 137.450309,
+                        "y": 106.460746
+                    },
+                    "uuid": "26cec489-c7af-41ba-b918-223d47ed31f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 13 [LED_K12]",
+                    "pos": {
+                        "x": 122.9375,
+                        "y": 63.25
+                    },
+                    "uuid": "d11c6d9f-ae99-4fbf-8159-680c23064d96"
+                },
+                {
+                    "description": "F.Cu 上 D12 的焊盘 2 [LED_K12]",
+                    "pos": {
+                        "x": 171.167304,
+                        "y": 95.177535
+                    },
+                    "uuid": "e6e914c9-eaf5-41d7-b082-3d24875f567c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 13 [PD_IN4]",
+                    "pos": {
+                        "x": 80.3625,
+                        "y": 59.2
+                    },
+                    "uuid": "a8d81f19-a80f-4567-ab03-c947d08b28d2"
+                },
+                {
+                    "description": "F.Cu 上 PD4 的焊盘 2 [PD_IN4]",
+                    "pos": {
+                        "x": 49.344686,
+                        "y": 97.390118
+                    },
+                    "uuid": "d2100a64-0e93-40b6-86be-c6704a33e88e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 PD2 的焊盘 2 [PD_IN2]",
+                    "pos": {
+                        "x": 84.946716,
+                        "y": 106.212726
+                    },
+                    "uuid": "e54d837d-34da-4d2e-b062-25c44f1be9bf"
+                },
+                {
+                    "description": "走线 [PD_IN2] (F.Cu), 长度: 0.5890 mm",
+                    "pos": {
+                        "x": 75.148,
+                        "y": 63.286
+                    },
+                    "uuid": "3caa7841-9882-45a4-9222-b380e49dbc91"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 PD11 的焊盘 2 [PD_IN11]",
+                    "pos": {
+                        "x": 153.11899,
+                        "y": 106.617942
+                    },
+                    "uuid": "f7123c25-55d9-4926-a0d1-770ad06c6178"
+                },
+                {
+                    "description": "走线 [PD_IN11] (F.Cu), 长度: 1.4569 mm",
+                    "pos": {
+                        "x": 146.6819,
+                        "y": 63.875
+                    },
+                    "uuid": "772cf8be-d734-4c2e-bce4-96ff0ad74eb1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

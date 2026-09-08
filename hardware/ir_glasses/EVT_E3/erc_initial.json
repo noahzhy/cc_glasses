@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T01:36:54",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385",
+            "violations": []
+        },
+        {
+            "path": "/power/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385/10329790-f161-58b3-9732-bb4bdddb6476",
+            "violations": [
+                {
+                    "description": "类型为 Power output 和 Power output 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG01 引脚 1 [Power output, Line]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 1.4986
+                            },
+                            "uuid": "60bc590d-e5e4-5e53-980a-52533653051c"
+                        },
+                        {
+                            "description": "Symbol U14 引脚 6 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.4445
+                            },
+                            "uuid": "4d73c14a-e227-5a9e-946b-81d240a35c07"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/left/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385/742ece0a-a78d-564b-a250-1c61854724cb",
+            "violations": []
+        },
+        {
+            "path": "/right/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385/6afb97ac-fa55-5087-b4f6-50fd1307ea2d",
+            "violations": []
+        },
+        {
+            "path": "/decoupling/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385/0bb0ca5e-6fef-532c-bae9-d2ffa50a3af6",
+            "violations": []
+        },
+        {
+            "path": "/Protection and status/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385/723c8905-d93a-5b72-b2e0-d30589526aee",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 引脚 5 [IN, Power input, Line]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 0.5461
+                            },
+                            "uuid": "29b21b9b-a141-53c5-9333-f6fd6100a978"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        }
+    ],
+    "source": "ir_glasses.kicad_sch"
+}

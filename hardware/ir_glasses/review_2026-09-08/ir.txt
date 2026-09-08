@@ -1,0 +1,340 @@
+PAGE 1
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+1
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No: DIR-0000945. Rev: 4
+www.everlight.com
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8                       
+Features
+․Small double-end package         
+․High reliability
+․Low forward voltage
+․Good spectral matching to Si photodetector
+․Package in 8mm tape on 7” diameter reel
+․Pb free
+․The product itself will remain within RoHS compliant version.
+․Compliance with EU REACH
+Descriptions
+IR11-21C/TR8 is an infrared emitting diode in miniature
+    SMD package which is molded in a water clear plastic
+With flat top view lens.
+The device is spectrally matched with silicon photodiode
+and phototransistor.
+Applications
+․PCB mounted infrared sensor
+․Infrared emitting for miniature light barrier
+․Floppy disk drive
+․Optoelectronic switch
+․Smoke detector
+Device Selection Guide
+Part Category
+Chip Material
+Resin Color
+IR
+GaAlAs
+Water Clear
+
+PAGE 2
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+2
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+Package Dimensions
+                 
+Notes: 1.All dimensions are in millimeters     
+      2.Tolerances unless dimensions ±0.1mm    
+3.Suggested pad dimension is just for reference only
+Please modify the pad dimension based on individual need
+
+PAGE 3
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+3
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+Absolute Maximum Ratings (Ta=25℃)
+Parameter
+Symbol
+Rating
+Units
+Continuous Forward Current
+IF
+65
+mA
+Reverse Voltage
+VR
+5
+V
+Operating Temperature
+Topr
+-25 ~ +85
+℃
+Storage Temperature
+Tstg
+-40 ~ +85
+℃
+Soldering Temperature   *1
+Tsol
+260
+℃
+Power Dissipation at(or below)
+25℃Free Air Temperature
+Pd
+130
+mW
+Notes: *1.Soldering time≦5 seconds.
+Electro-Optical Characteristics (Ta=25℃)
+Parameter
+Symbol
+Condition
+Min.
+Typ.
+Max.
+Units
+Radiant Intensity
+Ie
+IF=20mA
+0.5
+1.6
+--
+mW /sr
+Peak Wavelength
+λp
+IF=20mA
+--
+940
+--
+nm
+Spectral Bandwidth
+Δλ
+IF=20mA
+--
+45
+--
+nm
+Forward Voltage
+VF
+IF=20mA
+--
+1.2
+1.5
+V
+Reverse Current
+IR
+VR=5V
+--
+--
+10
+μA
+View Angle
+2θ1/2
+IF=20mA
+--
+100
+--
+deg
+
+PAGE 4
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+4
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+0
+-25
+0
+40
+20
+60
+100
+80
+20
+40
+60
+100
+80
+120
+140
+0
+20
+40
+60
+80
+100
+IF=20mA
+Ta=25° C
+Typical Electro-Optical Characteristics Curves
+Fig.1 Forward Current vs.                           Fig.2 Spectral Distribution
+      Ambient Temperature
+Fig.3 Forward Current                              
+Fig.4 Relative Intensity vs.
+vs. Forward Voltage                                  Forward Current   
+
+PAGE 5
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+5
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+-20
+0.6
+0.9
+0.7
+0.8
+1.0
+0.2
+0.4
+0
+0.2 0.4 0.6
+50
+70
+80
+60
+40
+30
+-10
+0
+20
+10
+Typical Electro-Optical Characteristics Curves
+Fig.5 Relative Radiant Intensity vs.
+   
+Angular Displacement
+
+PAGE 6
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+6
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+Precautions For Use
+1. Over-current-proof
+Customer must apply resistors for protection, otherwise slight voltage shift will cause 
+big current change (Burn out will happen).
+2. Storage
+2.1 Do not open moisture proof bag before the products are ready to use.
+2.2 Before opening the package, the Photodiode should be kept at 10℃~30℃and 
+90%RH or less.
+2.3 The Photodiode suggested be used within one year.
+  2.4 After opening the package, the devices must be stored at 10°C~30°C and 
+60%RH, and used within 168 hours (floor life). If unused Photodiode remain, it 
+should be stored in moisture proof packages.
+2.5 If the moisture absorbent material (desiccant material) has faded or unopened bag
+has exceeded the shelf life or devices (out of bag) have exceeded the floor life, 
+baking treatment is required.
+2.6 If baking is required, refer to IPC/JEDEC J-STD-033 for bake procedure or 
+recommend the following conditions:
+      96 hours at 60°C ± 5°C and < 5 % RH (reeled/tubed/loose units)
+3. Soldering Condition
+3.1 Lead solder temperature profile                                
+3.2 Reflow soldering should not be done more than two times.
+3.3 When soldering, do not put stress on the LEDs during heating.
+3.4 After soldering, do not warp the circuit board.
+
+PAGE 7
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+7
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+4.Soldering Iron 
+      Each terminal is to go to the tip of soldering iron temperature less than 350℃for 
+3 seconds within once in less than the soldering iron capacity 25W. Leave two seconds 
+and more intervals, and do soldering of each terminal. Be careful because the damage of 
+the product is often started at the time of the hand solder.
+5.Repairing 
+       Repair should not be done after the LEDs have been soldered. When repairing is 
+unavoidable, a double-head soldering iron should be used (as below figure). It should be 
+confirmed beforehand whether the characteristics of the LEDs will or will not be damaged 
+by repairing.
+
+PAGE 8
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+8
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+Package Dimensions
+Note: The tolerances unless mentioned are ±0.1mm, Unit: mm
+Carrier Tape Dimensions: (Loaded Quantity: 2000pcs/reel)
+Note: The tolerances unless mentioned is ±0.1mm, Unit = mm
+
+PAGE 9
+LifecyclePhase:
+Revision      : 4
+Expired Period: Forever
+Release Date:2015-10-16 11:07:50.0
+Data Sheet
+1206 Package Chip Infrared LED With Inner Lens
+IR11-21C/TR8
+9
+Copyright © 2015, Everlight All Rights Reserved. Release Date: 2015/9/26. Issue No:DIR-0000945.  Rev: 4
+www.everlight.com
+Label Form Specification
+CPN: Customer’s Production Number
+P/N : Production Number
+LOT No: Lot Number
+QTY: Packing Quantity
+HUE: Peak Wavelength
+CAT: Ranks
+REF: Reference
+MSL-X: MSL Level
+Made In: Manufacture place
+Notes
+1. Above specification may be changed without notice. EVERLIGHT will reserve authority 
+on .material change for above specification.
+2. The graphs shown in this datasheet are representing typical data only and do not show 
+.guaranteed values.
+3. When using this product, please observe the absolute maximum ratings and the 
+instructions for.use outlined in these specification sheets. EVERLIGHT assumes no 
+responsibility for any damage resulting from use of the product which does not comply 
+with the absolute maximum ratings and the instructions included in these specification 
+sheets.
+4. These specification sheets include materials protected under copyright of EVERLIGHT.
+.Reproduction in any form is prohibited without the specific consent of EVERLIGHT.
+5. This product is not intended to be used for military, aircraft, automotive, medical, life 
+sustaining.or life saving applications or any other application which can result in human 
+injury or death..Please contact authorized Everlight sales agent for special application 
+request.
+EVERLIGHT ELECTRONICS CO., LTD.                Tel: 886-2-2685-6688
+Office: No. 6-8, Zhonghua Rd., Shulin Dist.,               Fax: 886-2685-2699，6897
+New Taipei City 23860, Taiwan                           http://www.everlight.com

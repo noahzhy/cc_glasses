@@ -1,0 +1,3073 @@
+PAGE 1
+16-Channel, Constant-Current LED Driver With Pre-Charge FET
+1 Features
+•
+16-channel, constant-current sink output with on 
+and off control
+•
+Constant-current sink capability:
+35mA (VCC ≤ 3.6V), 45mA (VCC > 3.6V)
+•
+LED power-supply voltage: up to 10V
+•
+VCC = 3V to 5.5V
+•
+Constant-current accuracy:
+–
+Channel-to-channel:
+±1.4% (typ), ±3% (max)
+–
+Device-to-device: ±2% (typ), ±4% (max)
+•
+CMOS logic level I/O
+•
+Data transfer rate: 35MHz
+•
+BLANK pulse width: 50ns
+•
+Pre-charge FET for ghosting reduction
+•
+Grouped switching delay for noise reduction
+•
+Operating temperature: –40°C to +85°C
+2 Applications
+•
+Video displays
+•
+Message boards
+3 Description
+The TLC59283 is a 16-channel, constant-current 
+sink light-emitting diode (LED) driver. Each channel 
+can be individually controlled with a simple serial 
+communications protocol that is compatible with 3.3V 
+or 5V CMOS logic levels, depending on the operating 
+VCC. When the serial data buffer is loaded, a LAT 
+rising edge transfers the data to the OUTn outputs. 
+The BLANK pin can be used to turn off all OUTn 
+outputs during power-on and output data latching to 
+prevent unwanted image displays during these times. 
+The constant-current value of all 16 channels is set by 
+a single external resistor.
+Each constant-current output has a pre-charge field-
+effect transistor (FET) that can reduce ghosting on 
+the multiplexing (dynamic) drive LED display. Multiple 
+TLC59283s can be cascaded together to control 
+additional LEDs from the same processor.
+Package Information
+PART NUMBER
+PACKAGE(1)
+TLC59283
+DB (SSOP, 24)
+DBQ (QSOP, 24)
+TLC59283
+RGE (QFN, 24)
+(1)
+For more information, see Section 12.
+SIN
+SCLK
+LAT
+BLANK
+SOUT
+GND
+VCC
+Device 1
+OUT0
+OUT15
+VCC
+VLED
+VLED
+DATA
+COMSEL1
+SCLK
+LAT
+BLANK
+RIREF
+IREF
+Controller
+3
+COMSEL0
+¼
+COM1
+COM0
+SW
+COM1
+VLED
+COMSELn
+¼
+COMn
+SW
+COMn
+SW
+COM0
+SIN
+SCLK
+LAT
+BLANK
+SOUT
+GND
+VCC
+Device n
+OUT0
+OUT15
+VCC
+RIREF
+IREF
+¼
++
+Typical Application Circuit (Multiple Daisy-Chained TLC59283s)
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+PAGE 2
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Pin Configurations.......................................................... 3
+5 Specifications.................................................................. 5
+5.1 Absolute Maximum Ratings........................................ 5
+5.2 Storage Conditions..................................................... 5
+5.3 ESD Ratings............................................................... 5
+5.4 Recommended Operating Conditions.........................6
+5.5 Thermal Information....................................................6
+5.6 Electrical Characteristics.............................................7
+5.7 Timing Characteristics.................................................8
+5.8 Timing Diagrams.........................................................9
+5.9 Typical Characteristics.............................................. 11
+6 Parameter Measurement Information..........................13
+6.1 Pin-equivalent Input and Output Schematic 
+Diagrams.....................................................................13
+6.2 Test Circuits.............................................................. 14
+7 Detailed Description......................................................15
+7.1 Overview...................................................................15
+7.2 Functional Block Diagram.........................................15
+7.3 Feature Description...................................................16
+8 Register Configuration..................................................19
+9 Application and Implementation..................................21
+9.1 Application Information............................................. 21
+9.2 Typical Application.................................................... 21
+9.3 Power Supply Recommendations.............................24
+9.4 Layout....................................................................... 24
+10 Device and Documentation Support..........................25
+10.1 Third-Party Products Disclaimer............................. 25
+10.2 Documentation Support.......................................... 25
+10.3 Receiving Notification of Documentation Updates..25
+10.4 Support Resources................................................. 25
+10.5 Trademarks.............................................................25
+10.6 Electrostatic Discharge Caution..............................25
+10.7 Glossary..................................................................25
+11 Revision History.......................................................... 26
+12 Mechanical, Packaging, and Orderable 
+Information.................................................................... 27
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+2
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 3
+4 Pin Configurations
+GND
+SIN
+SCLK
+LAT
+OUT0
+OUT1
+OUT2
+OUT3
+OUT4
+OUT5
+OUT6
+OUT7
+VCC
+IREF
+SOUT
+BLANK
+OUT15
+OUT14
+OUT13
+OUT12
+OUT11
+OUT10
+OUT9
+OUT8
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+Figure 4-1. DBQ Package SSOP-24 and QSOP-24 (top view)
+LAT
+OUT0
+OUT1
+OUT2
+OUT3
+OUT4
+BLANK
+OUT15
+OUT14
+OUT13
+OUT12
+OUT11
+1
+2
+3
+4
+5
+6
+18
+17
+16
+15
+14
+13
+Thermal Pad
+(Bottom Side)
+SCLK
+24
+OUT5
+7
+SIN
+23
+OUT6
+8
+GND
+22
+OUT7
+9
+VCC
+21
+OUT8
+10
+IREF
+20
+OUT9
+11
+SOUT
+19
+OUT10
+12
+Figure 4-2. RGE Package QFN-24 (top view)
+NOTE: Thermal pad is not connected to GND internally. The thermal pad must be connected to GND with the printed circuit board 
+(PCB) pattern.
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+3
+Product Folder Links: TLC59283
+
+PAGE 4
+Table 4-1. Pin Functions
+PIN
+I/O
+DESCRIPTION
+NAME
+NUMBER
+DBQ
+RGE
+BLANK
+21
+18
+I
+All outputs empty (blank); Schmitt buffer input. When BLANK is high, all constant-current outputs 
+(OUT0 to OUT15) are forced off and all pre-charge FETs are turned on. When BLANK is low, 
+all constant-current outputs are controlled by the data in the output on or off data latch and all 
+pre-charge FETs are turned off. This pin is internally pulled up to VCC with a 500kΩ (typ) resistor.
+GND
+1
+22
+—
+Power ground
+IREF
+23
+20
+I/O
+Constant-current value setting, the OUT0 to OUT15 sink constant-current outputs are set to the 
+desired values by connecting an external resistor between IREF and GND.
+LAT
+4
+1
+I
+Level-triggered latch; Schmitt buffer input. The data in the 16-bit shift register continue to transfer 
+to the output on or off data latch while LAT is high. Therefore, if the data in the 16-bit shift register 
+are changed when LAT is high, the data in the data latch are also changed. The data in the data 
+latch are held when LAT is low. This pin is internally pulled down to GND with a 500kΩ (typ) 
+resistor.
+OUT0
+5
+2
+O
+Constant-current output. Each output can be tied together with others to increase the constant-
+current. Different voltages can be applied to each output.
+OUT1
+6
+3
+O
+Constant-current output
+OUT2
+7
+4
+O
+Constant-current output
+OUT3
+8
+5
+O
+Constant-current output
+OUT4
+9
+6
+O
+Constant-current output
+OUT5
+10
+7
+O
+Constant-current output
+OUT6
+11
+8
+O
+Constant-current output
+OUT7
+12
+9
+O
+Constant-current output
+OUT8
+13
+10
+O
+Constant-current output
+OUT9
+14
+11
+O
+Constant-current output
+OUT10
+15
+12
+O
+Constant-current output
+OUT11
+16
+13
+O
+Constant-current output
+OUT12
+17
+14
+O
+Constant-current output
+OUT13
+18
+15
+O
+Constant-current output
+OUT14
+19
+16
+O
+Constant-current output
+OUT15
+20
+17
+O
+Constant-current output
+SCLK
+3
+24
+I
+Serial data shift clock; Schmitt buffer input.
+All data in the 16-bit shift register are shifted toward the MSB by a 1-bit SCLK synchronization.
+SIN
+2
+23
+I
+Serial data input for driver on or off control; Schmitt buffer input.
+When SIN is high, the LSB is set to '1' for only one SCLK input rising edge. If two SCLK rising 
+edges are input while SIN is high, then the 16-bit shift register LSB and LSB+1 are set to '1'. When 
+SIN is low, the LSB is set to '0' at the SCLK input rising edge.
+SOUT
+22
+19
+O
+Serial data output. This output is connected to the 16-bit shift register MSB. SOUT data changes 
+at the SCLK rising edge.
+VCC
+24
+21
+—
+Power-supply voltage
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+4
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 5
+5 Specifications
+5.1 Absolute Maximum Ratings
+Over operating free-air temperature range, unless otherwise noted.(1)
+VALUE
+UNIT(2)
+MIN
+MAX
+Voltage
+VCC
+Supply
+–0.3
++6
+V
+VIN
+Input range, SIN, SCLK, LAT, BLANK, IREF
+–0.3
+VCC + 0.3
+V
+VOUT
+Output range, SOUT
+–0.3
+VCC + 0.3
+V
+Output range, OUT0 to OUT15
+–0.3
++11
+V
+Current
+IOUT
+Output (dc), OUT0 to OUT15
++50
+mA
+Temperature
+TJ(MAX)
+Operating junction
++150
+°C
+Tstg
+Storage range
+–55
++150
+°C
+(1)
+Operation outside the Absolute Maximum Ratings may cause permanent device damage. Absolute Maximum Ratings do not imply 
+functional operation of the device at these or any other conditions beyond those listed under Recommended Operating Conditions. 
+If used outside the Recommended Operating Conditions but within the Absolute Maximum Ratings, the device may not be fully 
+functional, and this may affect device reliability, functionality, performance, and shorten the device lifetime.
+(2)
+All voltage values are with respect to network ground terminal.
+5.2 Storage Conditions
+applicable before the DMD is installed in the final product
+MIN
+MAX
+UNIT
+Tstg
+DMD storage temperature
+-55
++150
+°C
+5.3 ESD Ratings
+VALUE
+UNIT
+V (ESD)
+Electrostatic discharge
+Human-body model (HBM), per ANSI/ESDA/JEDEC JS-0011
+±3000
+V
+Charged device model (CDM), per ANSI/ESDA/JEDEC JS-0022
+±2000
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+5
+Product Folder Links: TLC59283
+
+PAGE 6
+5.4 Recommended Operating Conditions
+At TA = –40°C to +85°C, unless otherwise noted.
+PARAMETER
+TEST CONDITIONS
+TLC59283
+UNIT
+MIN
+MAX
+DC CHARACTERISTICS (VCC = 3 V to 5.5 V)
+VCC
+Supply voltage
+3
+5.5
+V
+VO
+Voltage applied to output
+OUT0 to OUT15
+10
+V
+VIH
+Input voltage
+High
+SIN, SCLK, LAT, BLANK
+0.7 × VCC
+VCC
+V
+VIL
+Low
+SIN, SCLK, LAT, BLANK
+GND
+0.3 × VCC
+V
+IOH
+Output current
+High
+SOUT
+–2
+mA
+IOL
+Low
+SOUT
+2
+mA
+IOLC
+Constant output sink current
+OUT0 to OUT15, 3 V ≤ VCC ≤ 3.6 V
+2
+35
+mA
+OUT0 to OUT15, 3.6 V < VCC ≤ 5.5 V
+2
+45
+mA
+TA
+Temperature range
+Operating free-air
+–40
++85
+°C
+TJ
+Operating junction
+–40
++125
+°C
+AC CHARACTERISTICS (VCC = 3 V to 5.5 V)
+fCLK (SCLK)
+Data shift clock frequency
+SCLK
+35
+MHz
+tWH0
+Pulse duration
+SCLK
+10
+ns
+tWL0
+SCLK
+10
+ns
+tWH1
+LAT
+20
+ns
+tWH2
+BLANK
+100
+ns
+tWL2
+BLANK
+50
+ns
+tSU0
+Setup time
+SIN↑↓ – SCLK↑
+4
+ns
+tSU1
+LAT↓ – SCLK↑
+10
+ns
+tH0
+Hold time
+SIN↑↓ – SCLK↑
+4
+ns
+tH1
+LAT↓ – SCLK↑
+10
+ns
+5.5 Thermal Information
+THERMAL METRIC
+TLC59283
+UNITS
+DBQ
+RGE
+24 PINS
+24 PINS
+θJA
+Junction-to-ambient thermal resistance
+91.5
+42.9
+°C/W
+θJCtop
+Junction-to-case (top) thermal resistance
+55.2
+55.3
+θJB
+Junction-to-board thermal resistance
+44.9
+21.7
+ψJT
+Junction-to-top characterization parameter
+16.8
+1.9
+ψJB
+Junction-to-board characterization parameter
+44.5
+21.8
+θJCbot
+Junction-to-case (bottom) thermal resistance
+N/A
+8.8
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+6
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 7
+5.6 Electrical Characteristics
+All minimum and maximum specifications are at TA = –40°C to +85°C and VCC = 3V to 5.5V, unless otherwise noted.
+Typical specifications are at TA = +25°C and VCC = 3.3V.
+PARAMETER
+TEST CONDITIONS
+TLC59283
+UNIT
+MIN
+TYP
+MAX
+VOH
+Output voltage
+High
+IOH = –2mA at SOUT
+VCC – 0.4
+VCC
+V
+VOL
+Low
+IOL = 2mA at SOUT
+0.4
+V
+VPCHG
+Pre-charged voltage
+IO = –10µA
+VCC – 2.0
+VCC – 1.4
+VCC – 0.8
+V
+VIREF
+Reference voltage output
+RIREF = 1.5kΩ, TA = +25°C
+1.208
+V
+IIN
+Input current
+VIN = VCC or GND at SIN and SCLK
+–1
+1
+μA
+ICC0
+Supply current (VCC)
+SIN, SCLK, LAT = GND, BLANK = VOUTn = VCC, RIREF = open
+1
+2
+mA
+ICC1
+SIN, SCLK, LAT = GND, BLANK = VOUTn = VCC,
+RIREF = 3kΩ (IOUT = 17.6mA target)
+3
+4
+mA
+ICC2
+All OUTn = ON, SIN, SCLK, LAT, BLANK = GND,
+VOUTn = 0.8V, RIREF = 3kΩ
+7
+9
+mA
+ICC3
+All OUTn = ON, SIN, SCLK, LAT, BLANK = GND,
+VOUTn = 0.8V, RIREF = 1.5kΩ (IOUT = 35.3mA target)
+8
+11
+mA
+IOLC
+Constant output current
+All OUTn = ON, VOUTn = VOUTfix = 0.8V, RIREF = 1.5kΩ,
+TA = +25°C (see Figure 6-8)
+32.9
+35.3
+37.7
+mA
+IOLKG0
+Output leakage current
+All OUTn = OFF, VOUTn = VOUTfix = 10 V, 
+BLANK = VCC, RIREF = 1.5 kΩ (see Figure 
+6-8)
+TJ = +25°C
+0.1
+μA
+TJ = +85°C
+0.2
+μA
+TJ = +125°C
+0.07
+0.5
+μA
+ΔIOLC0
+Constant-current 
+error
+Channel-to-
+channel(1)
+All OUTn = ON, VOUTn = VOUTfix = 0.8V, RIREF = 1.5kΩ,
+TA = +25°C (see Figure 6-8)
+±1.4
+±3
+%
+ΔIOLC1
+Device-to-
+device(2)
+All OUTn = ON, VOUTn = VOUTfix = 0.8V, RIREF = 1.5kΩ,
+TA = +25°C (see Figure 6-8)
+±2
+±4
+%
+ΔIOLC2
+Line regulation(3)
+All OUTn = ON, VOUTn = VOUTfix = 0.8V, RIREF = 1.5kΩ,
+VCC = 3V to 5.5V
+±0.05
+±1
+%/V
+ΔIOLC3
+Load regulation(4)
+All OUTn = ON, VOUTn = 0.8V to 3V, VOUTfix = 0.8V,
+RIREF = 1.5kΩ
+±0.5
+±1
+%/V
+RPUP
+Resistor
+Pull-up
+BLANK
+250
+500
+750
+kΩ
+RPDWN
+Pull-down
+LAT
+250
+500
+750
+kΩ
+RPCHG
+Pre-charge FET on-resistance
+VCC = 5.0V, VOUTn = 0V, OUT0 to OUT15,
+BLANK = VCC, TA = +25°C
+3
+6
+kΩ
+(1)
+The deviation of each output from the average of OUT0 to OUT15 constant-current. Deviation is calculated by the formula: 
+D (%) =
+- 1
+IOUTn
+(I
++ I
++ ... + I
++ I
+)
+OUT0
+OUT1
+OUT15
+OUT14
+16
+´ 100
+(2)
+The deviation of the OUT0 to OUT15 constant-current average from the ideal constant-current value.
+Deviation is calculated by the following formula:
+D (%) =
+Ideal Output Current
+- (Ideal Output Current)
+(I
++ I
++ ... I
++ I
+)
+OUT0
+OUT1
+OUT14
+OUT15
+16
+´ 100
+Ideal current is calculated by the formula:
+I
+= 43.8
+OUT(IDEAL)
+´
+1.208 V
+RIREF
+(3)
+Line regulation is calculated by this equation:
+(I
+at V
+= 3 V)
+OUTn
+CC
+(I
+at V
+= 5.5 V)
+(I
+at V
+= 3 V)
+OUTn
+CC
+OUTn
+CC
+-
+D (%/V) =
+´
+100
+5.5 V
+3 V
+-
+(4)
+Load regulation is calculated by the equation:
+´
+(I
+at V
+= 1 V)
+OUTn
+OUTn
+(I
+at V
+= 3 V)
+(I
+at V
+= 1 V)
+-
+OUTn
+OUTn
+OUTn
+OUTn
+D (%/V) =
+100
+3 V
+1 V
+-
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+7
+Product Folder Links: TLC59283
+
+PAGE 8
+5.7 Timing Characteristics
+All minimum and maximum specifications are at TA = –40°C to +85°C, VCC = 3V to 5.5V, CL = 15pF, RL = 110Ω,
+RIREF = 1.5kΩ, and VLED = 5.0V, unless otherwise noted. Typical values are at TA = +25°C and VCC = 3.3V.
+TLC59283
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP
+MAX
+UNIT
+tR0
+Rise time
+SOUT (see Figure 6-7)
+3
+10
+ns
+tR1
+OUTn (see Figure 6-6)
+44
+ns
+tF0
+Fall time
+SOUT (see Figure 6-7)
+3
+10
+ns
+tF1
+OUTn (see Figure 6-6)
+44
+ns
+tD0
+Propagation delay time
+SCLK↑ to SOUT↑↓
+11
+20
+ns
+tD1
+LAT↑ or BLANK↑↓ to OUT0 on or off, TA = +25°C
+60
+100
+ns
+tD2
+Grouped OUTn on or off to next group on or off,
+TA = +25°C
+2
+ns
+tON_ERR
+Output on-time error(1)
+Output on or off latch data = all '1', 50ns BLANK GND 
+level pulse, VCC = 3.3V, TA = +25°C
+–45
+45
+ns
+(1)
+Output on-time error (tON_ERR) is calculated by the formula: tON_ERR (ns) = tOUT_ON – BLANK low level one-shot pulse width (tWL2). 
+tOUT_ON indicates the actual on-time of the constant-current output.
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+8
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 9
+5.8 Timing Diagrams
+t
+, t
+, t
+, t
+, t
+:
+WH0
+WH1
+WL0
+WH2
+WL2
+Input
+(1)
+SCLK
+(1)
+Data and Control
+Clock
+(1)
+t
+, t
+, t
+, t
+:
+SU0
+SU1
+H0
+H1
+tSU
+tH
+VCC
+VCC
+GND
+VCC
+GND
+GND
+50%
+50%
+50%
+tWH
+tWL
+A.
+Input pulse rise and fall time is 1ns to 3ns.
+Figure 5-1. Input Timing Diagram
+t
+, t
+, t
+, t
+, t
+, t
+, t
+, t
+, t
+:
+R0
+R1
+F0
+F1
+D0
+D1
+D2
+(1)
+D3
+ON_ERR
+Input
+(2)
+50%
+50%
+90%
+10%
+Output
+tD
+t or t
+R
+F
+V
+or V
+OL
+OUTn
+V
+or V
+OH
+OUTn
+GND
+VCC
+tWL2
+tOUT_ON
+A.
+tON_ERR is calculated by tOUTON – tWL2.
+B.
+Input pulse rise and fall time is 1ns to 3ns.
+Figure 5-2. Output Timing Diagram
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+9
+Product Folder Links: TLC59283
+
+PAGE 10
+SIN
+OUT0
+OUT1, 15
+OUT7, 9
+OUT8
+ON
+OFF
+LAT
+Output On or Off Control
+Data Latch (Internal)
+(1)
+SOUT
+SCLK
+Shift Register
+LSB Data (Internal)
+BLANK
+ON
+OFF
+ON
+OFF
+ON
+OFF
+tWH2
+tWH0
+tH1
+tWH1
+13
+14
+15
+16
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+6
+tSU0
+tH0
+tWL0
+t
+/t
+R0 F0
+Shift Register
+LSB+1 Data (Internal)
+Shift Register
+MSB Data (Internal)
+Shift Register
+MSB 1 Data (Internal)
+-
+DATA
+0A
+DATA
+0A
+DATA
+15B
+DATA
+14B
+DATA
+13B
+DATA
+12B
+DATA
+3B
+DATA
+2B
+DATA
+1B
+DATA
+15C
+DATA
+14C
+DATA
+13C
+DATA
+12C
+DATA
+11C
+DATA
+1A
+DATA
+15B
+DATA
+14B
+DATA
+13B
+DATA
+4B
+DATA
+3B
+DATA
+2B
+DATA
+14A
+DATA
+15A
+DATA
+15A
+DATA
+15B
+DATA
+14B
+DATA
+13B
+DATA
+12B
+DATA
+11B
+DATA
+3B
+DATA
+2B
+DATA
+1B
+DATA
+0B
+DATA
+15C
+DATA
+14C
+DATA
+13C
+DATA
+12C
+DATA
+11C
+DATA
+10C
+Previous On or Off Control Data
+Latest On or Off
+Data
+Control
+tSU1
+tD0
+¼
+¼
+¼
+DATA
+0A
+DATA
+12A
+DATA
+11A
+DATA
+10A
+DATA
+13A
+DATA
+13A
+DATA
+12A
+DATA
+11A
+DATA
+14A
+DATA
+2A
+DATA
+1A
+DATA
+15B
+DATA
+3A
+DATA
+2A
+DATA
+1A
+DATA
+0A
+DATA
+1A
+DATA
+2A
+DATA
+12A
+DATA
+13A
+DATA
+14A
+DATA
+0B
+DATA
+1B
+DATA
+14B
+DATA
+15B
+DATA
+15B
+DATA
+0B
+DATA
+15C
+DATA
+14C
+DATA
+13C
+DATA
+12C
+DATA
+13B
+DATA
+12B
+DATA
+11B
+DATA
+10B
+DATA
+9B
+DATA
+14B
+DATA
+13B
+DATA
+12B
+DATA
+11B
+DATA
+10B
+DATA
+14B
+DATA
+13B
+DATA
+12B
+DATA
+11B
+DATA
+10B
+tWL2
+tD1
+tD2
+tD2
+ON
+ON
+ON
+ON
+OFF
+OFF
+OFF
+OFF
+tOUTON
+tR1
+tD1
+tD2
+tF1
+tD2
+ON
+OFF
+ON
+Pre-Charge FET
+ON
+OFF
+¼
+¼
+¼
+¼
+¼
+A.
+Output on or off data = FFFFh.
+B.
+tON_ERR = tOUTON – tWL2.
+Figure 5-3. Data Write and Output On or Off Timing Diagram
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+10
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 11
+5.9 Typical Characteristics
+At TA = +25°C and VCC = 3.3V, unless otherwise noted.
+1
+10
+100
+10
+Output Current (mA)
+Reference Resistor (k )
+W
+G020
+20
+30
+40
+0
+50
+26.5
+10.6
+5.29
+3.53
+2.65
+2.12 1.76
+1.51 1.32
+1.18
+Figure 5-4. Reference Resistor vs Output Current
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+0
+0.5
+1
+1.5
+2
+2.5
+3
+Output Voltage (V)
+Output Current (mA)
+IO = 35 mA
+IO = 30 mA
+IO = 20 mA
+IO = 10 mA
+IO = 5 mA
+IO = 2 mA
+VCC = 3.3 V
+VOUTn = 0.8 V
+TA = +25°C
+G000 
+Figure 5-5. Output Current vs Output Voltage (VCC 
+= 3.3V)
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+0
+0.5
+1
+1.5
+2
+2.5
+3
+IO = 45 mA
+IO = 40 mA
+IO = 35 mA
+IO = 30 mA
+IO = 20 mA
+IO = 10 mA
+IO = 5 mA
+IO = 2 mA
+Output Voltage (V)
+Output Current (mA)
+VCC = 5.0 V, VOUTn = 0.8 V, TA = +25°C
+G001 
+Figure 5-6. Output Current vs Output Voltage (VCC 
+= 5.0V)
+31
+32
+33
+34
+35
+36
+37
+38
+39
+0
+0.5
+1
+1.5
+Output Voltage (V)
+Output Current (mA)
+TA = −40°C
+TA = +25°C
+TA = +85°C
+VCC = 3.3 V
+VOUTn = 0.8 V
+IO = 35 mA
+G004 
+Figure 5-7. Output Current vs Output Voltage (VCC 
+= 3.3V, Magnified)
+31
+32
+33
+34
+35
+36
+37
+38
+39
+0
+0.5
+1
+1.5
+Output Voltage (V)
+Output Current (mA)
+TA = −40°C
+TA = +25°C
+TA = +85°C
+VCC = 5.0 V
+VOUTn = 0.8 V
+IO = 35 mA
+G005 
+Figure 5-8. Output Current vs Output Voltage (VCC 
+= 5.0V, Magnified)
+−3
+−2
+−1
+0
+1
+2
+3
+−40
+−20
+0
+20
+40
+60
+80
+100
+Ambient Temperature (°C)
+∆IOLC (%)
+VCC = 3.3 V
+VCC = 5.0 V
+VOUTn = 0.8 V
+IO = 20 mA
+G006 
+Figure 5-9. ΔIOLC vs Ambient Temperature
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+11
+Product Folder Links: TLC59283
+
+PAGE 12
+4
+12
+10
+Output Current (mA)
+I
+(mA)
+CC
+G018
+20
+30
+40
+0
+50
+SIN = 17.5 MHz
+SCLK = 35 MHz
+All Outputs On
+T = +25 C
+°
+A
+5
+6
+7
+8
+9
+10
+11
+VCC = 5.0 V
+VCC = 3.3 V
+Figure 5-10. Supply Current vs Output Current
+5
+6
+7
+8
+9
+10
+11
+12
+−40
+−20
+0
+20
+40
+60
+80
+100
+Ambient Temperature (°C)
+ICC (mA)
+VCC = 3.3 V
+VCC = 5.0 V
+SIN = 17.5 MHz
+SCLK = 35 MHz
+All Outputs On
+IO = 35 mA
+G008 
+Figure 5-11. Supply Current vs Ambient 
+Temperature
+Time (20 ns/div)
+G021
+Channel 1
+(5 V/div)
+Channel 2
+(2 V/div)
+Channel 3
+(2 V/div)
+Channel 4
+(2 V/div)
+I
+= 35 mA
+T = +25 C
+R = 110
+C = 15 pF
+VCC = 5 V
+V
+= 5 V
+O
+A
+L
+L
+LED
+W
+°
+CH1-BLANK
+(50 ns)
+CH4-OUT2
+(BLANK = 50 ns)
+CH3-OUT1
+(BLANK = 50 ns)
+CH2-OUT0
+(BLANK = 50 ns)
+Figure 5-12. Constant-current Output Voltage Waveform
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+12
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 13
+6 Parameter Measurement Information
+6.1 Pin-equivalent Input and Output Schematic Diagrams
+VCC
+INPUT
+GND
+Figure 6-1. SIN and SCLK
+VCC
+LAT
+GND
+Figure 6-2. LAT
+VCC
+BLANK
+GND
+Figure 6-3. BLANK
+VCC
+SOUT
+GND
+Figure 6-4. SOUT
+VCC
+OUTn
+(1)
+GND
+A.
+n = 0 to 15.
+Figure 6-5. OUT0 Through OUT15
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+13
+Product Folder Links: TLC59283
+
+PAGE 14
+6.2 Test Circuits
+VCC
+VCC
+GND
+IREF
+OUTn
+RIREF
+RL
+CL
+VLED
+Figure 6-6. OUTn Rise and Fall Time Test Circuit
+VCC
+VCC
+GND
+SOUT
+CL
+Figure 6-7. SOUT Rise and Fall Time Test Circuit
+¼
+¼
+VCC
+RIREF
+VOUTfix
+VOUTn
+OUT0
+VCC
+OUTn
+OUT15
+GND
+IREF
+Figure 6-8. OUTn Constant-current Test Circuit
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+14
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 15
+7 Detailed Description
+7.1 Overview
+The TLC59283 is a 16-channle, constant-current sink light-emitting diode (LED) driver. Each channel can be 
+individually controlled with a simple serial communications protocol that is compatible with 3.3V or 5V CMOS 
+logic levels, depending on the operating VCC. When the serial data buffer is loaded, a LAT rising edge transfers 
+the data to the OUTn outputs. The BLANK pin can be sed to turn off all OUTn outputs during power-on and 
+output data latching to prevent unwanted image displays during these times. The constant-current value of all 16 
+channels is set by a single external resistor.
+Each constant-current output has a pre-charge field effect transistor (FET) that can reduce ghosting on the 
+multiplexing (dynamic) drive LED display. Multiple TLC59283s can be cascaded together to control additional 
+LEDs from the same processor.
+7.2 Functional Block Diagram
+VCC
+VCC
+SCLK
+SIN
+LAT
+BLANK
+IREF
+GND
+GND
+MSB
+MSB
+0
+15
+LSB
+SOUT
+OUT0
+OUT1
+OUT14
+OUT15
+16-Channel Constant-Current Sink Driver
+with Grouped Switching Delay
+16-Bit Shift Register
+(1 Bit x 16 Channels)
+0
+15
+LSB
+Output On or Off Data Latch
+(1 Bit x 16 Channels)
+¼
+¼
+¼
+ALLOFF
+Timing
+Control
+V
+1.4 V
+(typ)
+-
+CC
+Pre-Charge
+FETs
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+15
+Product Folder Links: TLC59283
+
+PAGE 16
+7.3 Feature Description
+7.3.1 Constant Sink Current Value Setting
+The constant-current values are determined by an external resistor (RIREF) placed between IREF and GND. The 
+resistor (RIREF) value is calculated by Equation 1.
+R
+(k ) =
+W
+IREF
+V
+(V)
+IREF
+I
+(mA)
+OLC
+´ 43.8
+(1)
+Where:
+VIREF = the internal reference voltage on the IREF pin (typically 1.208V)
+IOLC must be set in the range of 2mA to 35mA when VCC is less than 3.6V. Also, when VCC is equal to 3.6V or 
+greater, IOLC must be set in the range of 2mA to 45mA. The constant sink current characteristic for the external 
+resistor value is illustrated in Figure 5-4. Table 7-1 describes the constant-current output versus external resistor 
+value.
+Table 7-1. Constant-current Output Versus External Resistor Value
+IOLC (mA)
+RIREF (kΩ, Typical)
+45 (VCC > 3.6V only)
+1.18
+40 (VCC > 3.6V only)
+1.32
+35
+1.51
+30
+1.76
+25
+2.12
+20
+2.65
+15
+3.53
+10
+5.29
+5
+10.6
+2
+26.5
+7.3.2 Constant-current Driver On or Off Control
+When BLANK is low, the corresponding output is turned on if the data in the on or off control data latch are '1' 
+and remains off if the data are '0'. When BLANK is high, all outputs are forced off. This control is shown in Table 
+7-2.
+Table 7-2. Output On or Off Control Data Truth Table
+OUTPUT ON OR OFF DATA
+CONSTANT-CURRENT OUTPUT 
+STATUS
+0
+Off
+1
+On
+When the device is initially powered on, the data in the 16-bit shift register and output on or off data latch are 
+not set to default values. Therefore, the output on or off data must be written to the data latch before turning the 
+constant-current output on. BLANK should be high when powered on because the constant-current may be 
+turned on as a result of random data in the output on or off data latch.
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+16
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 17
+7.3.3 Noise Reduction
+Large surge currents can flow through the device and board if all 16 outputs turn on or off simultaneously. These 
+large current surges can induce detrimental noise and electromagnetic interference (EMI) into other circuits. The 
+TLC59283 independently turns on or off the outputs for each group with a 1ns (typ) delay time; see Figure 5-3. 
+The 16 outputs are grouped into nine groups of either one or two outputs: group 1 (OUT0), group 2 (OUT1 and 
+OUT15), group 3 (OUT2 and OUT14), group 4 (OUT3 and OUT13), group 5 (OUT4 and OUT12), group 6 (OUT5 
+and OUT11), group 7 (OUT6 and OUT10), group 8 (OUT7 and OUT9), and group 9 (OUT9). Both turn-on and 
+turn-off times are delayed when BLANK transitions from low to high or high to low. Also when output-on and 
+-off data are changed at the LAT rising edge while BLANK is low, both turn-on and turn-off times are delayed. 
+However, the state of each output is controlled by the data in the output on or off data latch and the BLANK level.
+7.3.3.1 Internal Pre-Charge FET
+The internal pre-charge FET prevents ghosting of multiplexed LED modules. One cause of this phenomenon is 
+the parasitic capacitance charging current of the constant-current outputs (OUTn) and PCB wiring connected to 
+OUTn through the LED. One of the mechanisms is shown in Figure 7-1.
+In Figure 7-1, the constant-current driver turns LED0-0 on at (1) and off at (2). After LED0-0 is turned off, the 
+OUT0 voltage is pulled up to VCHG by LED0-0. This OUT0 node has some parasitic capacitance (such as the 
+constant-current driver output capacitance and the board layout capacitance shown as C0-2). After LED0-0 turns 
+off, SWPMOS0 is turned off, SWNMOS0 is turned on for COM0, and COM0 is pulled down to GND. Because 
+there is a parasitic capacitance between COM0 and OUT0, the OUT0 voltage is also pulled down to GND. 
+Afterwards, SWPMOS1 is turned on for the next common line (COM1). When SWPMOS1 turns on, the OUT0 
+voltage is pulled up from the ground voltage to VLED – VF. The charge current (ICHRG) flows to the parasitic 
+capacitor (C0) through LED1-0, causing the LED to briefly turn on and creating a ghosting effect of LED1-0.
+VLED
+(LED Power-Supply)
+SW
+NMOS1
+SW
+PMOS1
+LED Drive Line Selector
+LED1-1
+LED1-2
+C0
+C1
+C2
+ICHRG
+COM1
+Parasitic Capacitor
+Ordinal
+LED Driver
+Constant-Current
+Output
+OUT0
+ON
+OUT1
+ON
+OUT2
+ON
+VLED
+SW
+NMOS0
+SW
+PMOS0
+LED0-0
+OUT0
+OUT1
+OUT2
+LED0-1
+LED0-2
+COM0
+SW
+PMOS0
+ON
+OFF
+(1)
+(2)
+(3)
+(4)
+Ghost phenomenon is observed
+when COM1 goes up to VLED.
+VCHG
+GND
+OUT0 voltage is pulled down to GND side
+by the coupling with LED lamp capacitor
+between COM0 and OUT0.
+COM0 is GND level.
+COM0 is VLED level.
+COM1 is GND level.
+COM1 is VLED level.
+¼
+¼
+¼
+High
+OFF
+ON
+OFF
+ON
+OFF
+ON
+0 mA
+20 mA
+0 mA
+20 mA
+VLED
+V
+-
+F
+VLED
+OFF
+ON
+Low
+SW
+NMOS0
+SW
+PMOS1
+SW
+NMOS1
+BLANK
+OUT0
+OUT0
+Voltage
+LED0-0
+Current
+LED1-0
+Current
+LED1-0
+Figure 7-1. LED Ghost-Lighting Phenomenon Mechanism
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+17
+Product Folder Links: TLC59283
+
+PAGE 18
+The TLC59283 has an internal pre-charge FET to prevent ghosting, as shown in Figure 7-2. When a small 
+delay after PWM control for a single common line completes, the FET pulls OUTn up to VCC. The charge 
+current does not flow to C0 through LED1-0 when SWMOS1 is turned on and the ghosting is eliminated at (3). 
+However, depending on the LED anode voltage, the number of LEDs in series, the LED forward voltage, and the 
+TLC59283 VCC supply voltage, there may not be a great enough ghost-canceling effect.
+VLED
+(LED Power-Supply)
+SW
+NMOS1
+SW
+PMOS1
+LED Drive Line Selector
+LED1-0
+LED1-1
+LED1-2
+C0
+C1
+C2
+COM1
+Parasitic Capacitor
+Pre-Charge FET
+PCHGON
+TLC59283
+LED Driver
+Constant-Current
+Output
+OUT0
+ON
+OUT0
+ON
+OUT0
+ON
+VLED
+SW
+NMOS0
+SW
+PMOS0
+LED0-0
+OUT0
+BLANK
+OUT1
+OUT2
+LED0-1
+LED0-2
+COM0
+¼
+¼
+¼
+SW
+PMOS0
+OUT0
+SW
+NMOS1
+OUT0
+Voltage
+LED0-0
+Current
+LED1-0
+Current
+ON
+OFF
+ON
+OFF
+ON
+OFF
+VLED
+V
+-
+F
+VLED
+0 mA
+20 mA
+0 mA
+20 mA
+(1)
+(2)
+(3)
+(4)
+Ghost phenomenon not seen
+BLANK
+High
+PCHGON
+Signal
+ON
+OFF
+ON
+OFF
+SW
+PMOS1
+SW
+NMOS0
+ON
+OFF
+Low
+GND
+VCHG
+COM1 is GND level.
+COM1 is VLED level.
+COM0 is VLED level.
+COM0 is GND level.
+Disappearing ICHRG
+Timing
+Control
+VCC
+1.4 V (typ)
+-
+VCC
+Figure 7-2. LED Ghost-lighting Mechanism by Pre-charge FET
+7.3.3.2 Improve Output Control Loop Stability
+Large parasitic inductances associated with the outputs of the TLC59283 have the potential of causing current 
+loop instability that can manifest as spurious oscillations. Those parasitic inductances are most commonly 
+associated with long traces or with the use of connectors between boards. The Application Note Improve 
+TLC59283 Control Loop Stability for Appliance Application (SLVAFP4) describes how to minimize instability by 
+compensating the feedback loop with small RC circuits.
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+18
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 19
+8 Register Configuration
+The TLC59283 has a 16-bit shift register and an output on or off data latch. Both the shift register and data latch 
+are 16 bits long and are used to turn the constant-current outputs on and off. Figure 8-1 shows the shift register 
+and data latch configuration. The data at the SIN pin are shifted into the 16-bit shift register LSB at the rising 
+edge of the SCLK pin; SOUT data change at the SCLK rising edge.
+¼
+16-Bit Shift Register (1 Bit
+16 Channels)
+´
+Output On or Off Data Latch (1 Bit
+16 Channels)
+´
+16 Bits
+To Constant-Current Driver Control Block
+¼
+SOUT
+13
+12
+3
+2
+LSB
+On or Off
+Data for
+OUT3
+On or Off
+Data for
+OUT2
+On or Off
+Data for
+OUT13
+On or Off
+Data for
+OUT12
+SIN
+SCLK
+¼
+13
+12
+3
+2
+LSB
+LAT
+15
+14
+On or Off
+Data for
+OUT15
+On or Off
+Data for
+OUT14
+15
+14
+1
+0
+On or Off
+Data for
+OUT1
+On or Off
+Data for
+OUT0
+1
+0
+MSB
+MSB
+On or Off
+Data for
+OUT13
+On or Off
+Data for
+OUT12
+On or Off
+Data for
+OUT15
+On or Off
+Data for
+OUT14
+11
+11
+4
+4
+On or Off
+Data for
+OUT3
+On or Off
+Data for
+OUT2
+On or Off
+Data for
+OUT1
+On or Off
+Data for
+OUT0
+Figure 8-1. 16-Bit Shift Register and Output On or Off Data Latch Configuration
+The output on or off data in the 16-bit shift register continue to transfer to the output on or off data latch while 
+LAT is high. Therefore, if the data in the 16-bit shift register are changed when LAT is high, the data in the data 
+latch are also changed. The data in the data latch are held when LAT is low. When the device initially powers on, 
+the data in the output on or off shift register and latch are not set to default values; on or off control data must 
+be written to the on or off control data latch before turning the constant-current output on. All constant-current 
+outputs are forced off when BLANK is high. The OUTn on or off outputs are controlled by the data in the output 
+on or off data latch. The writing data truth table and timing diagram are shown in Table 8-1 and Figure 8-2, 
+respectively.
+Table 8-1. Truth Table in Operation
+SCLK
+LAT
+BLANK
+SIN
+OUT0…OUT7…OUT15
+SOUT
+↑
+High
+Low
+Dn
+Dn…Dn – 7…Dn – 15
+Dn – 15
+↑
+Low
+Low
+Dn + 1
+No change
+Dn – 14
+↑
+High
+Low
+Dn + 2
+Dn + 2…Dn – 5…Dn – 13
+Dn – 13
+↓
+—
+Low
+Dn + 3
+Dn + 2…Dn – 5…Dn – 13
+Dn – 13
+↓
+—
+High
+Dn + 3
+Off
+Dn – 13
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+19
+Product Folder Links: TLC59283
+
+PAGE 20
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+LAT
+SCLK
+BLANK
+SIN
+OUT0
+OUT1
+D15
+D15
+D2
+D1
+D0
+D3
+D0
+D2
+D1
+D3
+D4
+D5
+D6
+D7
+D8
+D15
+D14
+D13
+D12
+D11
+D10
+D9
+SOUT
+OUT15
+OUT3
+OUT2
+OFF
+ON
+OFF
+ON
+OFF
+ON
+OFF
+ON
+OFF
+ON
+Don’t Care
+¼
+¼
+¼
+¼
+Figure 8-2. Operation Timing Diagram
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+20
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 21
+9 Application and Implementation
+Note
+Information in the following applications sections is not part of the TI component specification, 
+and TI does not warrant its accuracy or completeness. TI’s customers are responsible for 
+determining suitability of components for their purposes, as well as validating and testing their design 
+implementation to confirm system functionality.
+9.1 Application Information
+With the blossoming of AI (Artificial Intelligence) and IoT (Internet of Things), more and more end equipments 
+use larger quantities of LEDs to show different statuses or functions. From the HMI (Human Machine Interface) 
+perspective, LED indication, including LED-based seven-segment, dot-matrix displays, and a large quantity of 
+LED indicators are bringing new dimensions of versatility and eye-pleasing visual effects to a growing number 
+of applications. This application report showcases how to use the TLC59283 to drive seven-segment, dot-matrix 
+displays or a large quantity of LEDs with the advantages of better brightness uniformity, smaller size, and 
+ghosting elimination over current solutions. For additional details see Use TLC59283 for LED Indication with 
+Better Brightness Uniformity, Smaller Size, and Ghosting Elimination
+9.2 Typical Application
+Typical Application Circuit (Multiple Daisy-Chained TLC59283s) shows the typical application schematic for the 
+TLC59283.
+SIN
+SCLK
+LAT
+BLANK
+SOUT
+GND
+VCC
+Device 1
+OUT0
+OUT15
+VCC
+VLED
+VLED
+DATA
+COMSEL1
+SCLK
+LAT
+BLANK
+RIREF
+IREF
+Controller
+3
+COMSEL0
+¼
+COM1
+COM0
+SW
+COM1
+VLED
+COMSELn
+¼
+COMn
+SW
+COMn
+SW
+COM0
+SIN
+SCLK
+LAT
+BLANK
+SOUT
+GND
+VCC
+Device n
+OUT0
+OUT15
+VCC
+RIREF
+IREF
+¼
++
+Typical Application Circuit (Multiple Daisy-Chained TLC59283s)
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+21
+Product Folder Links: TLC59283
+
+PAGE 22
+9.2.1 Design Requirements
+Table 9-1. Design Parameters
+PARAMETER
+VALUE
+Supply Voltage
+3~5.5V
+Output Voltage
+<10V
+Output Current
+<45mA
+Dimming Option
+No dimming option
+9.2.2 Detailed Design Procedure
+This section show how to use the TLC59283 to drive the LED matrix using time-multiplexing topology. To form a 
+time-multiplexing topology, it is necessary to add external switching MOSFETs or transistors. If there is enough 
+I/Os in the system to control the transistors, a block diagram like Figure 8-1 can be used to drive 64 LEDs.
+Figure 9-1. Time-multiplexing Circuit Using TLC59283 and Enough I/Os
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+22
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 23
+If there are not enough I/Os in the system to control the transistors, a block diagram like Figure 8-2 can be used 
+to drive 64 LEDs.
+Figure 9-2. Time-multiplexing Circuit Using TLC59283 and Less I/Os
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+23
+Product Folder Links: TLC59283
+
+PAGE 24
+9.2.3 Application Performance Plots
+Time (20 ns/div)
+G021
+Channel 1
+(5 V/div)
+Channel 2
+(2 V/div)
+Channel 3
+(2 V/div)
+Channel 4
+(2 V/div)
+I
+= 35 mA
+T = +25 C
+R = 110
+C = 15 pF
+VCC = 5 V
+V
+= 5 V
+O
+A
+L
+L
+LED
+W
+°
+CH1-BLANK
+(50 ns)
+CH4-OUT2
+(BLANK = 50 ns)
+CH3-OUT1
+(BLANK = 50 ns)
+CH2-OUT0
+(BLANK = 50 ns)
+Figure 9-3. Constant-current Output Voltage Waveform
+9.3 Power Supply Recommendations
+The device is designed to operate from an input voltage supply range from 3V to 5.5V. This input supply must 
+be well regulated. If the input supply is located more than a few inches from the converter, additional bulk 
+capacitance is required near to the ceramic bypass capacitors. A typical choice is a tantalum or aluminum 
+electrolytic capacitor with a value of 1μF.
+9.4 Layout
+9.4.1 Layout Guidelines
+The input capacitor needs not only to be close to the VIN pin, but also to the GND pin in order to reduce input 
+supply ripple. For OUTx, path outputs must be short and wide and avoid parallel wiring and narrow trace. For 
+better thermal performance, TI suggest to make copper polygon connected with each pin bigger.
+9.4.2 Layout Example
+One TLC59283 can drive up to 16 LEDs directly, so it can replace two 74HC595 and the current limit resistors 
+if driving two seven segment displays. The below figure makes a simple comparison and the PCB size is 65% 
+smaller using the TLC59283. If you are using the QFN package, the size is even smaller.
+Figure 9-4. TLC59283 Layout Example
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+24
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 25
+10 Device and Documentation Support
+TI offers an extensive line of development tools. Tools and software to evaluate the performance of the device, 
+generate code, and develop solutions are listed below.
+10.1 Third-Party Products Disclaimer
+TI'S PUBLICATION OF INFORMATION REGARDING THIRD-PARTY PRODUCTS OR SERVICES DOES NOT 
+CONSTITUTE AN ENDORSEMENT REGARDING THE SUITABILITY OF SUCH PRODUCTS OR SERVICES 
+OR A WARRANTY, REPRESENTATION OR ENDORSEMENT OF SUCH PRODUCTS OR SERVICES, EITHER 
+ALONE OR IN COMBINATION WITH ANY TI PRODUCT OR SERVICE.
+10.2 Documentation Support
+10.2.1 Related Documentation
+•
+TLC59282 Evaluation Module
+•
+Use TLC59283 for LED Indication with Better Brightness Uniformity, Smaller Size, and Ghosting Elimination
+•
+Improve TLC59283 Control Loop Stability for Appliance Application
+10.3 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Notifications to register and receive a weekly digest of any product information that has changed. For change 
+details, review the revision history included in any revised document.
+10.4 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+10.5 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+10.6 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+10.7 Glossary
+TI Glossary 
+This glossary lists and explains terms, acronyms, and definitions.
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+25
+Product Folder Links: TLC59283
+
+PAGE 26
+11 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision B (October 2012) to Revision C (January 2024)
+Page
+•
+Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+•
+Added Improve TLC59283 Control Loop Stability for Appliance Application (SLVAFP4) .pdf link................... 18
+Changes from Revision A (June 2012) to Revision B (October 2012)
+Page
+•
+Changed HBM ESD rating maximum specification in the Absolute Maximum Ratings table.............................5
+•
+Changed ICC2 typical and maximum specifications in Electrical Characteristics table....................................... 7
+•
+Changed ICC3 typical specification in Electrical Characteristics table.................................................................7
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+www.ti.com
+26
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TLC59283
+
+PAGE 27
+12 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+www.ti.com
+TLC59283
+SBVS199C – JUNE 2012 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+27
+Product Folder Links: TLC59283
+
+PAGE 28
+PACKAGE OPTION ADDENDUM
+www.ti.com
+31-Oct-2025
+PACKAGING INFORMATION
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TLC59283DBQ
+Active
+Production
+SSOP (DBQ) | 24
+50 | TUBE
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-40 to 85
+TLC59283
+TLC59283DBQ.A
+Active
+Production
+SSOP (DBQ) | 24
+50 | TUBE
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-40 to 85
+TLC59283
+TLC59283DBQR
+Active
+Production
+SSOP (DBQ) | 24
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-40 to 85
+TLC59283
+TLC59283DBQR.A
+Active
+Production
+SSOP (DBQ) | 24
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-40 to 85
+TLC59283
+TLC59283RGER
+Active
+Production
+VQFN (RGE) | 24
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 85
+TLC
+59283
+TLC59283RGER.A
+Active
+Production
+VQFN (RGE) | 24
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 85
+TLC
+59283
+TLC59283RGET
+Active
+Production
+VQFN (RGE) | 24
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 85
+TLC
+59283
+TLC59283RGET.A
+Active
+Production
+VQFN (RGE) | 24
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 85
+TLC
+59283
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Addendum-Page 1
+
+PAGE 29
+PACKAGE OPTION ADDENDUM
+www.ti.com
+31-Oct-2025
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+
+PAGE 30
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+10-Aug-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+ P1
+B0 W
+A0
+Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1
+Q1
+Q2
+Q2
+Q3
+Q3
+Q4
+Q4
+User Direction of Feed
+P1
+Reel
+Diameter
+ 
+*All dimensions are nominal
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TLC59283DBQR
+SSOP
+DBQ
+24
+2500
+330.0
+16.4
+6.5
+9.0
+2.1
+8.0
+16.0
+Q1
+TLC59283RGER
+VQFN
+RGE
+24
+3000
+330.0
+12.4
+4.25
+4.25
+1.15
+8.0
+12.0
+Q2
+TLC59283RGET
+VQFN
+RGE
+24
+250
+180.0
+12.4
+4.25
+4.25
+1.15
+8.0
+12.0
+Q2
+Pack Materials-Page 1
+
+PAGE 31
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+10-Aug-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W
+L
+H
+ 
+*All dimensions are nominal
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+TLC59283DBQR
+SSOP
+DBQ
+24
+2500
+353.0
+353.0
+32.0
+TLC59283RGER
+VQFN
+RGE
+24
+3000
+346.0
+346.0
+33.0
+TLC59283RGET
+VQFN
+RGE
+24
+250
+210.0
+185.0
+35.0
+Pack Materials-Page 2
+
+PAGE 32
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+10-Aug-2026
+TUBE
+ 
+ 
+L - Tube length
+T - Tube  
+height
+W - Tube  
+width
+B - Alignment groove width
+ 
+ 
+*All dimensions are nominal
+Device
+Package Name
+Package Type
+Pins
+SPQ
+L (mm)
+W (mm)
+T (µm)
+B (mm)
+TLC59283DBQ
+DBQ
+SSOP
+24
+50
+506.6
+8
+3940
+4.32
+TLC59283DBQ.A
+DBQ
+SSOP
+24
+50
+506.6
+8
+3940
+4.32
+Pack Materials-Page 3
+
+PAGE 33
+GENERIC PACKAGE VIEW
+Images above are just a representation of the package family, actual package may vary.
+Refer to the product data sheet for package details.
+RGE 24
+VQFN - 1 mm max height
+PLASTIC QUAD FLATPACK - NO LEAD
+4204104/H
+
+PAGE 34
+NOTES:
+1.
+All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+per ASME Y14.5M.
+2.
+This drawing is subject to change without notice.
+3.
+The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+PACKAGE OUTLINE
+www.ti.com
+4224376 / C   07/2021
+VQFN - 1 mm max height
+PLASTIC QUAD FLATPACK- NO LEAD
+RGE0024C
+A
+0.08 C
+0.1
+C A B
+0.05
+C
+B
+SYMM
+SYMM
+4.1
+3.9
+4.1
+3.9
+PIN 1 INDEX AREA
+1 MAX
+0.05
+0.00
+SEATING PLANE
+C
+2X 2.5
+    2.1±0.1
+2X
+2.5
+20X 0.5
+1
+6
+7
+12
+13
+18
+19
+24
+24X 0.30
+0.18
+24X 0.50
+0.30
+(0.2) TYP
+PIN 1 ID
+(OPTIONAL)
+25
+
+PAGE 35
+NOTES: (continued)
+4.
+This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments
+literature number SLUA271 (www.ti.com/lit/slua271).
+5.
+Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+EXAMPLE BOARD LAYOUT
+4224376 / C   06/2021
+www.ti.com
+VQFN - 1 mm max height
+RGE0024C
+PLASTIC QUAD FLATPACK- NO LEAD
+SYMM
+SYMM
+LAND PATTERN EXAMPLE
+SCALE: 20X
+2X
+(0.8)
+2X(0.8)
+(3.8)
+(    2.1)
+1
+6
+7
+12
+13
+18
+19
+24
+25
+24X (0.6)
+24X (0.24)
+20X (0.5)
+(R0.05)
+SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+0.07 MAX
+ALL AROUND
+0.07 MIN
+ALL AROUND
+METAL
+SOLDER MASK
+OPENING
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+(Ø0.2) VIA
+TYP
+(3.8)
+
+PAGE 36
+NOTES: (continued)
+6.
+Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+design recommendations..
+EXAMPLE STENCIL DESIGN
+4224376 / C   06/2021
+www.ti.com
+VQFN - 1 mm max height
+RGE0024C
+PLASTIC QUAD FLATPACK- NO LEAD
+SYMM
+SYMM
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+EXPOSED PAD
+80% PRINTED COVERAGE BY AREA
+SCALE: 20X
+(3.8)
+(0.57)
+TYP
+(0.57)
+TYP
+4X (   0.94)
+1
+6
+7
+12
+13
+18
+19
+24
+24X (0.24)
+24X (0.6)
+20X (0.5)
+(R0.05) TYP
+METAL
+TYP
+25
+(3.8)
+
+PAGE 37
+
+PAGE 38
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

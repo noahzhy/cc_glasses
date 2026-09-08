@@ -1,0 +1,3050 @@
+PAGE 1
+SN74LVC1G123 Single Retriggerable Monostable Multivibrator
+With Schmitt-Trigger Inputs
+1 Features
+•
+Available in the Texas Instruments
+NanoFree™ Package
+•
+Supports 5V VCC Operation
+•
+Inputs Accept Voltages to 5.5V
+•
+Max tpd of 8ns at 3.3V
+•
+Supports Mixed-Mode Voltage Operation on
+All Ports
+•
+Supports Down Translation to VCC
+•
+Schmitt-Trigger Circuitry on A and B Inputs for 
+Slow Input Transition Rates
+•
+Edge Triggered From Active-High or Active-Low 
+Gated Logic Inputs
+•
+Retriggerable for Very Long Output Pulses, Up to 
+100% Duty Cycle
+•
+Overriding Clear Terminates Output Pulse
+•
+Glitch-Free Power-Up Reset on Outputs
+•
+Ioff Supports Live Insertion, Partial-Power-Down 
+Mode, and Back-Drive Protection
+•
+Latch-Up Performance Exceeds 100 mA Per JESD 
+78, Class II
+•
+ESD Protection Exceeds JESD 22
+–
+2000V Human-Body Model (A114-A)
+–
+200V Machine Model (A115-A)
+–
+1000V Charged-Device Model (C101)
+2 Applications
+•
+AV Receivers
+•
+Blu-ray Players and Home Theaters
+•
+DVD Recorders and Players
+•
+Desktop PCs or Notebook PCs
+•
+Digital Radio and Internet Radio Players
+•
+Digital Video Cameras (DVC)
+•
+Embedded PCs
+•
+GPS: Personal Navigation Devices
+•
+Mobile Internet Devices
+•
+Network Attached Storage (NAS)
+•
+Personal Digital Assistant (PDA)
+•
+Server PSU
+•
+Solid-State Drive (SSD): Client and Enterprise
+•
+Video Analytics Servers
+•
+Wireless Headsets, Keyboards, and Mice
+3 Description
+The SN74LVC1G123 device is a single retriggerable 
+monostable multivibrator designed for 1.65V to 5.5V 
+VCC operation.
+This monostable multivibrator features output pulse-
+duration control by three methods. In the first method, 
+the A input is low, and the B input goes high. In the 
+second method, the B input is high, and the A input 
+goes low. In the third method, the A input is low, the B 
+input is high, and the clear ( CLR) input goes high.
+The output pulse duration is programmed by selecting 
+external resistance and capacitance values. The 
+external timing capacitor must be connected between 
+Cext and Rext/Cext (positive) and an external resistor 
+connected between Rext/Cext and VCC. To obtain 
+variable pulse durations, connect an external variable 
+resistance between Rext/Cext and VCC. The output 
+pulse duration also can be reduced by taking CLR 
+low.
+Pulse triggering occurs at a particular voltage level 
+and is not directly related to the transition time of 
+the input pulse. The A and B inputs have Schmitt 
+triggers with sufficient hysteresis to handle slow input 
+transition rates with jitter-free triggering at the outputs.
+Device Information
+PART NUMBER
+PACKAGE (1)
+BODY SIZE (NOM)
+SN74LVC1G123
+SSOP (8)
+2.95mm × 2.80mm
+VSSOP (8)
+2.30mm × 2.00mm
+DSBGA (8)
+1.91mm × 0.91mm
+(1)
+For all available packages, see the orderable addendum at 
+the end of the data sheet.
+CLR
+Cext
+Rext/Cext
+R
+B
+A
+Q
+1
+2
+3
+7
+6
+5
+Logic Diagram (Positive Logic)
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+PAGE 2
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Pin Configuration and Functions...................................3
+5 Specifications.................................................................. 4
+5.1 Absolute Maximum Ratings........................................ 4
+5.2 ESD Ratings............................................................... 4
+5.3 Recommended Operating Conditions.........................4
+5.4 Thermal Information....................................................5
+5.5 Electrical Characteristics.............................................5
+5.6 Timing Requirements..................................................6
+5.7 Switching Characteristics, CL = 15 pF, –40°C to 
+85°C.............................................................................. 7
+5.8 Switching Characteristics, CL = 50 pF, –40°C to 
+85°C.............................................................................. 7
+5.9 Switching Characteristics, CL = 50 pF, –40°C to 
+125°C............................................................................ 7
+5.10 Operating Characteristics......................................... 8
+5.11 Typical Characteristics.............................................. 9
+6 Parameter Measurement Information..........................10
+7 Detailed Description......................................................12
+7.1 Overview...................................................................12
+7.2 Functional Block Diagram.........................................12
+7.3 Feature Description...................................................12
+7.4 Device Functional Modes..........................................13
+8 Application and Implementation..................................14
+8.1 Application Information............................................. 14
+8.2 Typical Application.................................................... 14
+9 Power Supply Recommendations................................16
+10 Layout...........................................................................16
+10.1 Layout Guidelines................................................... 16
+10.2 Layout Example...................................................... 16
+11 Device and Documentation Support..........................17
+11.1 Documentation Support.......................................... 17
+11.2 Receiving Notification of Documentation Updates..17
+11.3 Support Resources................................................. 17
+11.4 Trademarks............................................................. 17
+11.5 Electrostatic Discharge Caution..............................17
+11.6 Glossary..................................................................17
+12 Revision History.......................................................... 17
+13 Mechanical, Packaging, and Orderable 
+Information.................................................................... 18
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+2
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 3
+4 Pin Configuration and Functions
+3
+2
+4
+5
+1
+A
+VCC
+Rext/Cext
+B
+GND
+CLR
+Cext
+Q
+6
+7
+8
+See mechanical drawings for dimensions.
+Figure 4-1. DCT Package 8-Pin SSOP Top View 
+Cext
+3
+2
+5
+8
+1
+A
+VCC
+B
+GND
+CLR
+Rext/Cext
+Q
+4
+6
+7
+Figure 4-2. DCU Package 8-Pin VSSOP Top View 
+B
+GND
+VCC
+Q
+CLR
+2
+5
+3
+4
+8
+6
+1
+7
+A
+Cext
+Rext/Cext
+Figure 4-3. YZP Package 8-Pin DSBGA Bottom View 
+Table 4-1. Pin Functions
+PIN
+I/O
+DESCRIPTION
+NAME
+NO.
+A
+1
+I
+Falling edge sensitive input; requires B and CLR to be held high.
+B
+2
+I
+Rising edge sensitive input; requires A to be held low and CLR to be held high.
+CLR
+3
+I
+Clear, Active Low; also can operate as rising edge sensitive input if A is held low and B is held high.
+GND
+4
+—
+Ground
+Q
+5
+O
+Output
+Cext
+6
+—
+Connects only to the external capacitor
+Rext/Cext
+7
+—
+Connects to the external capacitor and resistor
+VCC
+8
+—
+Power
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+3
+Product Folder Links: SN74LVC1G123
+
+PAGE 4
+5 Specifications
+5.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1)
+MIN
+MAX
+UNIT
+VCC
+Supply voltage
+–0.5
+6.5
+V
+VI
+Input voltage(2)
+–0.5
+6.5
+V
+VO
+Voltage applied to any output in the high-impedance or power-off state(2)
+–0.5
+6.5
+V
+VO
+Voltage applied to any output in the high or low state(2) (3)
+–0.5
+VCC + 0.5
+V
+IIK
+Input clamp current
+VI < 0
+–50
+mA
+IOK
+Output clamp current
+VO < 0
+–50
+mA
+IO
+Continuous output current
+±50
+mA
+Continuous current through VCC or GND
+±100
+mA
+Tstg
+Storage temperature
+–65
+150
+°C
+(1)
+Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings 
+only, and functional operation of the device at these or any other conditions beyond those indicated under Recommended Operating 
+Conditions is not implied. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+(2)
+The input and output negative-voltage ratings may be exceeded if the input and output clamp-current ratings are observed.
+(3)
+The value of VCC is provided in the Recommended Operating Conditions table.
+5.2 ESD Ratings
+VALUE
+UNIT
+V(ESD)
+Electrostatic discharge
+Human body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)
++2000
+V
+Charged-device model (CDM), per JEDEC specification JESD22-
+C101(2)
++1000
+(1)
+JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)
+JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+5.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)(1)
+MIN
+MAX
+UNIT
+VCC
+Supply voltage
+Operating
+1.65
+5.5
+V
+Data retention only
+1.5
+VIH
+High-level input voltage
+VCC = 1.65 V to 1.95 V
+0.65 × VCC
+V
+VCC = 2.3 V to 2.7 V
+1.7
+VCC = 3 V to 3.6 V
+2
+VCC = 4.5 V to 5.5 V
+0.7 × VCC
+VIL
+Low-level input voltage
+VCC = 1.65 V to 1.95 V
+0.35 × VCC
+V
+VCC = 2.3 V to 2.7 V
+0.7
+VCC = 3 V to 3.6 V
+0.8
+VCC = 4.5 V to 5.5 V
+0.3 × VCC
+VI
+Input voltage
+0
+5.5
+V
+VO
+Output voltage
+0
+VCC
+V
+IOH
+High-level output current
+VCC = 1.65 V
+–4
+mA
+VCC = 2.3 V
+–8
+VCC = 3 V
+–16
+–24
+VCC = 4.5 V
+–32
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+4
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 5
+5.3 Recommended Operating Conditions (continued)
+over operating free-air temperature range (unless otherwise noted)(1)
+MIN
+MAX
+UNIT
+IOL
+Low-level output current
+VCC = 1.65 V
+4
+mA
+VCC = 2.3 V
+8
+VCC = 3 V
+16
+24
+VCC = 4.5 V
+32
+Rext (2)
+External timing resistance
+VCC = 2 V
+5
+kΩ
+VCC ≥ 3 V
+1
+TA
+Operating free-air temperature
+–40
+125
+°C
+(1)
+All unused inputs of the device must be held at VCC or GND to ensure proper device operation. Refer to the TI application report, 
+Implications of Slow or Floating CMOS Inputs, SCBA004.
+(2)
+Rext/Cext is an I/O and must not be connected directly to GND or VCC.
+5.4 Thermal Information
+THERMAL METRIC(1)
+SN74LVC1G123
+UNIT
+DCT (SSOP)
+DCU (VSSOP) YZP (DSBGA)
+8 PINS
+8 PINS
+8 PINS
+RθJA
+Junction-to-ambient thermal resistance
+220
+227
+102
+°C/W
+(1)
+For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report, SPRA953.
+5.5 Electrical Characteristics
+over recommended operating free-air temperature range (unless otherwise noted)
+PARAMETER
+TEST CONDITIONS
+VCC
+–40°C TO 85°C
+–40°C TO 125°C
+UNIT
+MIN
+TYP(1)
+MAX
+MIN
+TYP(1)
+MAX
+VOH
+IOH = –100 µA
+1.65 V to
+5.5 V
+VCC – 0.1
+VCC – 0.1
+V
+IOH = –4 mA
+1.65 V
+1.2
+1.2
+IOH = –8 mA
+2.3 V
+1.9
+1.9
+IOH = –16 mA
+3 V
+2.4
+2.4
+IOH = –24 mA
+2.3
+2.3
+IOH = –32 mA
+4.5 V
+3.8
+3.8
+VOL
+IOL = 100 µA
+1.65 V to
+5.5 V
+0.1
+0.1
+V
+IOL = 4 mA
+1.65 V
+0.45
+0.45
+IOL = 8 mA
+2.3 V
+0.3
+0.3
+IOL = 16 mA
+3 V
+0.4
+0.4
+IOL = 24 mA
+0.55
+0.55
+IOL = 32 mA
+4.5 V
+0.55
+0.55
+II
+Rext/Cext (2)
+B = GND,
+A = CLR = VCC
+1.65 V to
+5.5 V
+±0.25
+±0.25
+µA
+A, B, CLR
+VI = 5.5 V or GND
+±1
+±1
+Ioff
+A, B, Q, CLR
+VI or VO = 5.5 V
+0
+±10
+±10
+µA
+ICC
+Quiescent
+VI = VCC or GND,
+IO = 0
+5.5 V
+20
+20
+µA
+ICC
+Active state
+VI = VCC or GND,
+Rext/Cext = 0.5 VCC
+1.65 V
+165
+165
+µA
+2.3 V
+220
+220
+3 V
+280
+280
+4.5 V
+650
+650
+5.5 V
+975
+975
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+5
+Product Folder Links: SN74LVC1G123
+
+PAGE 6
+5.5 Electrical Characteristics (continued)
+over recommended operating free-air temperature range (unless otherwise noted)
+PARAMETER
+TEST CONDITIONS
+VCC
+–40°C TO 85°C
+–40°C TO 125°C
+UNIT
+MIN
+TYP(1)
+MAX
+MIN
+TYP(1)
+MAX
+CI
+VI = VCC or GND
+3.3 V
+3
+pF
+(1)
+All typical values are at VCC = 3.3 V, TA = 25°C.
+(2)
+This test is performed with the terminal in the OFF-state condition.
+5.6 Timing Requirements
+over recommended operating free-air temperature range (unless otherwise noted) (see Figure 6-1)
+PARAMETER
+TEST CONDITIONS
+–40°C TO 125°C
+UNIT
+VCC = 1.8 V
+± 0.15 V
+VCC = 2.5 V
+± 0.2 V
+VCC = 3.3 V
+± 0.3 V
+VCC = 5 V
+± 0.5 V
+MIN
+TYP
+MIN
+TYP
+MIN
+TYP
+MIN
+TYP
+twIN
+Pulse duration
+CLR
+8
+4
+3
+2.5
+ns
+A or B trigger
+8
+4
+3
+2.5
+trr
+Pulse retrigger time
+Rext = 1 kΩ
+Cext = 100 pF
+5.5
+4.5
+ns
+Cext = 100 µF
+1.4
+1.1
+µs
+Rext = 5 kΩ
+Cext = 100 pF
+75
+45
+ns
+Cext = 100 µF
+1.8
+1.4
+µs
+VCC
+R
+C
+Cext
+Rext/Cext
+Figure 5-1. Required Timing Circuit
+A
+B
+CLR
+Q
+tw
+tw
+tw + trr
+trr
+Rext/Cext
+Figure 5-2. Input/Output Timing Diagram
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+6
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 7
+5.7 Switching Characteristics, CL = 15 pF, –40°C to 85°C
+over recommended operating free-air temperature range, CL = 15 pF (unless otherwise noted) (see Figure 6-1)
+PARAMETER
+FROM
+(INPUT)
+TO
+(OUTPUT)
+–40°C TO 85°C
+UNIT
+VCC = 1.8 V
+± 0.15 V
+VCC = 2.5 V
+± 0.2 V
+VCC = 3.3 V
+± 0.3 V
+VCC = 5 V
+± 0.5 V
+MIN
+TYP
+MAX
+MIN
+MAX
+MIN
+MAX
+MIN
+MAX
+tpd
+A or B
+Q
+7
+18.5
+52
+4
+17
+3
+11.5
+2
+7.6
+ns
+CLR
+5
+12.4
+34
+3
+11.5
+2
+8
+1.5
+5.5
+CLR trigger
+7
+17.4
+54
+4
+15.5
+3
+10.5
+2
+7
+5.8 Switching Characteristics, CL = 50 pF, –40°C to 85°C
+over recommended operating free-air temperature range, CL = 50 pF (unless otherwise noted) (see Figure 6-1)
+PARAMETER
+FROM
+(INPUT)
+TO
+(OUTPUT)
+TEST
+CONDITIONS
+–40°C TO 85°C
+UNIT
+VCC = 1.8 V
+± 0.15 V
+VCC = 2.5 V
+± 0.2 V
+VCC = 3.3 V
+± 0.3 V
+VCC = 5 V
+± 0.5 V
+MIN
+TYP(1)
+MAX
+MIN
+MAX
+MIN
+MAX
+MIN
+MAX
+tpd
+A or B
+Q
+6
+18.6
+57
+3
+18.5
+2
+12.5
+1.5
+8.2
+ns
+CLR
+4
+11.6
+36.5
+2
+12.5
+1.5
+8.6
+1.5
+6
+CLR trigger
+5
+17.3
+59
+2.5
+17
+2
+11.5
+1.5
+7.5
+twOUT(2)
+Q
+Cext = 28 pF,
+Rext = 2 kΩ
+225
+600
+190
+220
+170
+200
+150
+180
+ns
+Cext = 0.01 μF,
+Rext = 10 kΩ
+100
+110
+100
+110
+100
+110
+100
+110
+µs
+Cext = 0.1 μF,
+Rext = 10 kΩ
+1
+1.1
+1
+1.1
+1
+1.1
+1
+1.1
+ms
+(1)
+TA = 25°C
+(2)
+tw = Duration of pulse at Q output
+5.9 Switching Characteristics, CL = 50 pF, –40°C to 125°C
+over recommended operating free-air temperature range, CL = 50 pF (unless otherwise noted) (see Figure 6-1)
+PARAMETER
+FROM
+(INPUT)
+TO
+(OUTPUT)
+TEST
+CONDITIONS
+–40°C TO 125°C
+UNIT
+VCC = 1.8 V
+± 0.15 V
+VCC = 2.5 V
+± 0.2 V
+VCC = 3.3 V
+± 0.3 V
+VCC = 5 V
+± 0.5 V
+MIN
+TYP(1)
+MAX
+MIN
+MAX
+MIN
+MAX
+MIN
+MAX
+tpd
+A or B
+Q
+6
+58
+3
+19.5
+2
+13.2
+1.5
+8.7
+ns
+CLR
+4
+37
+2
+13.5
+1.5
+9.2
+1.5
+6.5
+CLR trigger
+5
+60
+2.5
+18
+2
+12
+1.5
+8
+twOUT(2)
+Q
+Cext = 28 pF,
+Rext = 2 kΩ
+225
+600
+190
+220
+170
+200
+150
+180
+ns
+Cext = 0.01 µF,
+Rext = 10 kΩ
+100
+110
+100
+110
+100
+110
+100
+110
+µs
+Cext = 0.1 µF,
+Rext = 10 kΩ
+1
+1.1
+1
+1.1
+1
+1.1
+1
+1.1
+ms
+(1)
+TA = 25°C
+(2)
+tw = Duration of pulse at Q output
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+7
+Product Folder Links: SN74LVC1G123
+
+PAGE 8
+5.10 Operating Characteristics
+TA = 25°C
+PARAMETER
+TEST CONDITIONS
+VCC = 1.8 V
+VCC = 2.5 V
+VCC = 3.3 V
+VCC = 5 V
+UNIT
+TYP
+TYP
+TYP
+TYP
+Cpd
+Power dissipation
+capacitance
+A = low, B = high,
+CLR = 10 MHz
+Rext = 1 kΩ,
+No Cext
+35
+37
+pF
+Rext = 5 kΩ,
+No Cext
+41
+40
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+8
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 9
+5.11 Typical Characteristics
+over recommended operating free-air temperature range (unless otherwise noted)
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+109
+106
+103
+10
+102
+103
+104
+105
+106
+1
+108
+107
+105
+104
+102
+101
+VCC = 1.8 V
+TA = 25°C
+RL =
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 5-3. Output Pulse Duration
+vs External Timing Capacitance
+109
+106
+103
+1
+108
+107
+105
+104
+102
+101
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+10
+102
+103
+104
+105
+106
+VCC = 3.3 V
+TA = 25°C
+RL =
+1 kΩ
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 5-4. Output Pulse Duration
+vs External Timing Capacitance
+109
+106
+103
+1
+108
+107
+105
+104
+102
+101
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+10
+102
+103
+104
+105
+106
+VCC = 5 V
+TA = 25°C
+RL =
+1 kΩ
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 5-5. Output Pulse Duration
+vs External Timing Capacitance
+tw −Output Pulse Duration Constant −K
+VCC −Supply Voltage −V
+0
+1
+2
+3
+4
+6
+0.9
+0.95
+1
+1.05
+1.1
+1.15
+1.2
+1.25
+1.3
+5
+1000 pF
+0.01
+µ
+F
+0.1
+F
+µ
+µ
+Figure 5-6. Output Pulse Duration Constant
+vs Supply Voltage
+0.01
+10
+1.65
+2.3
+3
+3.3
+4.5
+5
+5.5
+Minimum Retrigger Time −µs
+VCC −Supply Voltage −V
+1000 pF
+0.01 µF
+10 pF
+0.1
+1
+100 pF
+Figure 5-7. Minimum Retrigger Time
+vs Supply Voltage
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+9
+Product Folder Links: SN74LVC1G123
+
+PAGE 10
+6 Parameter Measurement Information
+VM
+th
+tsu
+From Output
+Under Test
+CL
+(see Note A)
+LOAD CIRCUIT
+S1
+VLOAD
+Open
+GND
+RL
+RL
+Data Input
+Timing Input
+VI
+0 V
+VI
+0 V
+0 V
+tw
+Input
+VOLTAGE WAVEFORMS
+SETUP AND HOLD TIMES
+VOLTAGE WAVEFORMS
+PROPAGATION DELAY TIMES
+INVERTING AND NONINVERTING OUTPUTS
+VOLTAGE WAVEFORMS
+PULSE DURATION
+tPLH
+tPHL
+tPHL
+tPLH
+VOH
+VOH
+VOL
+VOL
+VI
+0 V
+Input
+Output
+Waveform 1
+S1 at VLOAD
+(see Note B)
+Output
+Waveform 2
+S1 at GND
+(see Note B)
+VOL
+VOH
+tPZL
+tPZH
+tPLZ
+tPHZ
+VLOAD/2
+0 V
+VOL + V∆
+VOH − V∆
+≈0 V
+VI
+VOLTAGE WAVEFORMS
+ENABLE AND DISABLE TIMES
+LOW- AND HIGH-LEVEL ENABLING
+Output
+Output
+tPLH/tPHL
+tPLZ/tPZL
+tPHZ/tPZH
+Open
+VLOAD
+GND
+TEST
+S1
+NOTES:
+A. CL includes probe and jig capacitance.
+B. Waveform 1 is for an output with internal conditions such that the output is low, except when disabled by the output control.
+Waveform 2 is for an output with internal conditions such that the output is high, except when disabled by the output control.
+C.
+All input pulses are supplied by generators having the following characteristics: PRR ≤ 10 MHz, ZO = 50 Ω.
+D.
+The outputs are measured one at a time, with one transition per measurement.
+E. tPLZ and tPHZ are the same as tdis.
+F. tPZL and tPZH are the same as ten.
+G.
+tPLH and tPHL are the same as tpd.
+H.
+All parameters and waveforms are not applicable to all devices.
+Output
+Control
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VI
+VM
+VM
+1.8 V ± 0.15 V
+2.5 V ± 0.2 V
+3.3 V ± 0.3 V
+5 V ± 0.5 V
+1 MΩ
+1 MΩ
+1 MΩ
+1 MΩ
+VCC
+RL
+2 × VCC
+2 × VCC
+6 V
+2 × VCC
+VLOAD
+CL
+15 pF
+15 pF
+15 pF
+15 pF
+0.15 V
+0.15 V
+0.3 V
+0.3 V
+V∆
+VCC
+VCC
+3 V
+VCC
+VI
+VCC/2
+VCC/2
+1.5 V
+VCC/2
+VM
+tr/tf
+≤2 ns
+≤2 ns
+≤2.5 ns
+≤2.5 ns
+INPUTS
+Figure 6-1. Load Circuit and Voltage Waveforms
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+10
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 11
+VM
+th
+tsu
+From Output
+Under Test
+CL
+(see Note A)
+LOAD CIRCUIT
+S1
+VLOAD
+Open
+GND
+RL
+RL
+Data Input
+Timing Input
+VI
+0 V
+VI
+0 V
+0 V
+tw
+Input
+VOLTAGE WAVEFORMS
+SETUP AND HOLD TIMES
+VOLTAGE WAVEFORMS
+PROPAGATION DELAY TIMES
+INVERTING AND NONINVERTING OUTPUTS
+VOLTAGE WAVEFORMS
+PULSE DURATION
+tPLH
+tPHL
+tPHL
+tPLH
+VOH
+VOH
+VOL
+VOL
+VI
+0 V
+Input
+Output
+Waveform 1
+S1 at VLOAD
+(see Note B)
+Output
+Waveform 2
+S1 at GND
+(see Note B)
+VOL
+VOH
+tPZL
+tPZH
+tPLZ
+tPHZ
+VLOAD/2
+0 V
+VOL + V∆
+VOH − V∆
+≈0 V
+VI
+VOLTAGE WAVEFORMS
+ENABLE AND DISABLE TIMES
+LOW- AND HIGH-LEVEL ENABLING
+Output
+Output
+tPLH/tPHL
+tPLZ/tPZL
+tPHZ/tPZH
+Open
+VLOAD
+GND
+TEST
+S1
+NOTES:
+A. CL includes probe and jig capacitance.
+B. Waveform 1 is for an output with internal conditions such that the output is low, except when disabled by the output control.
+Waveform 2 is for an output with internal conditions such that the output is high, except when disabled by the output control.
+C.
+All input pulses are supplied by generators having the following characteristics: PRR ≤ 10 MHz, ZO = 50 Ω.
+D.
+The outputs are measured one at a time, with one transition per measurement.
+E. tPLZ and tPHZ are the same as tdis.
+F. tPZL and tPZH are the same as ten.
+G.
+tPLH and tPHL are the same as tpd.
+H.
+All parameters and waveforms are not applicable to all devices.
+Output
+Control
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VM
+VI
+VM
+VM
+1.8 V ± 0.15 V
+2.5 V ± 0.2 V
+3.3 V ± 0.3 V
+5 V ± 0.5 V
+1 kΩ
+500 Ω
+500 Ω
+500 Ω
+VCC
+RL
+2 × VCC
+2 × VCC
+6 V
+2 × VCC
+VLOAD
+CL
+30 pF
+30 pF
+50 pF
+50 pF
+0.15 V
+0.15 V
+0.3 V
+0.3 V
+V∆
+VCC
+VCC
+3 V
+VCC
+VI
+VCC/2
+VCC/2
+1.5 V
+VCC/2
+VM
+tr/tf
+≤2 ns
+≤2 ns
+≤2.5 ns
+≤2.5 ns
+INPUTS
+Figure 6-2. Load Circuit and Voltage Waveforms
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+11
+Product Folder Links: SN74LVC1G123
+
+PAGE 12
+7 Detailed Description
+7.1 Overview
+The SN74LVC1G123 device is a single retriggerable monostable multivibrator designed for 1.65-V to 5.5-V VCC 
+operation.
+This monostable multivibrator features output pulse-duration control by three methods. In the first method, the A 
+input is low, and the B input goes high. In the second method, the B input is high, and the A input goes low. In 
+the third method, the A input is low, the B input is high, and the clear ( CLR) input goes high.
+The output pulse duration is programmed by selecting external resistance and capacitance values. The external 
+timing capacitor must be connected between Cext and Rext/Cext (positive) and an external resistor connected 
+between Rext/Cext and VCC. To obtain variable pulse durations, connect an external variable resistance between 
+Rext/Cext and VCC. The output pulse duration also can be reduced by taking CLR low.
+Pulse triggering occurs at a particular voltage level and is not directly related to the transition time of the input 
+pulse. The A and B inputs have Schmitt triggers with sufficient hysteresis to handle slow input transition rates 
+with jitter-free triggering at the outputs.
+Once triggered, the basic pulse duration can be extended by retriggering the gated low-level-active ( A) or 
+high-level-active (B) input. Pulse duration can be reduced by taking CLR low. CLR can be used to override A or 
+B inputs. The input/output timing diagram illustrates pulse control by retriggering the inputs and early clearing.
+The SN74LVC1G123 device is fully specified for partial-power-down applications using Ioff. The Ioff circuitry 
+disables the outputs, preventing damaging current backflow through the device when it is powered down.
+NanoFree™ package technology is a major breakthrough in IC packaging concepts, using the die as the 
+package.
+7.2 Functional Block Diagram
+CLR
+Cext
+Rext/Cext
+R
+B
+A
+Q
+1
+2
+3
+7
+6
+5
+7.3 Feature Description
+This part is available in the Texas Instruments NanoFree™ package. It supports 5-V VCC operation and accepts 
+inputs up to 5.5 V. The max tpd is 8 ns at 3.3 V. It supports mixed-mode voltage operation on all ports.
+Down translation can be achieved to VCC from up to 5.5 V.
+Schmitt-trigger circuitry on A and B inputs allows for slow input transition rates. The device can be edge 
+triggered from active-high or active-low gated logic inputs. It can support up to 100% duty cycle from retriggering.
+Clear can be used to terminate the output pulse early.
+Glitch-free power-up reset is on all outputs.
+Ioff supports live insertion, partial-power-down mode, and back-drive protection.
+Latch-up performance exceeds 100 mA per JESD 78, Class II.
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+12
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 13
+7.4 Device Functional Modes
+Table 7-1 lists the functional modes for the SN74LVC1G123.
+Table 7-1. Function Table
+INPUTS
+OUTPUTS
+Q
+CLR
+A
+B
+L
+X
+X
+L
+X
+H
+X
+L(1)
+X
+X
+L
+L(1)
+H
+L
+↑
+H
+↓
+H
+↑
+L
+H
+(1)
+These outputs are based on the assumption that the indicated 
+steady-state conditions at the A and B inputs have been set up 
+long enough to complete any pulse started before the setup.
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+13
+Product Folder Links: SN74LVC1G123
+
+PAGE 14
+8 Application and Implementation
+Note
+Information in the following applications sections is not part of the TI component specification, 
+and TI does not warrant its accuracy or completeness. TI’s customers are responsible for 
+determining suitability of components for their purposes, as well as validating and testing their design 
+implementation to confirm system functionality.
+8.1 Application Information
+The SN74LVC1G123 can be used for many applications. The application shown here is a switch debounce 
+circuit. Many switches produce multiple triggers when pressed, and the debounce circuit turns the many triggers 
+into one. This circuit takes advantage of the retrigger capability of the SN74LVC1G123 in that the output pulse 
+length only has to be longer than the longest individual bounce (typically less than 1 ms).
+8.2 Typical Application
+7
+6
+1
+5
+2
+3
+8
+R
+C
+4
+A
+B
+CLR
+GND
+VCC
+Rext/Cext
+Cext
+Q
+SN74LVC1G123
+OUTPUT
+VCC
+VCC
+VCC
+S1
+RPU
+Figure 8-1. Typical Application of the SN74LVC1G123
+8.2.1 Design Requirements
+1.
+Recommended Input Conditions:
+•
+For specified high and low levels, see VIH and VIL in Section 5.3.
+•
+Inputs and outputs are overvoltage tolerant, allowing them to go as high as 4.6 V at any valid VCC.
+2.
+Recommended Output Conditions:
+•
+Load current should not exceed values listed in Section 5.3.
+8.2.2 Detailed Design Procedure
+The values for VCC, RPU, R, and C must be selected for proper operation.
+VCC is selected at 1.8 V. This value is usually driven by the logic voltage of the system, but is arbitrary in this 
+case.
+RPU is selected at 10 kΩ.
+R and C are selected via the plots in Section 8.2.3 and are based on the time desired for the output pulse. In this 
+case, the output pulse will be 1 ms. Since the supply voltage has been selected at 1.8 V, Figure 8-2 is used to 
+determine the R and C values required. First convert the desired pulse width (tw), 1 ms, to ns. This yields 106 ns. 
+Next follow that line across to see which R and C values intersect it.
+R is selected at 10 kΩ because that line intersects nicely with 106 ns and 105 pF, making the selection of C at 0.1 
+µF easy.
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+14
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 15
+Table 8-1. Application Specific Values
+PARAMETER
+VALUE
+VCC
+1.8 V
+RPU
+10 kΩ
+tw
+1 ms
+R (Rext)
+10 kΩ
+C (Cext)
+0.1 µF
+In addition to the shown components, a 0.1-µF decoupling capacitor from VCC to ground should be placed as 
+close as possible to the device.
+8.2.3 Application Curves
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+109
+106
+103
+10
+102
+103
+104
+105
+106
+1
+108
+107
+105
+104
+102
+101
+VCC = 1.8 V
+TA = 25°C
+RL =
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 8-2. Output Pulse Duration
+vs External Timing Capacitance
+109
+106
+103
+1
+108
+107
+105
+104
+102
+101
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+10
+102
+103
+104
+105
+106
+VCC = 3.3 V
+TA = 25°C
+RL =
+1 kΩ
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 8-3. Output Pulse Duration
+vs External Timing Capacitance
+109
+106
+103
+1
+108
+107
+105
+104
+102
+101
+tw −Output Pulse Duration −ns
+Cext −External Timing Capacitance −pF
+10
+102
+103
+104
+105
+106
+VCC = 5 V
+TA = 25°C
+RL =
+1 kΩ
+5 kΩ
+10 kΩ
+100 kΩ
+200 kΩ
+Figure 8-4. Output Pulse Duration
+vs External Timing Capacitance
+tw −Output Pulse Duration Constant −K
+VCC −Supply Voltage −V
+0
+1
+2
+3
+4
+6
+0.9
+0.95
+1
+1.05
+1.1
+1.15
+1.2
+1.25
+1.3
+5
+1000 pF
+0.01
+µ
+F
+0.1
+F
+µ
+µ
+Figure 8-5. Output Pulse Duration Constant
+vs Supply Voltage
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+15
+Product Folder Links: SN74LVC1G123
+
+PAGE 16
+0.01
+10
+1.65
+2.3
+3
+3.3
+4.5
+5
+5.5
+Minimum Retrigger Time −µs
+VCC −Supply Voltage −V
+1000 pF
+0.01 µF
+10 pF
+0.1
+1
+100 pF
+Figure 8-6. Minimum Retrigger Time
+vs Supply Voltage
+9 Power Supply Recommendations
+The power supply can be any voltage between the minimum and maximum supply voltage rating listed in the 
+Section 5.3.
+Each VCC terminal should have a good bypass capacitor to prevent power disturbance. For devices with a 
+single supply, a 0.1-μF bypass capacitor is recommended. If multiple pins are labeled VCC, then a 0.01-μF or 
+0.022-μF capacitor is recommended for each VCC because the VCC pins are tied together internally. For devices 
+with dual-supply pins operating at different voltages, for example VCC and VDD, a 0.1-µF bypass capacitor is 
+recommended for each supply pin. To reject different frequencies of noise, use multiple bypass capacitors in 
+parallel. Capacitors with values of 0.1 μF and 1 μF are commonly used in parallel. The bypass capacitor should 
+be installed as close to the power terminal as possible for best results.
+10 Layout
+10.1 Layout Guidelines
+Reflections and matching are closely related to the loop antenna theory but are different enough to be discussed 
+separately from the theory. When a PCB trace turns a corner at a 90° angle, a reflection can occur. A reflection 
+occurs primarily because of the change of width of the trace. At the apex of the turn, the trace width increases 
+to 1.414 times the width. This increase upsets the transmission-line characteristics, especially the distributed 
+capacitance and self–inductance of the trace which results in the reflection. Not all PCB traces can be straight 
+and therefore some traces must turn corners. Figure 10-1 shows progressively better techniques of rounding 
+corners. Only the last example (BEST) maintains constant trace width and minimizes reflections.
+10.2 Layout Example
+WORST
+BETTER
+BEST
+1W min.
+W
+2W
+Figure 10-1. Trace Example
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+16
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 17
+11 Device and Documentation Support
+11.1 Documentation Support
+11.1.1 Related Documentation
+For related documentation see the following:
+Implications of Slow or Floating CMOS Inputs, SCBA004
+11.2 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Notifications to register and receive a weekly digest of any product information that has changed. For change 
+details, review the revision history included in any revised document.
+11.3 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+11.4 Trademarks
+NanoFree™ is a trademark of Texas Instruments.
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+11.5 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+11.6 Glossary
+TI Glossary 
+This glossary lists and explains terms, acronyms, and definitions.
+12 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision D (June 2015) to Revision E (March 2024)
+Page
+•
+Updated format to match new TI layout and flow. Tables, figures and cross-references use a new numbering 
+sequence throughout the document...................................................................................................................1
+Changes from Revision C (October 2013) to Revision D (June 2015)
+Page
+•
+Added Applications, Device Information table, Pin Configuration and Functions section, ESD Ratings table, 
+Typical Characteristics, Feature Description section, Device Functional Modes, Application and 
+Implementation section, Power Supply Recommendations section, Layout section, Device and 
+Documentation Support section, and Mechanical, Packaging, and Orderable Information section ..................1
+•
+Removed duplicate Timing Requirements table ................................................................................................6
+www.ti.com
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+Copyright © 2024 Texas Instruments Incorporated
+Submit Document Feedback
+17
+Product Folder Links: SN74LVC1G123
+
+PAGE 18
+Changes from Revision B (January 2007) to Revision C (October 2013)
+Page
+•
+Updated document to new TI data sheet format................................................................................................ 1
+•
+Updated Features ..............................................................................................................................................1
+•
+Updated operating temperature range............................................................................................................... 4
+•
+Added Thermal Information table....................................................................................................................... 5
+13 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+SN74LVC1G123
+SCES586E – JULY 2004 – REVISED MARCH 2024
+www.ti.com
+18
+Submit Document Feedback
+Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: SN74LVC1G123
+
+PAGE 19
+PACKAGE OPTION ADDENDUM
+www.ti.com
+19-Dec-2025
+PACKAGING INFORMATION
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+74LVC1G123DCTRE4
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTRE4.B
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTRG4
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTRG4.B
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTTE4
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTTE4.B
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTTG4
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCTTG4.B
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23
+(R, Z)
+74LVC1G123DCURE4
+Active
+Production
+VSSOP (DCU) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23R
+74LVC1G123DCURG4
+Active
+Production
+VSSOP (DCU) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23R
+74LVC1G123DCURG4.B
+Active
+Production
+VSSOP (DCU) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23R
+74LVC1G123DCUTG4
+Active
+Production
+VSSOP (DCU) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23R
+74LVC1G123DCUTG4.B
+Active
+Production
+VSSOP (DCU) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+C23R
+SN74LVC1G123DCTR
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-1-260C-UNLIM
+-40 to 125
+(2W95, C23)
+(R, Z)
+SN74LVC1G123DCTR.B
+Active
+Production
+SSOP (DCT) | 8
+3000 | LARGE T&R
+Yes
+SN
+Level-1-260C-UNLIM
+-40 to 125
+(2W95, C23)
+(R, Z)
+SN74LVC1G123DCTT
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-1-260C-UNLIM
+-40 to 125
+(2W95, C23)
+(R, Z)
+SN74LVC1G123DCTT.B
+Active
+Production
+SSOP (DCT) | 8
+250 | SMALL T&R
+Yes
+SN
+Level-1-260C-UNLIM
+-40 to 125
+(2W95, C23)
+(R, Z)
+SN74LVC1G123DCUR
+Active
+Production
+VSSOP (DCU) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-1-260C-UNLIM
+-40 to 125
+(C23J, C23Q, C23R)
+    
+SN74LVC1G123DCUR.B
+Active
+Production
+VSSOP (DCU) | 8
+3000 | LARGE T&R
+Yes
+SN
+Level-1-260C-UNLIM
+-40 to 125
+(C23J, C23Q, C23R)
+    
+Addendum-Page 1
+
+PAGE 20
+PACKAGE OPTION ADDENDUM
+www.ti.com
+19-Dec-2025
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+SN74LVC1G123DCUT
+Active
+Production
+VSSOP (DCU) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-1-260C-UNLIM
+-40 to 125
+(C23J, C23Q, C23R)
+    
+SN74LVC1G123DCUT.B
+Active
+Production
+VSSOP (DCU) | 8
+250 | SMALL T&R
+Yes
+SN
+Level-1-260C-UNLIM
+-40 to 125
+(C23J, C23Q, C23R)
+    
+SN74LVC1G123YZPR
+Active
+Production
+DSBGA (YZP) | 8
+3000 | LARGE T&R
+Yes
+SNAGCU
+Level-1-260C-UNLIM
+-40 to 85
+(D87, D8N)
+SN74LVC1G123YZPR.B
+Active
+Production
+DSBGA (YZP) | 8
+3000 | LARGE T&R
+Yes
+SNAGCU
+Level-1-260C-UNLIM
+-40 to 85
+(D87, D8N)
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+
+PAGE 21
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+15-Jul-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+ P1
+B0 W
+A0
+Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1
+Q1
+Q2
+Q2
+Q3
+Q3
+Q4
+Q4
+User Direction of Feed
+P1
+Reel
+Diameter
+ 
+*All dimensions are nominal
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+74LVC1G123DCTRE4
+SSOP
+DCT
+8
+3000
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+74LVC1G123DCTRG4
+SSOP
+DCT
+8
+3000
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+74LVC1G123DCTTE4
+SSOP
+DCT
+8
+250
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+74LVC1G123DCTTG4
+SSOP
+DCT
+8
+250
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+74LVC1G123DCURG4
+VSSOP
+DCU
+8
+3000
+180.0
+8.4
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+74LVC1G123DCUTG4
+VSSOP
+DCU
+8
+250
+180.0
+8.4
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123DCTR
+SSOP
+DCT
+8
+3000
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+SN74LVC1G123DCTR
+SSOP
+DCT
+8
+3000
+180.0
+12.4
+3.15
+4.35
+1.55
+4.0
+12.0
+Q3
+SN74LVC1G123DCTT
+SSOP
+DCT
+8
+250
+177.8
+12.4
+3.45
+4.4
+1.45
+4.0
+12.0
+Q3
+SN74LVC1G123DCTT
+SSOP
+DCT
+8
+250
+180.0
+12.4
+3.15
+4.35
+1.55
+4.0
+12.0
+Q3
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+178.0
+9.5
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+180.0
+8.4
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+178.0
+9.0
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123DCUT
+VSSOP
+DCU
+8
+250
+178.0
+9.0
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123DCUT
+VSSOP
+DCU
+8
+250
+178.0
+9.5
+2.25
+3.35
+1.05
+4.0
+8.0
+Q3
+SN74LVC1G123YZPR
+DSBGA
+YZP
+8
+3000
+178.0
+9.2
+1.02
+2.02
+0.63
+4.0
+8.0
+Q1
+Pack Materials-Page 1
+
+PAGE 22
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+15-Jul-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W
+L
+H
+ 
+*All dimensions are nominal
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+74LVC1G123DCTRE4
+SSOP
+DCT
+8
+3000
+183.0
+183.0
+20.0
+74LVC1G123DCTRG4
+SSOP
+DCT
+8
+3000
+183.0
+183.0
+20.0
+74LVC1G123DCTTE4
+SSOP
+DCT
+8
+250
+183.0
+183.0
+20.0
+74LVC1G123DCTTG4
+SSOP
+DCT
+8
+250
+183.0
+183.0
+20.0
+74LVC1G123DCURG4
+VSSOP
+DCU
+8
+3000
+202.0
+201.0
+28.0
+74LVC1G123DCUTG4
+VSSOP
+DCU
+8
+250
+202.0
+201.0
+28.0
+SN74LVC1G123DCTR
+SSOP
+DCT
+8
+3000
+183.0
+183.0
+20.0
+SN74LVC1G123DCTR
+SSOP
+DCT
+8
+3000
+190.0
+190.0
+30.0
+SN74LVC1G123DCTT
+SSOP
+DCT
+8
+250
+183.0
+183.0
+20.0
+SN74LVC1G123DCTT
+SSOP
+DCT
+8
+250
+190.0
+190.0
+30.0
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+202.0
+201.0
+28.0
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+202.0
+201.0
+28.0
+SN74LVC1G123DCUR
+VSSOP
+DCU
+8
+3000
+180.0
+180.0
+18.0
+SN74LVC1G123DCUT
+VSSOP
+DCU
+8
+250
+180.0
+180.0
+18.0
+SN74LVC1G123DCUT
+VSSOP
+DCU
+8
+250
+202.0
+201.0
+28.0
+SN74LVC1G123YZPR
+DSBGA
+YZP
+8
+3000
+220.0
+220.0
+35.0
+Pack Materials-Page 2
+
+PAGE 23
+www.ti.com
+PACKAGE OUTLINE
+C
+4.25
+3.95 TYP
+1.3
+1.0
+6X 0.65
+8X 0.30
+0.15
+2X
+1.95
+(0.15) TYP
+0 - 8
+0.2
+0.0
+0.25
+GAGE PLANE
+0.6
+0.2
+A
+3.1
+2.9
+NOTE 3
+B
+3.1
+2.9
+NOTE 4
+4220784/D   10/2025
+SSOP - 1.3 mm max height
+DCT0008A
+SMALL OUTLINE PACKAGE
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+1
+8
+0.13
+C A B
+5
+4
+PIN 1 ID
+AREA
+SEATING PLANE
+0.1 C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  3.500
+
+PAGE 24
+www.ti.com
+EXAMPLE BOARD LAYOUT
+(3.8)
+0.07 MAX
+ALL AROUND
+0.07 MIN
+ALL AROUND
+8X (1.1)
+8X (0.4)
+6X (0.65)
+(R0.05)
+TYP
+4220784/D   10/2025
+SSOP - 1.3 mm max height
+DCT0008A
+SMALL OUTLINE PACKAGE
+SYMM
+SYMM
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:15X
+1
+4
+5
+8
+NOTES: (continued)
+ 
+5. Publication IPC-7351 may have alternate designs. 
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+METAL
+SOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+EXPOSED METAL
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+EXPOSED METAL
+
+PAGE 25
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(3.8)
+6X (0.65)
+8X (0.4)
+8X (1.1)
+4220784/D   10/2025
+SSOP - 1.3 mm max height
+DCT0008A
+SMALL OUTLINE PACKAGE
+NOTES: (continued)
+ 
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+8. Board assembly site may have different recommendations for stencil design.
+ 
+SYMM
+SYMM
+1
+4
+5
+8
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE:15X
+
+PAGE 26
+www.ti.com
+PACKAGE OUTLINE
+C
+6X 0.5
+2X
+1.5
+8X 0.25
+0.17
+3.2
+3.0 TYP
+SEATING
+PLANE
+0.1
+0.0
+0.12
+GAGE PLANE
+0 -6
+0.9
+0.6
+B
+2.4
+2.2
+NOTE 3
+A
+2.1
+1.9
+NOTE 3
+0.35
+0.20
+(0.13) TYP
+VSSOP - 0.9 mm max height
+DCU0008A
+SMALL OUTLINE PACKAGE
+4225266/A   09/2014
+1
+4
+5
+8
+0.08
+C A B
+PIN 1 INDEX AREA
+SEE DETAIL  A
+0.1 C
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. Reference JEDEC registration MO-187 variation CA.
+ 
+A  30
+DETAIL A
+TYPICAL
+SCALE  6.000
+
+PAGE 27
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+ALL AROUND
+0.05 MIN
+ALL AROUND
+8X (0.85)
+8X (0.3)
+6X (0.5)
+(3.1)
+(R0.05) TYP
+VSSOP - 0.9 mm max height
+DCU0008A
+SMALL OUTLINE PACKAGE
+4225266/A   09/2014
+NOTES: (continued)
+ 
+5. Publication IPC-7351 may have alternate designs. 
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE: 25X
+SYMM
+SYMM
+1
+4
+5
+8
+SEE SOLDER MASK
+DETAILS
+15.000
+METAL
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+OPENING
+EXPOSED METAL
+EXPOSED METAL
+SOLDER MASK DETAILS
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+
+PAGE 28
+www.ti.com
+EXAMPLE STENCIL DESIGN
+8X (0.85)
+8X (0.3)
+6X (0.5)
+(3.1)
+(R0.05) TYP
+VSSOP - 0.9 mm max height
+DCU0008A
+SMALL OUTLINE PACKAGE
+4225266/A   09/2014
+NOTES: (continued)
+ 
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+8. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE: 25X
+SYMM
+SYMM
+1
+4
+5
+8
+
+PAGE 29
+www.ti.com
+PACKAGE OUTLINE
+C
+0.5 MAX
+0.19
+0.15
+1.5
+TYP
+0.5 TYP
+8X 
+0.25
+0.21
+0.5
+TYP
+B
+E
+A
+D
+4223082/A   07/2016
+DSBGA - 0.5 mm max height
+YZP0008
+DIE SIZE BALL GRID ARRAY
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+BALL A1
+CORNER
+SEATING PLANE
+BALL TYP
+0.05 C
+B
+1
+2
+0.015
+C A B
+SYMM
+SYMM 
+C
+A
+D
+SCALE  8.000
+D: Max = 
+E: Max = 
+1.918 mm, Min = 
+0.918 mm, Min = 
+1.858 mm
+0.858 mm
+
+PAGE 30
+www.ti.com
+EXAMPLE BOARD LAYOUT
+8X (
+0.23)
+(0.5) TYP
+(0.5) TYP
+(
+0.23)
+METAL
+0.05 MAX
+(
+0.23)
+SOLDER MASK
+OPENING
+0.05 MIN
+4223082/A   07/2016
+DSBGA - 0.5 mm max height
+YZP0008
+DIE SIZE BALL GRID ARRAY
+NOTES: (continued)
+ 
+3. Final dimensions may vary due to manufacturing tolerance considerations and also routing constraints.
+    For more information, see Texas Instruments literature number SNVA009 (www.ti.com/lit/snva009).
+ 
+SYMM
+SYMM
+LAND PATTERN EXAMPLE
+SCALE:40X
+1
+2
+A
+B
+C
+D
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK DETAILS
+NOT TO SCALE
+SOLDER MASK
+OPENING
+SOLDER MASK
+DEFINED
+METAL UNDER
+SOLDER MASK
+
+PAGE 31
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(0.5)
+TYP
+(0.5) TYP
+8X (
+0.25)
+(R0.05) TYP
+METAL
+TYP
+4223082/A   07/2016
+DSBGA - 0.5 mm max height
+YZP0008
+DIE SIZE BALL GRID ARRAY
+NOTES: (continued)
+ 
+4. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release.
+SYMM
+SYMM
+SOLDER PASTE EXAMPLE
+BASED ON 0.1 mm THICK STENCIL
+SCALE:40X
+1
+2
+A
+B
+C
+D
+
+PAGE 32
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

@@ -1,0 +1,146 @@
+{
+  "parser": "gerbonara.LayerStack.open",
+  "native_pcb_geometry_used": false,
+  "preview_projection": "All layers use the board top projection.",
+  "graphic_layers": [
+    "top copper",
+    "top mask",
+    "top silk",
+    "top paste",
+    "bottom copper",
+    "bottom mask",
+    "bottom silk",
+    "inner_1 copper",
+    "inner_2 copper",
+    "mechanical outline"
+  ],
+  "copper_layer_count": 4,
+  "assembly_references": 142,
+  "assembly_copper_lands": 467,
+  "gerber_pad_centers_match_pcb_and_cpl_origin": true,
+  "top_paste_openings": 470,
+  "paste_note": "U1 exposed pad: 4 paste windows, 3 extra openings.",
+  "pd_pin_nets_from_gerber_attributes": {
+    "PD10": {
+      "1": "GND",
+      "2": "PD_IN10"
+    },
+    "PD7": {
+      "1": "GND",
+      "2": "PD_IN7"
+    },
+    "PD9": {
+      "1": "GND",
+      "2": "PD_IN9"
+    },
+    "PD14": {
+      "1": "GND",
+      "2": "PD_IN14"
+    },
+    "PD1": {
+      "1": "GND",
+      "2": "PD_IN1"
+    },
+    "PD12": {
+      "1": "GND",
+      "2": "PD_IN12"
+    },
+    "PD5": {
+      "1": "GND",
+      "2": "PD_IN5"
+    },
+    "PD4": {
+      "1": "GND",
+      "2": "PD_IN4"
+    },
+    "PD3": {
+      "1": "GND",
+      "2": "PD_IN3"
+    },
+    "PD11": {
+      "1": "GND",
+      "2": "PD_IN11"
+    },
+    "PD16": {
+      "1": "GND",
+      "2": "PD_IN16"
+    },
+    "PD2": {
+      "1": "GND",
+      "2": "PD_IN2"
+    },
+    "PD8": {
+      "1": "GND",
+      "2": "PD_IN8"
+    },
+    "PD15": {
+      "1": "GND",
+      "2": "PD_IN15"
+    },
+    "PD13": {
+      "1": "GND",
+      "2": "PD_IN13"
+    },
+    "PD6": {
+      "1": "GND",
+      "2": "PD_IN6"
+    }
+  },
+  "closed_outline_holes": 10,
+  "outline_dangles_cuts_invalid": 0,
+  "outline_centerline_bounds_mm": [
+    33.849412,
+    -118.955476,
+    186.154557,
+    -47.0
+  ],
+  "drills": [
+    {
+      "plated": true,
+      "diameter_mm": 0.3,
+      "count": 341
+    },
+    {
+      "plated": false,
+      "diameter_mm": 0.991,
+      "count": 3
+    },
+    {
+      "plated": false,
+      "diameter_mm": 2.0,
+      "count": 4
+    }
+  ],
+  "drill_total": 348,
+  "separate_pth_npth": true,
+  "plating_source": "Separate layer roles and X2 FileFunction headers",
+  "finish": "ENIG",
+  "thickness_mm": 1.6,
+  "parser_warnings": [
+    "hardware\\ir_glasses\\EVT_E3\\carrier\\manufacturing\\ir_glasses_carrier-NPTH.drl:14 \"G90\": G90 header statement found after end of header",
+    "hardware\\ir_glasses\\EVT_E3\\carrier\\manufacturing\\ir_glasses_carrier-PTH.drl:12 \"G90\": G90 header statement found after end of header"
+  ],
+  "file_sha256": {
+    "ir_glasses_carrier-B_Cu.gbl": "7e9c6c5a4fbeb7ffbc774f2edb2620ca6c23003e681dd7e5139443a00f2dda8b",
+    "ir_glasses_carrier-B_Mask.gbs": "4c7cff726327853d566015e13ec52d57235b3d53b302abadf1cbb758b283243d",
+    "ir_glasses_carrier-B_Silkscreen.gbo": "1fb7707b6972ba42d483324cc68013dee2e9bbd2c31f4a366cc5b208682cb021",
+    "ir_glasses_carrier-Edge_Cuts.gm1": "9d1d30703e1bb03ce60e89915395233706cc363b0ae3e5fda3dc40a1777c6640",
+    "ir_glasses_carrier-F_Cu.gtl": "282ac77e59991b0ef115bde467820c0b8be8f664769b81559036bf718686f49f",
+    "ir_glasses_carrier-F_Mask.gts": "b3a27f4156ae796bc742f5343b1b71d416c0cf305ca2a1cf1a4efb1f4ab7688b",
+    "ir_glasses_carrier-F_Paste.gtp": "e08bc6d74128f1752fb538e8a917a088aa75aff9a5d9bd338afc077375c46873",
+    "ir_glasses_carrier-F_Silkscreen.gto": "39c6c2efbcadee178ea2b2f072ef0bf8bf7e08ec30426bf078b933cb2631781b",
+    "ir_glasses_carrier-In1_Cu.g1": "66414aad3cf9f08582da5189cc9cd2b445c622ec8f98e55df4391e58325356cc",
+    "ir_glasses_carrier-In2_Cu.g2": "b2da44d0e996b6b1c9d67386b670234dd81acd43b660ad243ce03cccf565c046",
+    "ir_glasses_carrier-job.gbrjob": "53420c6c77557875a5a6b1ebc44e9f1c51c5100cf5000427f3cd3a7af63b92ab",
+    "ir_glasses_carrier-NPTH.drl": "6c3933f2bad4ab29fa54313c7c15fb67bd56f0b091fcdf182d2672bc0b2ccb2f",
+    "ir_glasses_carrier-PTH.drl": "1fe6319f9763c7f1c77c5feb6908592cf0e12842c0488529d058f55be99784c5",
+    "positions.csv": "794762e95a67f8f2a864ebee7f821b71252eba9cc69cf795f33a2b93dc2c141d"
+  },
+  "previews": [
+    "manufacturing_review/top_copper.png",
+    "manufacturing_review/bottom_copper.png",
+    "manufacturing_review/inner_1.png",
+    "manufacturing_review/inner_2.png",
+    "manufacturing_review/top_paste.png"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿Eye_front_view,Cell,LED,PD,Main_receiver_PD
+left,1,D1,PD1,PD5
+left,2,D2,PD2,PD6
+left,3,D3,PD3,PD7
+left,4,D4,PD4,PD8
+left,5,D5,PD5,PD1
+left,6,D6,PD6,PD2
+left,7,D7,PD7,PD3
+left,8,D8,PD8,PD4
+right,1,D9,PD9,PD13
+right,2,D10,PD10,PD14
+right,3,D11,PD11,PD15
+right,4,D12,PD12,PD16
+right,5,D13,PD13,PD9
+right,6,D14,PD14,PD10
+right,7,D15,PD15,PD11
+right,8,D16,PD16,PD12

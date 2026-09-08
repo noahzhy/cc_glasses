@@ -1,0 +1,72 @@
+{
+  "revision": "EVT E3",
+  "layout": "Flat upper edge; previous protruding layout superseded",
+  "engineering_checks": "PASS",
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_issues": 0,
+  "assembly_positions": 142,
+  "bom_groups": 33,
+  "all_assembly_front": true,
+  "carrier_coordinates": "IDENTICAL TO UNIT",
+  "source_sha256": {
+    "decoupling.kicad_sch": "6d1f6928d25a59958a8325c9ea737611954f82dc7a8cd78156557d1a9bc49af9",
+    "ir_glasses.kicad_sch": "31275106b3e47918784c1ec7d964d52cc6d5d537071d88a94c67835db69ab8e6",
+    "left.kicad_sch": "b2d751763e9f94369b6892a4f41d7870c9e379f2caa020ae3d3f087b88dac536",
+    "power.kicad_sch": "d13fd7204437d562d4894ae06de85e265579cd99f0afa1b5e6baffb3fe5df355",
+    "protection.kicad_sch": "7c728127b32662e75ea60fb498e22866c969bb9625de61574be2a23413dee2aa",
+    "right.kicad_sch": "e0ad8f52198a6e6c163f1a756b82a1e590ae8e0367629a3a63552296896f1454",
+    "ir_glasses.kicad_pcb": "935e036ae540a0a570e9094cff8fdfb2eeac0c8aeb9bcddc5d543caf8f71a6c1",
+    "ir_glasses.kicad_pro": "9f1cfc96f0e516a0bccd830639efc5d6748b368da707b81733195a953eead60e",
+    "IR_Glasses.kicad_sym": "99471cb43801c850e27c14c28dc39dd8f56b9cdeadfb5c0cb409f41e92a69072",
+    "netlist.xml": "3e6e0287d389fb407f136529cd669eeb665cb520963124327a417c1de2940083",
+    "bom.csv": "3c936d384751fb224e6398f942feca6938314793af1a6b9f49e7f2d5af900ebc"
+  },
+  "previous_e2_board_preserved": true,
+  "inherited_ignored_erc_checks": [
+    {
+      "description": "Global label only appears once in the schematic",
+      "key": "single_global_label"
+    },
+    {
+      "description": "Four connection points are joined together",
+      "key": "four_way_junction"
+    },
+    {
+      "description": "SPICE model issue",
+      "key": "simulation_model_issue"
+    },
+    {
+      "description": "Assigned footprint doesn't match footprint filters",
+      "key": "footprint_filter"
+    }
+  ],
+  "inherited_ignored_drc_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "firmware_binary": "NOT PROVIDED",
+  "electrical_and_optical_bench_tests": "NOT RUN",
+  "domestic_inventory_and_attrition": "UNCONFIRMED",
+  "factory_dfm_and_customer_supplied_j1": "PENDING",
+  "production_release": "HOLD FOR FACTORY AND FIRST ARTICLE RESULTS"
+}

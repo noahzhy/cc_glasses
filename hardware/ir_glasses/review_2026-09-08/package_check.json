@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "8e539bcc4a96798c0a344e5fd5d3325bc76cca670fec2b5941661eea5f60dca2",
+  "files": 150,
+  "manifest_entries": 149,
+  "archive_errors": [],
+  "workspace_differences_from_archive": [],
+  "unit_sha256": "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61",
+  "carrier_sha256": "a05a47f7e3f5b6c1ba6e3de42ff256f66cc71f98a3782a9f8b32db2224623e60"
+}
