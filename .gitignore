@@ -220,3 +220,4 @@ __marimo__/
 hardware/tools/java/
 hardware/tools/pylib/
 docs/*_Log.txt
+.DS_Store
