@@ -1,8 +1,0 @@
-{
-  "zip_sha256": "8e539bcc4a96798c0a344e5fd5d3325bc76cca670fec2b5941661eea5f60dca2",
-  "extracted_to": "C:\\Users\\Haoyu\\AppData\\Local\\Temp\\evt_e2_release_39h3pxdc",
-  "native_unit_and_carrier_drc": "PASS_ZERO",
-  "native_erc": "PASS_ZERO",
-  "nested_fabrication_zips": "PASS_13_FILES_EACH",
-  "jlc_bom_cpl_122_refs": "PASS"
-}

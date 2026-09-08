@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "scope": "Exported geometry and assembly visual inspection only",
+  "unit_sha256": "a3acc70403a9aba85e3b65e1c5422035321e64f74e92749c601f97c4cf8a9a74",
+  "carrier_sha256": "1c3ca98623dc0f862e1fb19515561bf07f9b22055f2587f0555c9c065f170b17",
+  "file_sha256": {
+    "pcb_3d.png": "235408d1b882c98b4cee3d44ae1904294f2cedb7179414e3b1449ecc64fc1a23",
+    "pcb_back.png": "848aabc8a5ace6573b4cbf0eac48a445f41d1cc44cd0093d537218609104bc3b",
+    "assembly_front.png": "2a6b489a52422974f1cdff281b2a40b22e7b26705cfddccb94eceab2163ea9fb",
+    "assembly_back.png": "dbfbfa1834a4c768def4de2c388b8ee37f7573742e6ac625bed5ae3bb341c765",
+    "carrier/pcb_3d.png": "00842e81c9bc8066624995cf2e2bd8eb6fdfb917301998b5dc5ed79656b2c74e",
+    "manufacturing_review/top_copper.png": "4ff741694b4d22d5ed3bbad24a262dae5372a955b6d93381da4b27dc84ac0f7b",
+    "manufacturing_review/bottom_copper.png": "7212fa0c7c2a11b3f5c5144c8d65faec351767d5018b6ffcd553a924ee338adf",
+    "manufacturing_review/inner_1.png": "8b1f9ec9e91320b600ea51eb606f6be622656e6eade139bdc4a012e5f7470a58",
+    "manufacturing_review/inner_2.png": "2131b87d085ed92161545e4cacfa444c8b561b6aae00087c3138b2f4013b4b6e",
+    "manufacturing_review/top_paste.png": "d812301ea3c6098366e78df051944f054f31a58e54a97ab81fa83a717c450aea",
+    "carrier/manufacturing_review/top_copper.png": "f187d78bc7a648e9dddced09a06fa15dfe354ce363afc89601f0af663647e3be",
+    "carrier/manufacturing_review/bottom_copper.png": "f447bb0163ba7870823d58a97e7af3e6e7aef5558e00934dad8e3744d6949910",
+    "carrier/manufacturing_review/inner_1.png": "300541df1f45bdcf73b2e25502affc8f7d6d454851025eb6c2fe3bf3acf1a4d7",
+    "carrier/manufacturing_review/inner_2.png": "fb635054f1c0f5453eb446e41fa9b616f2c250ca14189f1be84d8f0a48f1a338",
+    "carrier/manufacturing_review/top_paste.png": "0febe13e9b64f22c5618c630651a30e724117c59d02dc066a64e6cc4d072a244"
+  },
+  "checked": [
+    "Correct frame orientation and two eye openings",
+    "Front-only assembly and central IMU",
+    "Status LED and straight upper edge; power pocket removed",
+    "Four copper layers and front paste",
+    "Carrier tabs, tooling holes and asymmetric fiducials"
+  ],
+  "factory_dfm": "PENDING",
+  "bench_tests": "NOT RUN",
+  "library_rename_validation": "Existing visual review retained by exact board-text equivalence after library ID and procurement-code normalization; rendered image hashes unchanged. See library_migration.json."
+}

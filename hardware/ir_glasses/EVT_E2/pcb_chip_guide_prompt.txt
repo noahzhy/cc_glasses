@@ -1,8 +1,0 @@
-Tool: built-in image_gen (editing).
-Original reference: pcb_3d.png.
-Final edit reference: C:/Users/Haoyu/.codex/generated_images/01a0736a-3235-70f2-abfa-0a2d2bc11160/exec-1a249e58-945a-46a7-976a-ae8ae7112b92.png
-
-Final prompt:
-Make one precise cleanup of this Chinese PCB chip guide. Preserve ALL PCB pixels/components, every U1-U11 badge, D17 badge, all other Chinese table text and legends exactly in position. Remove only the white 'FB1' overlay text from the board (between U6 and the nearby photodiode). Remove the entire last fourth table row that says 'FB1 · 磁珠｜模拟电源滤波' and its three empty cells, so the table is exactly 4 columns by 3 rows, containing the 11 U chips and D17. Move the black/blue photodiode/LED legend upward just enough to sit neatly below the 3-row table. Do not remove the physical ferrite bead or any physical component. The request is an IC explanation image; the ferrite is not an IC so we omit its annotation. This is text-only cleanup, no PCB redesign, no other badge moves or image changes. Preserve legible exact Chinese.
-
-The annotation image is explanatory only. Native KiCad, Gerber, BOM and fabrication release files were not modified.

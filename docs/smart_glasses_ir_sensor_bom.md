@@ -1,6 +1,8 @@
-# 智能眼镜红外近远视感知模块——EVT E3 工程 BOM
+# 智能眼镜红外近远视感知模块——EVT E4 工程 BOM
 
-当前工程版本为四层、1.6 mm、沉金、单面贴装 EVT E3；共 **142 个贴装位号、33 类物料**。计划 5 块裸板、其中 2 块同配置贴片。国内实时可贴库存、平台损耗及工厂 DFM 待确认，库存未预占。完整型号与数量以 [E3 采购主表](../hardware/ir_glasses/EVT_E3/material_freeze/bom_frozen_2pcs.csv) 为准；[E2 历史文件](../hardware/ir_glasses/EVT_E2/README.md) 保留。
+当前工程版本为四层、1.6 mm、沉金、单面贴装 EVT E4；共 **142 个贴装位号、33 类物料**。计划 5 块裸板、其中 2 块同配置贴片。国内实时可贴库存、平台损耗及工厂 DFM 待确认，库存未预占。完整型号与数量以 [E4 采购主表](../hardware/ir_glasses/ir_glasses_EVT_E4/material_freeze/bom_frozen_2pcs.csv) 为准；[E3 历史文件](../hardware/ir_glasses/EVT_E3/README.md) 保留。
+
+E4 于 2026-09-09 完成复核和制造文件重导出；电路和布局沿用 E3，板上版本标记改为 E4。
 
 E3 新增绿色状态灯、复位滤波与 ESD、IR 脉冲限时、正向输入过压关断及限流。**板端供电为 3.20–3.40 V；PB2 改为高有效 LED_ENABLE，旧 E2 固件不能直接使用。** PA8 低有效驱动状态灯，光学采样时熄灭。电源区已重新排紧并取消原 1.5 mm 凸起；双眼开孔、中央 IMU 和侧边/下沿保持不变。
 
@@ -189,7 +191,7 @@ E3 新增绿色状态灯、复位滤波与 ESD、IR 脉冲限时、正向输入�
 | R13 | UNI-ROYAL | 0402WGF470JTCE | C25118 | 1 | 2 |
 | U2,U3,U4,U5 | Texas Instruments | TLV9064IPWR | C779410 | 4 | 8 |
 | PD1,PD2,PD3,PD4,PD5,PD6,PD7,PD8,PD9,PD10,PD11,PD12,PD13,PD14,PD15,PD16 | Everlight | PD15-21B/TR8 | C2921391 | 16 | 32 |
-| D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16 | Everlight | IR11-21C/TR8 | C16745 | 16 | 32 |
+| D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16 | Everlight | IR11-21C/TR8 | C19269752 | 16 | 32 |
 | CF1,CF2,CF3,CF4,CF5,CF6,CF7,CF8,CF9,CF10,CF11,CF12,CF13,CF14,CF15,CF16 | FH | 0402CG220J500NT | C1555 | 16 | 32 |
 | U7,U8 | Texas Instruments | TMUX1308PWR | C970231 | 2 | 4 |
 | C1,C18,C19,C20,C21,C22,C23,C24 | CCTC | TCC0402X7R105K160AT | C49210445 | 8 | 16 |

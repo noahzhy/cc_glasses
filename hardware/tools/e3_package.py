@@ -4,10 +4,17 @@ import csv
 import hashlib
 import json
 import re
+import shutil
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
 root = Path("hardware/ir_glasses/EVT_E3")
+for table in root.rglob("*.csv"):
+    content = table.read_text(encoding="utf-8-sig")
+    assert "IR_Glasses:" not in content, table
+    assert "KiCad_Library_ID" not in content, table
+    assert "_1005Metric" not in content, table
+    assert "_P0." not in content, table
 
 
 def read(name):
@@ -111,11 +118,55 @@ baseline = root.parent / "EVT_E2/ir_glasses.kicad_pcb"
 assert digest(baseline) == (
     "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61"
 )
+with (root / "material_freeze/bom_smt_all.csv").open(
+    encoding="utf-8-sig", newline=""
+) as stream:
+    upload_bom = list(csv.DictReader(stream))
+with (root / "carrier/positions_jlc.csv").open(
+    encoding="utf-8-sig", newline=""
+) as stream:
+    upload_cpl = list(csv.DictReader(stream))
+bom_refs = [r for row in upload_bom for r in row["Designator"].split(",")]
+assert len(upload_bom) == 33
+assert len(bom_refs) == len(set(bom_refs)) == 142
+assert set(bom_refs) == {row["Designator"] for row in upload_cpl}
+assert all(row["Layer"] == "Top" for row in upload_cpl)
+assert sum(int(row["Quantity"]) for row in upload_bom) == 142
+assert all(":" not in row["Footprint"] for row in upload_bom)
+assert [row["Designator"] for row in upload_bom if not row["LCSC Part #"]] == [
+    "J1"
+]
+upload_files = {
+    "01_Gerber_carrier.zip": root
+    / "carrier/ir_glasses_carrier_fabrication.zip",
+    "02_BOM.csv": root / "material_freeze/bom_smt_all.csv",
+    "03_CPL.csv": root / "carrier/positions_jlc.csv",
+    "04_Optical_assembly.pdf": root / "optical_assembly.pdf",
+    "05_Assembly_front.png": root / "assembly_front.png",
+    "06_Carrier_review.png": root / "carrier/carrier_review.png",
+    "README.md": root / "pre_smt_final_check.md",
+}
+upload_target = root.parent / "ir_glasses_EVT_E3_JLC_upload.zip"
+with ZipFile(upload_target, "w", ZIP_DEFLATED) as archive:
+    for name, path in upload_files.items():
+        archive.write(path, name)
+    archive.writestr(
+        "SHA256SUMS.txt",
+        "\n".join(f"{digest(p)}  {n}" for n, p in upload_files.items()) + "\n",
+    )
+with ZipFile(upload_target) as archive:
+    assert archive.testzip() is None
+    for name, path in upload_files.items():
+        assert archive.read(name) == path.read_bytes()
+upload_target.with_suffix(".zip.sha256").write_text(
+    f"{digest(upload_target)}  {upload_target.name}\n", encoding="utf-8"
+)
+shutil.copy2(upload_target, root / "JLC_upload.zip")
 sources = [
     *root.glob("*.kicad_sch"),
     root / "ir_glasses.kicad_pcb",
     root / "ir_glasses.kicad_pro",
-    root / "IR_Glasses.kicad_sym",
+    root / "libraries/S.kicad_sym",
     root / "netlist.xml",
     root / "bom.csv",
 ]
@@ -130,6 +181,9 @@ validation = {
     "assembly_positions": 142,
     "bom_groups": 33,
     "all_assembly_front": True,
+    "jlc_upload_bom_cpl_identity": True,
+    "jlc_upload_sha256": digest(upload_target),
+    "jlc_actual_order_matching": "NOT PERFORMED",
     "carrier_coordinates": "IDENTICAL TO UNIT",
     "source_sha256": {p.name: digest(p) for p in sources},
     "previous_e2_board_preserved": True,
@@ -154,7 +208,8 @@ assembly_front.svg assembly_back.svg assembly_front.png assembly_back.png
 optical_assembly.pdf mechanical_dimensions.pdf mechanical_dimensions.svg
 physical_summary.json electrical_metrics.json visual_review.json
 gerber_validation.json validation.json erc.json drc.json release_checklist.csv
-ir_glasses_unit_reference.zip
+ir_glasses_unit_reference.zip library_migration.json library_link_validation.json
+JLC_upload.zip
 """.split()
 files.update(root / n for n in names)
 for directory in [
@@ -174,8 +229,10 @@ ir_glasses_carrier_fabrication.zip
 """.split()
 files.update(root / "carrier" / n for n in carrier_names)
 board = (root / "ir_glasses.kicad_pcb").read_text(encoding="utf-8")
-footprints = set(re.findall(r'\(footprint\s+"IR_Glasses:([^"]+)"', board))
-files.update(root / "IR_Glasses.pretty" / f"{n}.kicad_mod" for n in footprints)
+footprints = set(re.findall(r'\(footprint\s+"([^"]+)"', board))
+for footprint in footprints:
+    library, name = footprint.split(":")
+    files.add(root / "libraries" / f"{library}.pretty" / f"{name}.kicad_mod")
 models = set(re.findall(r'\(model\s+"\$\{KIPRJMOD\}/([^"]+)"', board))
 files.update(root / n for n in models)
 assert all(p.is_file() for p in files)
@@ -199,6 +256,11 @@ with ZipFile(target) as archive:
         )
 target.with_suffix(".zip.sha256").write_text(
     f"{digest(target)}  {target.name}\n", encoding="utf-8"
+)
+complete = root.parent / "ir_glasses_EVT_E3_complete.zip"
+shutil.copy2(target, complete)
+complete.with_suffix(".zip.sha256").write_text(
+    f"{digest(complete)}  {complete.name}\n", encoding="utf-8"
 )
 print(
     json.dumps(

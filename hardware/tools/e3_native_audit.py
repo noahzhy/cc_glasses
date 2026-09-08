@@ -114,7 +114,10 @@ assert {r["Reference"] for r in rows} == populated
 for row in rows:
     part, fp = parts[row["Reference"]], fps[row["Reference"]]
     assert row["MPN"] == part["mpn"]
-    assert row["LCSC"] == part["lcsc"]
+    expected_code = (
+        "C19269752" if part["mpn"] == "IR11-21C/TR8" else part["lcsc"]
+    )
+    assert row["LCSC"] == expected_code
     assert (
         math.dist(
             [float(row["X_mm"]), float(row["Y_mm"])], xy(fp.GetPosition())

@@ -1,0 +1,386 @@
+[
+  {
+    "ref": "PD4",
+    "pin": "2",
+    "edge_clearance_mm": 0.49995880942369464,
+    "inside_board": true
+  },
+  {
+    "ref": "PD12",
+    "pin": "1",
+    "edge_clearance_mm": 0.49995880942369947,
+    "inside_board": true
+  },
+  {
+    "ref": "PD4",
+    "pin": "1",
+    "edge_clearance_mm": 0.4999619987622188,
+    "inside_board": true
+  },
+  {
+    "ref": "PD12",
+    "pin": "2",
+    "edge_clearance_mm": 0.49996199876222325,
+    "inside_board": true
+  },
+  {
+    "ref": "D3",
+    "pin": "2",
+    "edge_clearance_mm": 0.499970395618005,
+    "inside_board": true
+  },
+  {
+    "ref": "D11",
+    "pin": "1",
+    "edge_clearance_mm": 0.4999703956180062,
+    "inside_board": true
+  },
+  {
+    "ref": "D7",
+    "pin": "1",
+    "edge_clearance_mm": 0.4999707660993057,
+    "inside_board": true
+  },
+  {
+    "ref": "D10",
+    "pin": "1",
+    "edge_clearance_mm": 0.49997276809345115,
+    "inside_board": true
+  },
+  {
+    "ref": "D2",
+    "pin": "2",
+    "edge_clearance_mm": 0.49997276809345287,
+    "inside_board": true
+  },
+  {
+    "ref": "PD2",
+    "pin": "2",
+    "edge_clearance_mm": 0.49997330858028755,
+    "inside_board": true
+  },
+  {
+    "ref": "PD10",
+    "pin": "1",
+    "edge_clearance_mm": 0.49997345606742855,
+    "inside_board": true
+  },
+  {
+    "ref": "D15",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999790447513859,
+    "inside_board": true
+  },
+  {
+    "ref": "D7",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999851912413412,
+    "inside_board": true
+  },
+  {
+    "ref": "D11",
+    "pin": "2",
+    "edge_clearance_mm": 0.499986900303339,
+    "inside_board": true
+  },
+  {
+    "ref": "D3",
+    "pin": "1",
+    "edge_clearance_mm": 0.49998690030334153,
+    "inside_board": true
+  },
+  {
+    "ref": "PD11",
+    "pin": "1",
+    "edge_clearance_mm": 0.49998705435833984,
+    "inside_board": true
+  },
+  {
+    "ref": "D2",
+    "pin": "1",
+    "edge_clearance_mm": 0.49998718458548363,
+    "inside_board": true
+  },
+  {
+    "ref": "D10",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999871845854852,
+    "inside_board": true
+  },
+  {
+    "ref": "PD2",
+    "pin": "1",
+    "edge_clearance_mm": 0.4999879602664579,
+    "inside_board": true
+  },
+  {
+    "ref": "PD10",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999881077535958,
+    "inside_board": true
+  },
+  {
+    "ref": "PD3",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999886458127465,
+    "inside_board": true
+  },
+  {
+    "ref": "D15",
+    "pin": "1",
+    "edge_clearance_mm": 0.4999961542344156,
+    "inside_board": true
+  },
+  {
+    "ref": "D14",
+    "pin": "2",
+    "edge_clearance_mm": 0.4999971236296139,
+    "inside_board": true
+  },
+  {
+    "ref": "D6",
+    "pin": "1",
+    "edge_clearance_mm": 0.49999721524685564,
+    "inside_board": true
+  },
+  {
+    "ref": "PD11",
+    "pin": "2",
+    "edge_clearance_mm": 0.49999979258413924,
+    "inside_board": true
+  },
+  {
+    "ref": "PD3",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000059915923575,
+    "inside_board": true
+  },
+  {
+    "ref": "D14",
+    "pin": "1",
+    "edge_clearance_mm": 0.500012118953944,
+    "inside_board": true
+  },
+  {
+    "ref": "D6",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000122105711856,
+    "inside_board": true
+  },
+  {
+    "ref": "PD7",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000128047656514,
+    "inside_board": true
+  },
+  {
+    "ref": "D16",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000205457946426,
+    "inside_board": true
+  },
+  {
+    "ref": "D16",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000282794038121,
+    "inside_board": true
+  },
+  {
+    "ref": "PD7",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000300758126405,
+    "inside_board": true
+  },
+  {
+    "ref": "PD1",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000369914539835,
+    "inside_board": true
+  },
+  {
+    "ref": "PD15",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000396511660767,
+    "inside_board": true
+  },
+  {
+    "ref": "PD1",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000413063005333,
+    "inside_board": true
+  },
+  {
+    "ref": "PD5",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000423058476158,
+    "inside_board": true
+  },
+  {
+    "ref": "PD13",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000423058476239,
+    "inside_board": true
+  },
+  {
+    "ref": "D12",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000445450113172,
+    "inside_board": true
+  },
+  {
+    "ref": "D4",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000445450113172,
+    "inside_board": true
+  },
+  {
+    "ref": "D12",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000542546490346,
+    "inside_board": true
+  },
+  {
+    "ref": "D4",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000542546490346,
+    "inside_board": true
+  },
+  {
+    "ref": "D13",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000569264967757,
+    "inside_board": true
+  },
+  {
+    "ref": "D5",
+    "pin": "1",
+    "edge_clearance_mm": 0.5000569264967758,
+    "inside_board": true
+  },
+  {
+    "ref": "PD15",
+    "pin": "2",
+    "edge_clearance_mm": 0.5000585432445152,
+    "inside_board": true
+  },
+  {
+    "ref": "PD8",
+    "pin": "1",
+    "edge_clearance_mm": 0.5013027205080363,
+    "inside_board": true
+  },
+  {
+    "ref": "D9",
+    "pin": "2",
+    "edge_clearance_mm": 0.5033351055825643,
+    "inside_board": true
+  },
+  {
+    "ref": "PD14",
+    "pin": "1",
+    "edge_clearance_mm": 0.5165052872406272,
+    "inside_board": true
+  },
+  {
+    "ref": "PD6",
+    "pin": "2",
+    "edge_clearance_mm": 0.5165054622284063,
+    "inside_board": true
+  },
+  {
+    "ref": "PD13",
+    "pin": "1",
+    "edge_clearance_mm": 0.5254522478165079,
+    "inside_board": true
+  },
+  {
+    "ref": "PD5",
+    "pin": "2",
+    "edge_clearance_mm": 0.5254522478165119,
+    "inside_board": true
+  },
+  {
+    "ref": "D1",
+    "pin": "2",
+    "edge_clearance_mm": 0.5255345249316342,
+    "inside_board": true
+  },
+  {
+    "ref": "PD14",
+    "pin": "2",
+    "edge_clearance_mm": 0.5269936248147148,
+    "inside_board": true
+  },
+  {
+    "ref": "PD6",
+    "pin": "1",
+    "edge_clearance_mm": 0.5269938639827675,
+    "inside_board": true
+  },
+  {
+    "ref": "D5",
+    "pin": "2",
+    "edge_clearance_mm": 0.5328111635838466,
+    "inside_board": true
+  },
+  {
+    "ref": "D13",
+    "pin": "1",
+    "edge_clearance_mm": 0.5328111635838642,
+    "inside_board": true
+  },
+  {
+    "ref": "PD9",
+    "pin": "1",
+    "edge_clearance_mm": 0.5335053971078819,
+    "inside_board": true
+  },
+  {
+    "ref": "D8",
+    "pin": "2",
+    "edge_clearance_mm": 0.5341625879030187,
+    "inside_board": true
+  },
+  {
+    "ref": "D8",
+    "pin": "1",
+    "edge_clearance_mm": 0.5356075645543134,
+    "inside_board": true
+  },
+  {
+    "ref": "PD16",
+    "pin": "1",
+    "edge_clearance_mm": 0.5362969536643262,
+    "inside_board": true
+  },
+  {
+    "ref": "PD9",
+    "pin": "2",
+    "edge_clearance_mm": 0.5365271354992477,
+    "inside_board": true
+  },
+  {
+    "ref": "D9",
+    "pin": "1",
+    "edge_clearance_mm": 0.5445235292452395,
+    "inside_board": true
+  },
+  {
+    "ref": "D1",
+    "pin": "1",
+    "edge_clearance_mm": 0.5499118775034446,
+    "inside_board": true
+  },
+  {
+    "ref": "PD8",
+    "pin": "2",
+    "edge_clearance_mm": 0.5694824282220828,
+    "inside_board": true
+  },
+  {
+    "ref": "PD16",
+    "pin": "2",
+    "edge_clearance_mm": 0.6129149703599897,
+    "inside_board": true
+  }
+]

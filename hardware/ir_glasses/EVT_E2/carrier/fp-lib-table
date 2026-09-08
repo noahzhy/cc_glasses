@@ -1,1 +1,0 @@
-(fp_lib_table (version 7) (lib (name "IR_Glasses") (type "KiCad") (uri "${KIPRJMOD}/../IR_Glasses.pretty") (options "") (descr "Everlight datasheet land patterns")))

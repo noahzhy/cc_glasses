@@ -1,0 +1,6 @@
+#VRML V2.0 utf8
+# Dimension model, not an optical simulation.
+Transform { translation 0.000000000 0.000000000 0.216535433 children [ Shape { appearance Appearance { material Material { diffuseColor .06 .06 .07 } } geometry Box { size 1.259842520 0.590551181 0.433070866 } } ] }
+Transform { translation -0.531496063 0.000000000 0.118110236 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Box { size 0.196850394 0.590551181 0.236220472 } } ] }
+Transform { translation 0.531496063 0.000000000 0.118110236 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .7 .72 } } geometry Box { size 0.196850394 0.590551181 0.236220472 } } ] }
+Transform { translation -0.374015748 0.000000000 0.431102362 children [ Shape { appearance Appearance { material Material { diffuseColor .75 .75 .75 } } geometry Box { size 0.059055118 0.511811024 0.003937008 } } ] }

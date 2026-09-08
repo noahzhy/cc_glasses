@@ -1,0 +1,11 @@
+{
+  "native_pad_track_transform": "IDENTITY",
+  "assembly_references": 142,
+  "additional_mechanical_features": 7,
+  "closed_outline_count": 1,
+  "cutout_count": 10,
+  "assembly_coordinates_identical": true,
+  "unit_sha256": "bec3b0a1fa09a4be2f1de19c0d27f7664a90701a3d46617aa8d441ad3c5223f4",
+  "carrier_sha256": "61ec94dd6609809c8fbd7729d95fefa2ee6dae971b30a0cfb98d63ab3ba6bf5a",
+  "factory_dfm": "PENDING"
+}
