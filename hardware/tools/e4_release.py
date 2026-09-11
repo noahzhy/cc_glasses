@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -22,9 +23,7 @@ def rename(text):
 
 
 def prepare():
-    assert not (ROOT / "revision_validation.json").exists(), (
-        "E4 already prepared."
-    )
+    assert not (ROOT / "revision_validation.json").exists(), "E4 already prepared."
     manifest = (BASE / "SHA256SUMS.txt").read_text().splitlines()
     names = [line.split("  ", 1)[1] for line in manifest]
     for name in names:
@@ -38,9 +37,7 @@ def prepare():
         if source.suffix in {".kicad_pcb", ".kicad_sch", ".kicad_pro", ".md"}:
             text = rename(source.read_text(encoding="utf-8"))
             if source.suffix == ".kicad_sch":
-                text = text.replace(
-                    '(date "2026-09-08")', '(date "2026-09-09")'
-                )
+                text = text.replace('(date "2026-09-08")', '(date "2026-09-09")')
             target.write_text(text, encoding="utf-8")
         else:
             shutil.copy2(source, target)
@@ -65,6 +62,10 @@ def prepare():
 
 
 def run(action):
+    supplied_bom = ROOT / "material_freeze/bom.xlsx"
+    if action == "bom" and supplied_bom.exists():
+        print(f"Using supplied production BOM: {supplied_bom}")
+        return
     source = TOOLS / f"e3_{action}.py"
     code = source.read_text(encoding="utf-8")
     code = code.replace('"hardware/ir_glasses/EVT_E3"', f'"{ROOT.as_posix()}"')
@@ -84,9 +85,7 @@ def run(action):
     if action == "package":
         code = code.replace(
             "36c26f43aae805d3afd3a7bfce988f489224c2a009d85e95be4e5db28ccbac61",
-            hashlib.sha256(
-                (BASE / "ir_glasses.kicad_pcb").read_bytes()
-            ).hexdigest(),
+            hashlib.sha256((BASE / "ir_glasses.kicad_pcb").read_bytes()).hexdigest(),
         )
         code = code.replace(
             "previous_e2_board_preserved", "previous_e3_board_preserved"
@@ -101,6 +100,11 @@ def run(action):
         compile(code, str(source), "exec"),
         {"__name__": "__main__", "__file__": str(source)},
     )
+    if action == "package" and supplied_bom.exists():
+        python = Path.home() / (
+            ".cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        )
+        subprocess.run([str(python), str(TOOLS / "e4_adopt_bom.py")], check=True)
 
 
 if __name__ == "__main__":

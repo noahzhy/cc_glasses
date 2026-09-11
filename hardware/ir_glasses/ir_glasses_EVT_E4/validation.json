@@ -10,7 +10,7 @@
   "bom_groups": 33,
   "all_assembly_front": true,
   "jlc_upload_bom_cpl_identity": true,
-  "jlc_upload_sha256": "e1d28d24dc44c14f8ee0ada486b8084dce40fcbcc987408cd0e3afb18a2835ab",
+  "jlc_upload_sha256": "6f7795e5922569045ca8d9508c1232c6fcb18bd414f8709e2b465ef10e64e83f",
   "jlc_actual_order_matching": "NOT PERFORMED",
   "carrier_coordinates": "IDENTICAL TO UNIT",
   "source_sha256": {
@@ -71,5 +71,35 @@
   "electrical_and_optical_bench_tests": "NOT RUN",
   "domestic_inventory_and_attrition": "UNCONFIRMED",
   "factory_dfm_and_customer_supplied_j1": "PENDING",
-  "production_release": "HOLD FOR FACTORY AND FIRST ARTICLE RESULTS"
+  "production_release": "HOLD FOR FACTORY AND FIRST ARTICLE RESULTS",
+  "production_bom": {
+    "source": "hardware\\ir_glasses\\bom.xlsx",
+    "sha256": "6bc665823dfcb938369596612c35eb9bc64bbcbefd441f61f654c1caba533f1d",
+    "groups": 33,
+    "references": 142,
+    "two_board_quantity": 284,
+    "cpl_identity": true,
+    "procurement_overrides": [
+      {
+        "reference": "R11",
+        "previous_mpn": "0402WGF1000TCE",
+        "mpn": "RC0402FR-07100RL",
+        "lcsc": "C106232"
+      },
+      {
+        "reference": "R12",
+        "previous_mpn": "0402WGF1000TCE",
+        "mpn": "RC0402FR-07100RL",
+        "lcsc": "C106232"
+      },
+      {
+        "reference": "R14",
+        "previous_mpn": "0402WGF1000TCE",
+        "mpn": "RC0402FR-07100RL",
+        "lcsc": "C106232"
+      }
+    ],
+    "pcb_modified": false,
+    "live_stock": "NOT RECHECKED"
+  }
 }

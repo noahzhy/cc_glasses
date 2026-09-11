@@ -36,7 +36,7 @@ IR LED 型号 IR11-21C/TR8，编码 C19269752；PD 型号 PD15-21B/TR8，编码 
 
 ## 向嘉立创提交
 
-解压 JLC_upload.zip，分别提交 01_Gerber_carrier.zip、02_BOM.csv、03_CPL.csv。
+解压 JLC_upload.zip，分别提交 01_Gerber_carrier.zip、02_BOM.xlsx、03_CPL.csv。
 BOM 数量为每板数量，平台订单选择 2 块贴片，不要手动把 BOM 数量翻倍。
 J1 的 C 编码留空，按指定自备料匹配并确认工厂接收；不要删掉 J1 后继续使用完整坐标表。
 BOM Footprint 是纯规格；主工程使用有效短库关联，如 C:0402、IC:TSSOP-14。
@@ -53,3 +53,13 @@ BOM Footprint 是纯规格；主工程使用有效短库关联，如 C:0402、IC
 R18/R19 指定 0.1% 精度不得降级；IR 光学性能和眼部使用安全仍待实测，不能用 DRC 通过替代。
 
 当前 DRC 继承忽略 missing_courtyard、track_not_centered_on_via、tuning_profile_track_geometries、footprint_filters_mismatch、footprint_type_mismatch；ERC 忽略单个全局标签、四向结点、仿真模型和封装筛选提示。完整规则见 erc.json / drc.json，工厂 DFM 待签核。
+
+
+# 当前生产 BOM
+
+以用户提供的 [bom.xlsx](bom.xlsx) 为准，原文件格式和内容完整保留。
+33 类物料、142 个正面贴装位号；5 块裸板，其中 2 块贴片，净用 284 颗。
+R11/R12/R14 采购替换为 YAGEO RC0402FR-07100RL / C106232，100 Ω、1%、0402；原工程中的旧订货属性仅作设计历史参考，采购以本工作簿为准。PCB 焊盘、布线和电阻阻值未改动。
+同目录 CSV 是由本表同步的兼容副本，不是独立采购来源。
+J1 仍为自备料；库存是工作簿内快照，实时锁料、损耗和工厂接收待确认。
+平台导入时将元件位号、制造商料号、立创商城料号、封装、单板数量映射到对应列，订单选 2 块贴片；不要用两块板净用量作为单板数量。

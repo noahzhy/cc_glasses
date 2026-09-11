@@ -1,0 +1,30 @@
+{
+  "source": "hardware\\ir_glasses\\bom.xlsx",
+  "sha256": "6bc665823dfcb938369596612c35eb9bc64bbcbefd441f61f654c1caba533f1d",
+  "groups": 33,
+  "references": 142,
+  "two_board_quantity": 284,
+  "cpl_identity": true,
+  "procurement_overrides": [
+    {
+      "reference": "R11",
+      "previous_mpn": "0402WGF1000TCE",
+      "mpn": "RC0402FR-07100RL",
+      "lcsc": "C106232"
+    },
+    {
+      "reference": "R12",
+      "previous_mpn": "0402WGF1000TCE",
+      "mpn": "RC0402FR-07100RL",
+      "lcsc": "C106232"
+    },
+    {
+      "reference": "R14",
+      "previous_mpn": "0402WGF1000TCE",
+      "mpn": "RC0402FR-07100RL",
+      "lcsc": "C106232"
+    }
+  ],
+  "pcb_modified": false,
+  "live_stock": "NOT RECHECKED"
+}

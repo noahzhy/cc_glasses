@@ -1,6 +1,6 @@
 # 智能眼镜红外近远视感知模块——EVT E4 工程 BOM
 
-当前工程版本为四层、1.6 mm、沉金、单面贴装 EVT E4；共 **142 个贴装位号、33 类物料**。计划 5 块裸板、其中 2 块同配置贴片。国内实时可贴库存、平台损耗及工厂 DFM 待确认，库存未预占。完整型号与数量以 [E4 采购主表](../hardware/ir_glasses/ir_glasses_EVT_E4/material_freeze/bom_frozen_2pcs.csv) 为准；[E3 历史文件](../hardware/ir_glasses/EVT_E3/README.md) 保留。
+当前工程版本为四层、1.6 mm、沉金、单面贴装 EVT E4；共 **142 个贴装位号、33 类物料**。计划 5 块裸板、其中 2 块同配置贴片。国内实时可贴库存、平台损耗及工厂 DFM 待确认，库存未预占。完整型号与数量以 [E4 采购主表](../hardware/ir_glasses/ir_glasses_EVT_E4/material_freeze/bom.xlsx) 为准；[E3 历史文件](../hardware/ir_glasses/EVT_E3/README.md) 保留。
 
 E4 于 2026-09-09 完成复核和制造文件重导出；电路和布局沿用 E3，板上版本标记改为 E4。
 
