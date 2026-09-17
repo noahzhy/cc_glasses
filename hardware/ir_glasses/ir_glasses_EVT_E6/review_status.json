@@ -1,0 +1,78 @@
+{
+  "status": "STATIC_DESIGN_AND_MANUFACTURING_FILES_CHECKED",
+  "requirement": "one IR LED and its two physically adjacent PDs, 16 fixed pairs",
+  "kicad_version": "10.0.6",
+  "erc_violations": 0,
+  "main_drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "ignored_checks": 0
+  },
+  "carrier_drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "ignored_checks": 0
+  },
+  "static_design_checks": 1461,
+  "carrier_preservation_checks": 13881,
+  "manufacturing_checks": 1454,
+  "connector_checks": 24,
+  "power_protection_checks": 107,
+  "fitted_parts": 167,
+  "bom_groups": 41,
+  "pcb_sha256": "545f4575b7eea053c0235e3fe1aa631ae973b5b51f7525a373fa09242c1da147",
+  "procurement_gaps": [
+    {
+      "位号": "U15",
+      "型号": "AD7386BCPZ-RL7",
+      "单板用量": "1",
+      "两板净用量": "2",
+      "库存": "8",
+      "原因": "库存仅8件，尚未锁定；超过8板（未计损耗）需追加供货。"
+    },
+    {
+      "位号": "J1",
+      "型号": "0.5K-AS-5PWB-RW",
+      "单板用量": "1",
+      "两板净用量": "2",
+      "库存": "2750",
+      "原因": "GUOCONN新封装，上接触0.3mm排线；板上新增U18限流；正常输入要求3.3V±3%，排线待实物核对。"
+    },
+    {
+      "位号": "U14",
+      "型号": "TPS259470ARPWR",
+      "单板用量": "1",
+      "两板净用量": "2",
+      "库存": "3685",
+      "原因": "按用户要求改为自动重试型AR；商城有库存，尚未采购。"
+    },
+    {
+      "位号": "U19",
+      "型号": "TPS3702CX33DDCR",
+      "单板用量": "1",
+      "两板净用量": "2",
+      "库存": "4894",
+      "原因": "过压监控改为TPS3702CX33，DDC TSOT-23-6无EP；库存见本行快照，量产需锁料。"
+    },
+    {
+      "位号": "全部器件",
+      "型号": "未下采购单",
+      "单板用量": "",
+      "两板净用量": "",
+      "库存": "",
+      "原因": "实际生产数量未指定；U14/J1尚未备料，其余自有库存未核对；未锁库存；须计入贴片损耗、MOQ及备件"
+    }
+  ],
+  "system_condition": "Input 3.3V +/-3% required; onboard U18 static continuous limit 209-282mA. Host range, transient peaks and thermal behavior need bench validation.",
+  "production_outputs": "KiCad, PDF, BOM/CPL, 4-layer CAM, drill, carrier and populated renders generated",
+  "analog_validation": {
+    "status": "typical-model stability and settling checked; noise characterized",
+    "report": "analog_validation_report.md",
+    "bench": "pending"
+  },
+  "factory_DFM": "pending",
+  "bench_tests": "all 30 pending",
+  "firmware": "interface contract only; no flashable firmware"
+}

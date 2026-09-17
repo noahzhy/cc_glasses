@@ -1,0 +1,21 @@
+EVT E6 driver_step_100
+.include TLV9062_ngspice.lib
+.options reltol=1e-5 vntol=1e-9 abstol=1e-13
+Vdd vdd 0 3.3
+Vin inp 0 PULSE(1.49 1.51 2u 1n 1n 8u 20u)
+X1 inp drive vdd 0 drive TLV9062
+Cpcb drive 0 10p
+Riso drive adc 100
+Cf adc 0 343p
+Rsw adc sample 200
+Cs sample 0 15p
+
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 1n 18u 0 1n
+wrdata driver_step_100.dat v(inp) v(drive) v(adc) v(sample)
+quit
+.endc
+.end

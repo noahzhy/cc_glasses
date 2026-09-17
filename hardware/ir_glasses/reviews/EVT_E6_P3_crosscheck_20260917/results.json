@@ -1,0 +1,91 @@
+{
+  "PM_deg": 57.99250131957165,
+  "settling_s": [
+    1.115073199274e-06,
+    1.1150673308300004e-06
+  ],
+  "noise_RMS_V": 3.645962784016841e-05,
+  "manifest_mismatches": [],
+  "manifest_files": 403,
+  "main_zip_crc_error": null,
+  "zip_manifest_mismatches": [],
+  "carrier_crc_error": null,
+  "SMT_crc_error": null,
+  "pcb_sha256": "545f4575b7eea053c0235e3fe1aa631ae973b5b51f7525a373fa09242c1da147",
+  "git_baseline_available": true,
+  "git_baseline_matches_source_hash": true,
+  "analog_actual_nets": {
+    "U16": {
+      "1": "BUF_A",
+      "2": "BUF_A",
+      "3": "MUX_A",
+      "4": "GND",
+      "5": "SCALE_A",
+      "6": "DRIVE_A",
+      "7": "DRIVE_A",
+      "8": "3V3_A"
+    },
+    "U17": {
+      "1": "BUF_B",
+      "2": "BUF_B",
+      "3": "MUX_B",
+      "4": "GND",
+      "5": "SCALE_B",
+      "6": "DRIVE_B",
+      "7": "DRIVE_B",
+      "8": "3V3_A"
+    }
+  },
+  "ERC_violations": 0,
+  "drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "carrier_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "optical_differences_actual_boards": [],
+  "optical_count": 32,
+  "E4_board_hash_matches_record": true,
+  "pcb_analog_pads": {
+    "U16": {
+      "1": "BUF_A",
+      "2": "BUF_A",
+      "3": "MUX_A",
+      "4": "GND",
+      "5": "SCALE_A",
+      "6": "DRIVE_A",
+      "7": "DRIVE_A",
+      "8": "3V3_A"
+    },
+    "U17": {
+      "1": "BUF_B",
+      "2": "BUF_B",
+      "3": "MUX_B",
+      "4": "GND",
+      "5": "SCALE_B",
+      "6": "DRIVE_B",
+      "7": "DRIVE_B",
+      "8": "3V3_A"
+    },
+    "R11": {
+      "1": "DRIVE_A",
+      "2": "ADC_A"
+    },
+    "R12": {
+      "1": "DRIVE_B",
+      "2": "ADC_B"
+    },
+    "C29": {
+      "1": "ADC_A",
+      "2": "GND"
+    },
+    "C30": {
+      "1": "ADC_B",
+      "2": "GND"
+    }
+  }
+}

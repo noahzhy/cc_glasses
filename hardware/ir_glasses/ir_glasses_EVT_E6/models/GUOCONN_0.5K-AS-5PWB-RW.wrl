@@ -1,0 +1,12 @@
+#VRML V2.0 utf8
+# GUOCONN drawing Rev.A; nominal illustrative envelope, not vendor CAD.
+Transform { translation 0.000000000 -0.669291339 0.393700787 children [ Shape { appearance Appearance { material Material { diffuseColor .82 .82 .78 } } geometry Box { size 2.696850394 1.751968504 0.787401575 } } ] }
+Transform { translation 0.000000000 -1.279527559 0.511811024 children [ Shape { appearance Appearance { material Material { diffuseColor .15 .15 .15 } } geometry Box { size 3.208661417 0.531496063 0.551181102 } } ] }
+Transform { translation -0.393700787 0.334645669 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.078740157 0.413385827 0.062992126 } } ] }
+Transform { translation -0.196850394 0.334645669 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.078740157 0.413385827 0.062992126 } } ] }
+Transform { translation 0.000000000 0.334645669 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.078740157 0.413385827 0.062992126 } } ] }
+Transform { translation 0.196850394 0.334645669 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.078740157 0.413385827 0.062992126 } } ] }
+Transform { translation 0.393700787 0.334645669 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.078740157 0.413385827 0.062992126 } } ] }
+Transform { translation -1.000000000 -0.383858268 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.590551181 1.062992126 0.062992126 } } ] }
+Transform { translation 1.000000000 -0.383858268 0.031496063 children [ Shape { appearance Appearance { material Material { diffuseColor .72 .72 .74 } } geometry Box { size 0.590551181 1.062992126 0.062992126 } } ] }
+Transform { translation -0.393700787 0.098425197 0.791338583 children [ Shape { appearance Appearance { material Material { diffuseColor .1 .1 .1 } } geometry Box { size 0.098425197 0.098425197 0.007874016 } } ] }
