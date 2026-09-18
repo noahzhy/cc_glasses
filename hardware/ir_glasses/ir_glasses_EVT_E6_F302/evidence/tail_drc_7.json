@@ -1,0 +1,130 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T16:48:44",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ir_glasses_EVT_E6_F302.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 118.4,
+                        "y": 67.025
+                    },
+                    "uuid": "ec6db112-ee1d-4120-ad83-7e73bd895ff2"
+                },
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 66.225
+                    },
+                    "uuid": "2b3f2a09-1a4a-403c-a316-427ba0698266"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (In2.Cu), 长度: 0.0071 mm",
+                    "pos": {
+                        "x": 112.47,
+                        "y": 57.47
+                    },
+                    "uuid": "bb969b7a-1fdd-4ff0-b153-2f96143c4a39"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0177 mm",
+                    "pos": {
+                        "x": 92.9375,
+                        "y": 67.9875
+                    },
+                    "uuid": "238ef1a4-3501-4833-a48f-5aca8e3136e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0125 mm",
+                    "pos": {
+                        "x": 115.6375,
+                        "y": 59.4
+                    },
+                    "uuid": "cad83f05-03dd-46e1-b024-92d29e88abea"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 66.225
+                    },
+                    "uuid": "2b3f2a09-1a4a-403c-a316-427ba0698266"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 118.4,
+                        "y": 67.025
+                    },
+                    "uuid": "ec6db112-ee1d-4120-ad83-7e73bd895ff2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (B.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 113.85,
+                        "y": 59.125
+                    },
+                    "uuid": "1ab50ac2-1a11-4717-8663-4c76e34cc16b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

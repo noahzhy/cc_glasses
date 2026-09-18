@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": {
+    "no_formula_errors": true,
+    "formulas_present": true,
+    "155_fitted_parts": true,
+    "39_unique_SKUs": true,
+    "all_fitted_MPNs_match_live_SKU_snapshots": true,
+    "cached_excel_totals_match_independent_sums": true
+  },
+  "quantity_cases": [
+    1,
+    10,
+    100
+  ],
+  "old_USD_per_board": [
+    79.2311,
+    77.2564,
+    71.8236
+  ],
+  "new_USD_per_board": [
+    17.860300000000006,
+    15.639800000000003,
+    12.942300000000001
+  ],
+  "saving_USD_per_board": [
+    61.37079999999999,
+    61.6166,
+    58.881299999999996
+  ],
+  "scope": "Same public LCSC USD snapshot tiers, net usage only, excludes MOQ surplus/waste/freight/tax/assembly; no purchasing commitment",
+  "xlsx_sha256": "baa725d408baddd87acc9930b079d13247e3b4dab84c05aad5e8057fc86f8b0b"
+}

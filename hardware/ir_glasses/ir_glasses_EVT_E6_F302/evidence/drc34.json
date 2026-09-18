@@ -1,0 +1,706 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T16:35:00",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ir_glasses_EVT_E6_F302.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 117.4,
+                        "y": 67.075
+                    },
+                    "uuid": "4bf62449-4161-40a8-834f-76f8ea22ae17"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.4330 mm",
+                    "pos": {
+                        "x": 115.8,
+                        "y": 59.8976
+                    },
+                    "uuid": "f85e84f9-09a1-4e31-b5f0-82a8f5d6ddde"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (In2.Cu), 长度: 0.5450 mm",
+                    "pos": {
+                        "x": 110.265,
+                        "y": 57.57
+                    },
+                    "uuid": "6cafe3f8-3320-49c7-af79-836069591585"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3_A] (F.Cu), 长度: 0.0404 mm",
+                    "pos": {
+                        "x": 99.696467,
+                        "y": 67.846467
+                    },
+                    "uuid": "41fdcf8e-072a-4078-8e44-b62719a0928c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3_A] (B.Cu), 长度: 0.0404 mm",
+                    "pos": {
+                        "x": 99.35,
+                        "y": 67.5
+                    },
+                    "uuid": "15fb7a34-79dc-4fc3-8d10-3efe92eb2a90"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3_A] (In1.Cu), 长度: 0.0359 mm",
+                    "pos": {
+                        "x": 97.835882,
+                        "y": 65.25
+                    },
+                    "uuid": "b4561642-3e74-47e5-b0a7-bf26fe549ca0"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3_A] (In1.Cu), 长度: 0.0274 mm",
+                    "pos": {
+                        "x": 98.65,
+                        "y": 64.125
+                    },
+                    "uuid": "e3514f48-ab50-4494-8c81-82daff76f37e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [VREF_1V65] (B.Cu), 长度: 0.0359 mm",
+                    "pos": {
+                        "x": 95.2,
+                        "y": 62.25
+                    },
+                    "uuid": "a28f9720-6f8b-4c45-8a6f-de25ed362ebe"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [VREF_1V65] (In1.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 98.275,
+                        "y": 62.2
+                    },
+                    "uuid": "4a4327c0-b40e-4ce9-afa2-b4d16d6db960"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [VREF_1V65] (In1.Cu), 长度: 5.3787 mm",
+                    "pos": {
+                        "x": 92.673,
+                        "y": 66.98
+                    },
+                    "uuid": "94910f41-4dde-4c92-b617-9ec74282ea15"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [VREF_1V65] (In2.Cu), 长度: 0.0183 mm",
+                    "pos": {
+                        "x": 99.556727,
+                        "y": 63.125
+                    },
+                    "uuid": "c6448847-ad6c-4d80-a8a5-deffcf9f6d08"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3] (F.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 106.075,
+                        "y": 59.425
+                    },
+                    "uuid": "0d5690a8-94cc-4f14-9b36-5b3b1b3dd6f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3] (F.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 107.475,
+                        "y": 59.65
+                    },
+                    "uuid": "f62488b5-3cae-450c-86e7-cbb25e79d640"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3] (F.Cu), 长度: 0.0177 mm",
+                    "pos": {
+                        "x": 108.0375,
+                        "y": 59.9125
+                    },
+                    "uuid": "f919363b-84cf-42bd-a97c-d68e37e73e2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [IMU_INT] (In1.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 108.23,
+                        "y": 68.67
+                    },
+                    "uuid": "f8a2f02f-d55b-4fdc-830d-498ed21e7bec"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [I2C_SCL] (In1.Cu), 长度: 0.8250 mm",
+                    "pos": {
+                        "x": 110.875,
+                        "y": 63.125
+                    },
+                    "uuid": "3115bf25-6b3a-4926-bfb6-43be0245598f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [I2C_SCL] (In1.Cu), 长度: 0.1490 mm",
+                    "pos": {
+                        "x": 107.609,
+                        "y": 68.5667
+                    },
+                    "uuid": "d50cb58a-b741-40c7-a7d1-16ace5830dd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [INPUT_OK] (F.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 67.475
+                    },
+                    "uuid": "4f99c3ca-c69c-4745-bda5-8769790fde69"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [INPUT_OK] (F.Cu), 长度: 0.7500 mm",
+                    "pos": {
+                        "x": 98.85,
+                        "y": 68.275
+                    },
+                    "uuid": "6dfde531-e007-480d-b8f7-40116bb7f19b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_EN_N] (B.Cu), 长度: 0.0050 mm",
+                    "pos": {
+                        "x": 100.375,
+                        "y": 64.78
+                    },
+                    "uuid": "80b32434-ee61-48bf-a586-4ee3283ad498"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [STATUS_LED_N] (In2.Cu), 长度: 0.0129 mm",
+                    "pos": {
+                        "x": 101.455,
+                        "y": 65.2987
+                    },
+                    "uuid": "616c8879-e669-4a6d-8c1f-f957bc146145"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [LED_SIN] (In1.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 68.1
+                    },
+                    "uuid": "242ecda9-bbf1-435c-ac05-29c93070a9ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.5250 mm",
+                    "pos": {
+                        "x": 116.05,
+                        "y": 61.025
+                    },
+                    "uuid": "02d90fd7-3be9-43c9-91c8-4ea7d116587b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 115.075,
+                        "y": 60.05
+                    },
+                    "uuid": "0486d249-4824-4ebc-a19e-c057dfd781a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 116.325,
+                        "y": 63.575
+                    },
+                    "uuid": "13b05064-f5a2-4f49-8d8f-21c18abb5e63"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0308 mm",
+                    "pos": {
+                        "x": 117.45,
+                        "y": 63.375
+                    },
+                    "uuid": "22d4ff7b-7da9-47b9-823a-b16ef645e291"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0750 mm",
+                    "pos": {
+                        "x": 91.7,
+                        "y": 67.425
+                    },
+                    "uuid": "24168f62-c005-4647-9cbb-f121df9e41c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 66.275
+                    },
+                    "uuid": "6dea2fb1-2963-402b-8a42-240fa8e6b412"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 90.725,
+                        "y": 63.8
+                    },
+                    "uuid": "920165ec-e8f2-48ae-8e4b-68073abd4010"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.4066 mm",
+                    "pos": {
+                        "x": 92.75,
+                        "y": 66.4625
+                    },
+                    "uuid": "d0f905e0-421b-424e-a10e-7bc6a94291cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0359 mm",
+                    "pos": {
+                        "x": 116.375,
+                        "y": 62.025
+                    },
+                    "uuid": "e844b39a-cfdc-4bb5-ada6-65ed1581f693"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 117.2,
+                        "y": 61.8
+                    },
+                    "uuid": "eb324a17-681d-4d59-86bd-d16436bc03c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (In2.Cu), 长度: 0.0205 mm",
+                    "pos": {
+                        "x": 81.570533,
+                        "y": 58.25
+                    },
+                    "uuid": "8c0b7a0d-3500-47cb-9167-03313641317b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (F.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 127.825,
+                        "y": 59.475
+                    },
+                    "uuid": "2b1d4e7d-6eda-48ff-9e02-08821b71650f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (F.Cu), 长度: 0.3000 mm",
+                    "pos": {
+                        "x": 122.5,
+                        "y": 57.825
+                    },
+                    "uuid": "519cb681-35e8-48af-b454-ab0cf209dbce"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (F.Cu), 长度: 0.0404 mm",
+                    "pos": {
+                        "x": 129.996467,
+                        "y": 60.721467
+                    },
+                    "uuid": "c812a001-54e1-42c0-99ef-4a65b192d59d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (In2.Cu), 长度: 0.0323 mm",
+                    "pos": {
+                        "x": 117.702166,
+                        "y": 57.547834
+                    },
+                    "uuid": "4c765bc7-c39a-4cf0-bf2f-4a6f8eb86fae"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B1] (B.Cu), 长度: 0.0071 mm",
+                    "pos": {
+                        "x": 115.59,
+                        "y": 57.795
+                    },
+                    "uuid": "a3e203fa-59f4-4016-b755-a1d8ad7f7650"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (In1.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 100.45,
+                        "y": 64.974999
+                    },
+                    "uuid": "b8aee4f4-412d-4804-9595-78dcb148f3f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_A] (In1.Cu), 长度: 2.9500 mm",
+                    "pos": {
+                        "x": 95.3,
+                        "y": 64.3
+                    },
+                    "uuid": "3a7aa9e8-4a9a-4350-9cfe-d432e10f40ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_A] (In1.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 98.85,
+                        "y": 64.675
+                    },
+                    "uuid": "441a5f1e-0b08-4456-8380-febf88165514"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_A2] (F.Cu), 长度: 0.1768 mm",
+                    "pos": {
+                        "x": 103.9,
+                        "y": 59.025
+                    },
+                    "uuid": "4e45b634-6440-47b2-be31-37971e81d812"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_A2] (B.Cu), 长度: 0.1591 mm",
+                    "pos": {
+                        "x": 105.1375,
+                        "y": 59.3
+                    },
+                    "uuid": "28a56392-29ef-4624-9155-d0e056d4742a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_A2] (In2.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 104.675,
+                        "y": 59.275
+                    },
+                    "uuid": "d9a36c94-2bf1-4e84-b48f-1f436e4c6a2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [UART_TX] (B.Cu), 长度: 3.9598 mm",
+                    "pos": {
+                        "x": 106.275,
+                        "y": 60.3
+                    },
+                    "uuid": "3ebde3d9-44d4-47ce-97d4-617a9b2e20dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [UART_TX] (B.Cu), 长度: 0.3536 mm",
+                    "pos": {
+                        "x": 110.775,
+                        "y": 63.1
+                    },
+                    "uuid": "c425419c-91ba-4438-890b-60ee12957395"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

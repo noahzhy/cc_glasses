@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Static schematic/PCB design checks only; native DRC and bench testing are separate",
+  "checks": {
+    "part_references_match": true,
+    "schematic_parts_nets_match": true,
+    "pcb_parts_nets_match": true,
+    "optical_32_positions_angles_unchanged": true,
+    "unit_edge_geometry_unchanged": true,
+    "front_assembly": true,
+    "four_copper_layers": true,
+    "removed_components_absent": true,
+    "ADC1_PA0_ADC2_PA4": true,
+    "RC_network": true,
+    "VDDA_local_10nF": true,
+    "VDD_local_bulk_0603_10uF": true,
+    "16_pairs_odd_even_addresses": true,
+    "mapping_unchanged": true,
+    "mapping_matches_two_nearest_PDs_on_same_eye": true,
+    "P3_source_hashes_unchanged": true
+  },
+  "source_changed": [],
+  "fitted_count": 155
+}

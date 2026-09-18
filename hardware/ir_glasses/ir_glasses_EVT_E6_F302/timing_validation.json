@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "scope": "Ideal discrete timer compare model and C header compile; excludes real DMA arbitration, timer register behavior, hardware one-shot tolerance and firmware execution",
+  "checks": {
+    "two_ADC_rising_edges": true,
+    "LED_100us_request": true,
+    "light_acquisition_inside_LED": true,
+    "conversion_before_next_event": true,
+    "CCR_preload_failure_detected": true,
+    "stale_OCREF_failure_detected": true,
+    "lost_DMA_does_not_restart_counter": true,
+    "abort_scenarios_expose_stale_state": true,
+    "forced_inactive_restart_matches_normal": true,
+    "EVT_E6_TIM1_CCR_PRELOAD_ENABLED": true,
+    "EVT_E6_TIM1_DMA_ON_UPDATE": true,
+    "EVT_E6_TIM1_REPETITION_COUNT": true,
+    "EVT_E6_TIM1_CH3_MAIN_ENABLED": true,
+    "EVT_E6_TIM1_CH3N_POLARITY_INVERTED": true,
+    "contract_configuration": true,
+    "C11_header_size_and_mapping_compile": true
+  },
+  "ADC_events_us": [
+    [
+      100,
+      1
+    ],
+    [
+      110,
+      0
+    ],
+    [
+      250,
+      1
+    ],
+    [
+      260,
+      0
+    ]
+  ],
+  "LED_request_events_us": [
+    [
+      200,
+      1
+    ],
+    [
+      300,
+      0
+    ]
+  ],
+  "abort_cases": [
+    {
+      "abort_us": 99,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": false
+    },
+    {
+      "abort_us": 100,
+      "stale_adc_ref": 1,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 109,
+      "stale_adc_ref": 1,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 110,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": false
+    },
+    {
+      "abort_us": 199,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": false
+    },
+    {
+      "abort_us": 200,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 249,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 250,
+      "stale_adc_ref": 1,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 259,
+      "stale_adc_ref": 1,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 260,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 299,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 1,
+      "unreset_restart_bad": true
+    },
+    {
+      "abort_us": 300,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": false
+    },
+    {
+      "abort_us": 999,
+      "stale_adc_ref": 0,
+      "stale_led_ref": 0,
+      "unreset_restart_bad": false
+    }
+  ],
+  "input_sha256": {
+    "firmware_interface.h": "ca91aba910dc416eaf05b5461ed7c45f93719d93cf1776c7193a129f4f871e2e",
+    "firmware_contract.md": "df63768cc755c08d87b444ca5e69c1a193a1b75417473dd7f1378e41eeca3488"
+  },
+  "fault_note": "A lost LED-off DMA can leave request high until cleanup; external U12 hardware cutoff must be measured independently. OPM alone does not force OCREF low."
+}

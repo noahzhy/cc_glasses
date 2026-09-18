@@ -1,0 +1,1003 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T16:44:31",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ir_glasses_EVT_E6_F302.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.1750 mm",
+                    "pos": {
+                        "x": 57.4,
+                        "y": 61.95
+                    },
+                    "uuid": "934ba42f-234b-4689-bc40-e0e9f9fa9dbf"
+                },
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.8250 mm",
+                    "pos": {
+                        "x": 81.55,
+                        "y": 58.725
+                    },
+                    "uuid": "27068e6f-49c2-48b0-8c72-7fe4623e6e4b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (In2.Cu), 长度: 2.1000 mm",
+                    "pos": {
+                        "x": 91.8,
+                        "y": 58.825
+                    },
+                    "uuid": "c7c19f94-fe2a-44d6-a82a-8cf08a95468b"
+                },
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 12.4000 mm",
+                    "pos": {
+                        "x": 85.45,
+                        "y": 58.35
+                    },
+                    "uuid": "71263aa0-666d-45e6-ad8e-fd925f205e26"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.3889 mm",
+                    "pos": {
+                        "x": 96.325,
+                        "y": 69.55
+                    },
+                    "uuid": "b241db87-d202-4baf-b43a-3eecdf500f3f"
+                },
+                {
+                    "description": "走线 [SWCLK] (In1.Cu), 长度: 4.0482 mm",
+                    "pos": {
+                        "x": 89.95,
+                        "y": 65.75
+                    },
+                    "uuid": "30db0d40-9f0f-48bc-a6bd-f8d569a1c31a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (In1.Cu), 长度: 0.9546 mm",
+                    "pos": {
+                        "x": 116.95,
+                        "y": 68.2
+                    },
+                    "uuid": "fa3d2f44-d720-41ab-a801-4a16286bc2db"
+                },
+                {
+                    "description": "走线 [SWCLK] (B.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 118.075,
+                        "y": 66.275
+                    },
+                    "uuid": "e60f6c5a-84c2-483a-9619-38296acc1429"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 TP7 的焊盘 1 [SWCLK]",
+                    "pos": {
+                        "x": 117.75,
+                        "y": 65.8
+                    },
+                    "uuid": "8b187157-09ce-4785-bf33-8f8e054a91b5"
+                },
+                {
+                    "description": "F.Cu 上 U9 的焊盘 37 [SWCLK]",
+                    "pos": {
+                        "x": 112.75,
+                        "y": 58.8375
+                    },
+                    "uuid": "74f23ae9-e7fe-49b0-be40-bdf0167d6078"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B] (In2.Cu), 长度: 0.4500 mm",
+                    "pos": {
+                        "x": 107.5875,
+                        "y": 61.1375
+                    },
+                    "uuid": "42ed44a6-7230-4188-8911-1cf63e0adacb"
+                },
+                {
+                    "description": "走线 [MUX_B] (F.Cu), 长度: 2.2627 mm",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 60.125
+                    },
+                    "uuid": "35d6a0f4-d402-498f-88f8-9dce0a11d222"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 127.725,
+                        "y": 60.15
+                    },
+                    "uuid": "0c02889e-ae8b-4c30-b0c2-deb9c966c623"
+                },
+                {
+                    "description": "走线 [MUX_B] (In1.Cu), 长度: 0.4950 mm",
+                    "pos": {
+                        "x": 125.85,
+                        "y": 60.625
+                    },
+                    "uuid": "bdf0f42a-2962-4d32-8840-4e142af773ee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 130.2,
+                        "y": 61.05
+                    },
+                    "uuid": "22553a03-e708-4ed0-94ab-9d1c2fc41b65"
+                },
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 127.725,
+                        "y": 60.15
+                    },
+                    "uuid": "0c02889e-ae8b-4c30-b0c2-deb9c966c623"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U8 的焊盘 3 [MUX_B]",
+                    "pos": {
+                        "x": 131.775,
+                        "y": 64.2625
+                    },
+                    "uuid": "037ba3fd-ef9b-4626-b8ae-9762083b42c9"
+                },
+                {
+                    "description": "走线 [MUX_B] (B.Cu), 长度: 0.5657 mm",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 62.775
+                    },
+                    "uuid": "f796f7db-cd75-4e4b-8fb9-d4c311c14bce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U9 的焊盘 17 [MUX_B1]",
+                    "pos": {
+                        "x": 109.25,
+                        "y": 67.1625
+                    },
+                    "uuid": "06885680-6181-4c77-b5bb-9d7585cb7c57"
+                },
+                {
+                    "description": "走线 [MUX_B1] (B.Cu), 长度: 0.0354 mm",
+                    "pos": {
+                        "x": 110.2,
+                        "y": 61.175
+                    },
+                    "uuid": "9d494b68-9f15-44d8-bc6a-2aad70ea4111"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 116.655,
+                        "y": 57.535
+                    },
+                    "uuid": "923e9fe7-42d7-4017-9644-796470b5eeb4"
+                },
+                {
+                    "description": "走线 [MUX_B1] (B.Cu), 长度: 2.0250 mm",
+                    "pos": {
+                        "x": 109.9,
+                        "y": 57.525
+                    },
+                    "uuid": "57cb7457-c352-4d1e-a170-f1414810d9e6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 122.09,
+                        "y": 57.478
+                    },
+                    "uuid": "66806ed8-2357-4b86-8d43-0eb3acd84f90"
+                },
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 116.655,
+                        "y": 57.535
+                    },
+                    "uuid": "923e9fe7-42d7-4017-9644-796470b5eeb4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B1] (F.Cu), 长度: 0.0071 mm",
+                    "pos": {
+                        "x": 132.715,
+                        "y": 57.39
+                    },
+                    "uuid": "28466ef6-e30b-4997-be59-70ce7a2190fd"
+                },
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 122.09,
+                        "y": 57.478
+                    },
+                    "uuid": "66806ed8-2357-4b86-8d43-0eb3acd84f90"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U8 的焊盘 10 [MUX_B1]",
+                    "pos": {
+                        "x": 134.375,
+                        "y": 58.5375
+                    },
+                    "uuid": "a149e1e1-0732-4ee3-93c2-287a45cc3947"
+                },
+                {
+                    "description": "走线 [MUX_B1] (F.Cu), 长度: 0.1750 mm",
+                    "pos": {
+                        "x": 133.03,
+                        "y": 57.478
+                    },
+                    "uuid": "61276b10-fc00-4d0b-aab8-1aa04ee7e22e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (B.Cu), 长度: 0.0625 mm",
+                    "pos": {
+                        "x": 103.5875,
+                        "y": 61.275
+                    },
+                    "uuid": "fd3d6517-9bd9-4bff-b74b-8205c4a3719d"
+                },
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 99.45,
+                        "y": 64.8
+                    },
+                    "uuid": "f7b469be-984c-4d6a-b8f3-28f126343bc4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (B.Cu), 长度: 2.9522 mm",
+                    "pos": {
+                        "x": 104.4625,
+                        "y": 61.5375
+                    },
+                    "uuid": "00135794-286c-4135-9332-1adfdc9e8608"
+                },
+                {
+                    "description": "走线 [MUX_B0] (In1.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 104.275,
+                        "y": 62.125
+                    },
+                    "uuid": "7e853830-894f-4786-92a1-98c14c506b7f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U9 的焊盘 16 [MUX_B0]",
+                    "pos": {
+                        "x": 108.75,
+                        "y": 67.1625
+                    },
+                    "uuid": "1c775dc0-22b1-431e-81e7-6cdda6c1cc2a"
+                },
+                {
+                    "description": "走线 [MUX_B0] (B.Cu), 长度: 0.1591 mm",
+                    "pos": {
+                        "x": 107.5125,
+                        "y": 64.6875
+                    },
+                    "uuid": "20d6e653-ecb8-45dc-b397-57fddb398d76"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (In1.Cu), 长度: 0.6000 mm",
+                    "pos": {
+                        "x": 112.45,
+                        "y": 70.825
+                    },
+                    "uuid": "d4d45e62-b095-4042-b1d2-1769f6f46307"
+                },
+                {
+                    "description": "走线 [MUX_B0] (In2.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 111.875,
+                        "y": 71.275
+                    },
+                    "uuid": "dc92ca2d-4a92-4839-8035-7d05924677ec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (F.Cu), 长度: 3.3000 mm",
+                    "pos": {
+                        "x": 116.725,
+                        "y": 74.25
+                    },
+                    "uuid": "4ffdfa8b-b4fe-44d2-9849-5e7abc07d4e0"
+                },
+                {
+                    "description": "走线 [MUX_B0] (F.Cu), 长度: 0.2475 mm",
+                    "pos": {
+                        "x": 132.85,
+                        "y": 60.275
+                    },
+                    "uuid": "193e2bb0-1182-4d6e-b1a8-af99deb8c311"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 135.45,
+                        "y": 59.825
+                    },
+                    "uuid": "ebf7355f-c72b-4bb0-b7c0-b42ed1bef6f3"
+                },
+                {
+                    "description": "走线 [MUX_B0] (F.Cu), 长度: 0.4596 mm",
+                    "pos": {
+                        "x": 133.225,
+                        "y": 59.55
+                    },
+                    "uuid": "a36f0419-5bdd-45ff-878a-45c726e2d7da"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [MUX_A2] (F.Cu), 长度: 1.5000 mm",
+                    "pos": {
+                        "x": 96.95,
+                        "y": 59.4
+                    },
+                    "uuid": "fb86a050-6c12-4e01-b2e3-92a9623fb449"
+                },
+                {
+                    "description": "走线 [MUX_A2] (B.Cu), 长度: 1.8831 mm",
+                    "pos": {
+                        "x": 106.375,
+                        "y": 59.5875
+                    },
+                    "uuid": "41ce8d72-6faa-4dee-b049-151464ffa300"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (In2.Cu), 长度: 0.0141 mm",
+                    "pos": {
+                        "x": 112.41,
+                        "y": 57.5
+                    },
+                    "uuid": "f6fd7284-9863-4e91-92fe-3c415033715a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 92.8125,
+                        "y": 68.6125
+                    },
+                    "uuid": "2620b1df-6371-4598-871a-dc73bfebd055"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 118.225,
+                        "y": 66.425
+                    },
+                    "uuid": "28142340-d9a1-460c-9277-1525d6e14f3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 96.325,
+                        "y": 69.55
+                    },
+                    "uuid": "4771c0a2-b63c-4e25-b3b5-25f305516f8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 117.625,
+                        "y": 67.525
+                    },
+                    "uuid": "7e7b2519-184b-4d91-8a71-4e703ec024cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 57.4,
+                        "y": 61.95
+                    },
+                    "uuid": "b5e5d3b4-5ae5-44f1-86fb-fbf5df899a58"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 81.55,
+                        "y": 58.725
+                    },
+                    "uuid": "c7ff71e3-63b4-4740-8ae7-2f4f9dde7dba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 98.175,
+                        "y": 58.675
+                    },
+                    "uuid": "f71aad39-ebd5-4c35-ab9a-06b5241d1227"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 91.7,
+                        "y": 58.725
+                    },
+                    "uuid": "f8d42258-244d-4848-bc03-01ae3904f80b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 60.125
+                    },
+                    "uuid": "0523719b-a239-4822-96d2-6efe7eb980a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 127.725,
+                        "y": 60.15
+                    },
+                    "uuid": "0c02889e-ae8b-4c30-b0c2-deb9c966c623"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 126.2,
+                        "y": 60.275
+                    },
+                    "uuid": "16741d36-7aad-4e8a-87aa-d6a41beae09f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 130.2,
+                        "y": 61.05
+                    },
+                    "uuid": "22553a03-e708-4ed0-94ab-9d1c2fc41b65"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 131.9,
+                        "y": 63.175
+                    },
+                    "uuid": "4c0e692c-0cc7-4e20-bf8d-b90d101155e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 107.5875,
+                        "y": 61.1375
+                    },
+                    "uuid": "b4f53c70-1fa7-4303-a04d-07496ef4b806"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 122.09,
+                        "y": 57.478
+                    },
+                    "uuid": "66806ed8-2357-4b86-8d43-0eb3acd84f90"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 109.9,
+                        "y": 57.525
+                    },
+                    "uuid": "796391c1-04af-4bea-825e-d4c50e0e05e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 133.03,
+                        "y": 57.478
+                    },
+                    "uuid": "8d487382-1213-4a37-ab7a-1d904eebdb86"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 116.655,
+                        "y": 57.535
+                    },
+                    "uuid": "923e9fe7-42d7-4017-9644-796470b5eeb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 110.175,
+                        "y": 61.2
+                    },
+                    "uuid": "94e58666-f28e-4fb9-a40a-695d02495580"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 102.575,
+                        "y": 70.275
+                    },
+                    "uuid": "041c69ff-e01d-480d-ae2d-e55e5b8327d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 103.5875,
+                        "y": 61.275
+                    },
+                    "uuid": "06e24c8d-459e-4066-be6d-b0b492ef7a7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 112.45,
+                        "y": 70.825
+                    },
+                    "uuid": "7161d619-a5d7-4e33-b8ba-c1b0c876e7a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 132.85,
+                        "y": 60.275
+                    },
+                    "uuid": "86be1ed9-0fca-470c-bf51-e098d834c5de"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 172.4,
+                        "y": 71.95
+                    },
+                    "uuid": "9b86efbd-19b6-4c5e-b29e-6cca2ec815de"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 107.625,
+                        "y": 64.8
+                    },
+                    "uuid": "c795dbc4-caa2-4b99-ba5e-55a93f2954a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 135.45,
+                        "y": 59.825
+                    },
+                    "uuid": "ebf7355f-c72b-4bb0-b7c0-b42ed1bef6f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_B0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 99.45,
+                        "y": 64.8
+                    },
+                    "uuid": "f7b469be-984c-4d6a-b8f3-28f126343bc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (In1.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 104.275,
+                        "y": 62.125
+                    },
+                    "uuid": "18e48320-673e-4e73-840a-1a34f2f24adc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [MUX_B0] (In1.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 104.275,
+                        "y": 62.125
+                    },
+                    "uuid": "7e853830-894f-4786-92a1-98c14c506b7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_A2] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 98.45,
+                        "y": 59.4
+                    },
+                    "uuid": "320aede2-e52c-4fca-80a5-a1d23a1b8814"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [MUX_A2] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 106.375,
+                        "y": 59.5875
+                    },
+                    "uuid": "f8d5d283-603a-4f6f-9826-8dbf4ceb1391"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "走线 [IMU_INT] (In1.Cu), 长度: 0.2475 mm",
+                    "pos": {
+                        "x": 109.1125,
+                        "y": 70.2
+                    },
+                    "uuid": "23d1e7a6-fc4b-4363-886f-3c5d7f63d7c2"
+                },
+                {
+                    "description": "过孔 [IMU_INT] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 108.775,
+                        "y": 69.975
+                    },
+                    "uuid": "83a263d6-2a29-47a4-a2cd-52b8fe37f790"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        }
+    ]
+}

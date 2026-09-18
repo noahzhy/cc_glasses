@@ -1,0 +1,262 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T17:23:36",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ir_glasses_EVT_E6_F302.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                },
+                {
+                    "description": "走线 [3V3] (In1.Cu), 长度: 0.5810 mm",
+                    "pos": {
+                        "x": 111.97,
+                        "y": 73.0259
+                    },
+                    "uuid": "58e0a505-7c5d-4faf-9e57-784b3aefd4f8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "短路了两个不同网络的项目 (网络 3V3 和 SWCLK)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                },
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 113.4125,
+                        "y": 72.3625
+                    },
+                    "uuid": "f31dccab-3bed-4c6f-804b-b1dd1a65d9a0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 SWCLK 和 3V3)",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.6875 mm",
+                    "pos": {
+                        "x": 112.675,
+                        "y": 72.3125
+                    },
+                    "uuid": "28cd5500-d64e-4365-8719-30b9951b17a3"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 SWCLK 和 3V3)",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 113.3625,
+                        "y": 72.3125
+                    },
+                    "uuid": "26fb743b-28f8-4e42-974e-e03bd99671c8"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 GND 和 3V3)",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.3643 mm",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 72.2
+                    },
+                    "uuid": "4749c933-5673-4ac8-b9ef-7a04b4fe1a39"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2000 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                },
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 113.4125,
+                        "y": 72.3625
+                    },
+                    "uuid": "f31dccab-3bed-4c6f-804b-b1dd1a65d9a0"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 0.3643 mm",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 72.2
+                    },
+                    "uuid": "4749c933-5673-4ac8-b9ef-7a04b4fe1a39"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 113.3625,
+                        "y": 72.3125
+                    },
+                    "uuid": "26fb743b-28f8-4e42-974e-e03bd99671c8"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SWCLK] (F.Cu), 长度: 0.6875 mm",
+                    "pos": {
+                        "x": 112.675,
+                        "y": 72.3125
+                    },
+                    "uuid": "28cd5500-d64e-4365-8719-30b9951b17a3"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "过孔 [SWCLK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 113.4125,
+                        "y": 72.3625
+                    },
+                    "uuid": "f31dccab-3bed-4c6f-804b-b1dd1a65d9a0"
+                },
+                {
+                    "description": "F.Cu 上 C40 的焊盘 1 [3V3]",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 72.575
+                    },
+                    "uuid": "a7f6b185-7d18-4962-a3ce-05172d2c2d7d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [3V3] (F.Cu), 长度: 0.2283 mm",
+                    "pos": {
+                        "x": 110.993,
+                        "y": 69.7512
+                    },
+                    "uuid": "d2470e35-7f00-4cfa-aa50-50dad2ea9c9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+E6 F302 step_1
+.include TLV9062_ngspice.lib
+.options reltol=1e-6 vntol=1e-9 abstol=1e-13
+.temp 85
+Vdd vdd 0 3.0
+Vin inp 0 PULSE(0.15 2.85 2u 1n 1n 8u 20u)
+X1 inp inv vdd 0 drive TLV9062
+Vfb inv drive DC 0 AC 0
+Cpcb drive 0 30p
+Riso drive adc 101
+Cf adc 0 383.5p
+Rsw adc sample 5000
+Cs sample 0 10p
+
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 1n 18u 0 1n
+wrdata step_1.dat v(adc) v(sample)
+quit
+.endc
+.end

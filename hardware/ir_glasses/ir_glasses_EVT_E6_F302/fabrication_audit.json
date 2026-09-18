@@ -1,0 +1,59 @@
+{
+  "status": "geometry_subset_passed_factory_approval_pending",
+  "checked_at": "2026-09-18T09:44:03.261959+00:00",
+  "board_sha256": "78e1606b2da7bf06c1248aad76af8598d62e52775b978ba39bfd0a7e3056416a",
+  "source": "https://www.jlc.com/portal/vtechnology.html",
+  "scope": "Only listed geometry checks; native DRC separately covers spacing. Not a factory DFM approval. No optical or electrical qualification.",
+  "checks": {
+    "via_hole_at_least_0p15": true,
+    "via_diameter_minus_hole_at_least_0p15": true,
+    "via_hole_gap_at_least_0p2": true,
+    "traces_at_least_0p10": true,
+    "visible_board_text_at_least_1mm": true,
+    "visible_board_text_stroke_at_least_0p10": true
+  },
+  "vias": [
+    {
+      "diameter_mm": 0.35,
+      "hole_mm": 0.15,
+      "count": 288,
+      "nominal_board_thickness_to_finished_hole_ratio": 10.666666666666668
+    },
+    {
+      "diameter_mm": 0.45,
+      "hole_mm": 0.2,
+      "count": 195,
+      "nominal_board_thickness_to_finished_hole_ratio": 8.0
+    },
+    {
+      "diameter_mm": 0.5,
+      "hole_mm": 0.3,
+      "count": 54,
+      "nominal_board_thickness_to_finished_hole_ratio": 5.333333333333334
+    }
+  ],
+  "minimum_via_hole_gap_mm": 0.30398237851264975,
+  "visible_board_texts": [
+    {
+      "text": "E6",
+      "size_mm": [
+        1,
+        1
+      ],
+      "stroke_mm": 0.1
+    },
+    {
+      "text": "E6 F302 R2",
+      "size_mm": [
+        1,
+        1
+      ],
+      "stroke_mm": 0.15
+    }
+  ],
+  "factory_questions": [
+    "Confirm 288 x 0.15 mm finished vias on 1.6 mm four-layer stackup, compensated drill, plating and quote; do not infer plating aspect ratio from finished hole alone.",
+    "Confirm green mask, 1 oz finished external copper and 0.10 mm routing; thicker copper invalidates these published limits.",
+    "Confirm SMT rotations, stencil thickness/apertures, exposed-pad solder and supported router depaneling."
+  ]
+}

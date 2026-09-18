@@ -1,0 +1,5510 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "155 unique fitted BOM references",
+      "pass": true
+    },
+    {
+      "check": " four CAM copper layers",
+      "pass": true
+    },
+    {
+      "check": " ('top', 'mask')",
+      "pass": true
+    },
+    {
+      "check": " ('bottom', 'mask')",
+      "pass": true
+    },
+    {
+      "check": " ('top', 'paste')",
+      "pass": true
+    },
+    {
+      "check": " ('top', 'silk')",
+      "pass": true
+    },
+    {
+      "check": " ('bottom', 'silk')",
+      "pass": true
+    },
+    {
+      "check": " outline nonempty",
+      "pass": true
+    },
+    {
+      "check": " contour segment count",
+      "pass": true
+    },
+    {
+      "check": " contour coordinates",
+      "pass": true
+    },
+    {
+      "check": " CPL exactly matches fitted BOM",
+      "pass": true
+    },
+    {
+      "check": " CPL front only",
+      "pass": true
+    },
+    {
+      "check": " U18 stencil aperture count",
+      "pass": true
+    },
+    {
+      "check": " U18 stencil flash 0",
+      "pass": true
+    },
+    {
+      "check": " U18 stencil dimensions 0",
+      "pass": true
+    },
+    {
+      "check": " U18 stencil flash 1",
+      "pass": true
+    },
+    {
+      "check": " U18 stencil dimensions 1",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil aperture count",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 0",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 0",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 1",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 1",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 2",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 2",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 3",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 3",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 4",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 4",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil flash 5",
+      "pass": true
+    },
+    {
+      "check": " U19 stencil dimensions 5",
+      "pass": true
+    },
+    {
+      "check": " U19 no central paste",
+      "pass": true
+    },
+    {
+      "check": " CPL position R5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R5",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF10",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF12",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD10",
+      "pass": true
+    },
+    {
+      "check": " CPL position R2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R2",
+      "pass": true
+    },
+    {
+      "check": " CPL position U6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U6",
+      "pass": true
+    },
+    {
+      "check": " CPL position U5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U5",
+      "pass": true
+    },
+    {
+      "check": " CPL position D17",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D17",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD7",
+      "pass": true
+    },
+    {
+      "check": " CPL position C16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C16",
+      "pass": true
+    },
+    {
+      "check": " CPL position U11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U11",
+      "pass": true
+    },
+    {
+      "check": " CPL position C17",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C17",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF14",
+      "pass": true
+    },
+    {
+      "check": " CPL position D13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D13",
+      "pass": true
+    },
+    {
+      "check": " CPL position C28",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C28",
+      "pass": true
+    },
+    {
+      "check": " CPL position R18",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R18",
+      "pass": true
+    },
+    {
+      "check": " CPL position D2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D2",
+      "pass": true
+    },
+    {
+      "check": " CPL position C27",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C27",
+      "pass": true
+    },
+    {
+      "check": " CPL position C36",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C36",
+      "pass": true
+    },
+    {
+      "check": " CPL position R20",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R20",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD9",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF13",
+      "pass": true
+    },
+    {
+      "check": " CPL position C24",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C24",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF7",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD14",
+      "pass": true
+    },
+    {
+      "check": " CPL position U10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U10",
+      "pass": true
+    },
+    {
+      "check": " CPL position D11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D11",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF6",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF5",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD1",
+      "pass": true
+    },
+    {
+      "check": " CPL position U19",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U19",
+      "pass": true
+    },
+    {
+      "check": " CPL position C22",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C22",
+      "pass": true
+    },
+    {
+      "check": " CPL position C38",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C38",
+      "pass": true
+    },
+    {
+      "check": " CPL position R6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R6",
+      "pass": true
+    },
+    {
+      "check": " CPL position C4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C4",
+      "pass": true
+    },
+    {
+      "check": " CPL position R27",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R27",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD12",
+      "pass": true
+    },
+    {
+      "check": " CPL position D20",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D20",
+      "pass": true
+    },
+    {
+      "check": " CPL position D8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D8",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF12",
+      "pass": true
+    },
+    {
+      "check": " CPL position U1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U1",
+      "pass": true
+    },
+    {
+      "check": " CPL position C19",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C19",
+      "pass": true
+    },
+    {
+      "check": " CPL position C15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C15",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF4",
+      "pass": true
+    },
+    {
+      "check": " CPL position C14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C14",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD5",
+      "pass": true
+    },
+    {
+      "check": " CPL position C8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C8",
+      "pass": true
+    },
+    {
+      "check": " CPL position D9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D9",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD4",
+      "pass": true
+    },
+    {
+      "check": " CPL position R17",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R17",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF3",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF1",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD3",
+      "pass": true
+    },
+    {
+      "check": " CPL position J1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation J1",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF2",
+      "pass": true
+    },
+    {
+      "check": " CPL position C5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C5",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF7",
+      "pass": true
+    },
+    {
+      "check": " CPL position D5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D5",
+      "pass": true
+    },
+    {
+      "check": " CPL position U8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U8",
+      "pass": true
+    },
+    {
+      "check": " CPL position U7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U7",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD11",
+      "pass": true
+    },
+    {
+      "check": " CPL position C3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C3",
+      "pass": true
+    },
+    {
+      "check": " CPL position C29",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C29",
+      "pass": true
+    },
+    {
+      "check": " CPL position C1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C1",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF10",
+      "pass": true
+    },
+    {
+      "check": " CPL position C21",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C21",
+      "pass": true
+    },
+    {
+      "check": " CPL position D6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D6",
+      "pass": true
+    },
+    {
+      "check": " CPL position C35",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C35",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF1",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF9",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD16",
+      "pass": true
+    },
+    {
+      "check": " CPL position C40",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C40",
+      "pass": true
+    },
+    {
+      "check": " CPL position C31",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C31",
+      "pass": true
+    },
+    {
+      "check": " CPL position R1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R1",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF13",
+      "pass": true
+    },
+    {
+      "check": " CPL position C11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C11",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF4",
+      "pass": true
+    },
+    {
+      "check": " CPL position C18",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C18",
+      "pass": true
+    },
+    {
+      "check": " CPL position C33",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C33",
+      "pass": true
+    },
+    {
+      "check": " CPL position U2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U2",
+      "pass": true
+    },
+    {
+      "check": " CPL position D12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D12",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF3",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF8",
+      "pass": true
+    },
+    {
+      "check": " CPL position R10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R10",
+      "pass": true
+    },
+    {
+      "check": " CPL position C32",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C32",
+      "pass": true
+    },
+    {
+      "check": " CPL position C37",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C37",
+      "pass": true
+    },
+    {
+      "check": " CPL position R28",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R28",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD2",
+      "pass": true
+    },
+    {
+      "check": " CPL position R15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R15",
+      "pass": true
+    },
+    {
+      "check": " CPL position R7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R7",
+      "pass": true
+    },
+    {
+      "check": " CPL position R13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R13",
+      "pass": true
+    },
+    {
+      "check": " CPL position U16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U16",
+      "pass": true
+    },
+    {
+      "check": " CPL position D4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D4",
+      "pass": true
+    },
+    {
+      "check": " CPL position D1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D1",
+      "pass": true
+    },
+    {
+      "check": " CPL position C25",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C25",
+      "pass": true
+    },
+    {
+      "check": " CPL position D7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D7",
+      "pass": true
+    },
+    {
+      "check": " CPL position C7",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C7",
+      "pass": true
+    },
+    {
+      "check": " CPL position D19",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D19",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD8",
+      "pass": true
+    },
+    {
+      "check": " CPL position U12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U12",
+      "pass": true
+    },
+    {
+      "check": " CPL position D18",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D18",
+      "pass": true
+    },
+    {
+      "check": " CPL position C9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C9",
+      "pass": true
+    },
+    {
+      "check": " CPL position D15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D15",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD15",
+      "pass": true
+    },
+    {
+      "check": " CPL position C13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C13",
+      "pass": true
+    },
+    {
+      "check": " CPL position C26",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C26",
+      "pass": true
+    },
+    {
+      "check": " CPL position D16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D16",
+      "pass": true
+    },
+    {
+      "check": " CPL position C46",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C46",
+      "pass": true
+    },
+    {
+      "check": " CPL position C23",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C23",
+      "pass": true
+    },
+    {
+      "check": " CPL position U14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U14",
+      "pass": true
+    },
+    {
+      "check": " CPL position C20",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C20",
+      "pass": true
+    },
+    {
+      "check": " CPL position D3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D3",
+      "pass": true
+    },
+    {
+      "check": " CPL position R19",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R19",
+      "pass": true
+    },
+    {
+      "check": " CPL position D14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D14",
+      "pass": true
+    },
+    {
+      "check": " CPL position C48",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C48",
+      "pass": true
+    },
+    {
+      "check": " CPL position R12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R12",
+      "pass": true
+    },
+    {
+      "check": " CPL position C10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C10",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF11",
+      "pass": true
+    },
+    {
+      "check": " CPL position C34",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C34",
+      "pass": true
+    },
+    {
+      "check": " CPL position R16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R16",
+      "pass": true
+    },
+    {
+      "check": " CPL position C44",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C44",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD13",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF14",
+      "pass": true
+    },
+    {
+      "check": " CPL position R3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R3",
+      "pass": true
+    },
+    {
+      "check": " CPL position U4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U4",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF9",
+      "pass": true
+    },
+    {
+      "check": " CPL position R11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R11",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF5",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF5",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF15",
+      "pass": true
+    },
+    {
+      "check": " CPL position R14",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R14",
+      "pass": true
+    },
+    {
+      "check": " CPL position R9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R9",
+      "pass": true
+    },
+    {
+      "check": " CPL position R4",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R4",
+      "pass": true
+    },
+    {
+      "check": " CPL position C2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C2",
+      "pass": true
+    },
+    {
+      "check": " CPL position FB1",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation FB1",
+      "pass": true
+    },
+    {
+      "check": " CPL position PD6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation PD6",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF8",
+      "pass": true
+    },
+    {
+      "check": " CPL position D10",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation D10",
+      "pass": true
+    },
+    {
+      "check": " CPL position U3",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U3",
+      "pass": true
+    },
+    {
+      "check": " CPL position U9",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U9",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF16",
+      "pass": true
+    },
+    {
+      "check": " CPL position R29",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R29",
+      "pass": true
+    },
+    {
+      "check": " CPL position C6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C6",
+      "pass": true
+    },
+    {
+      "check": " CPL position U13",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U13",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF16",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF16",
+      "pass": true
+    },
+    {
+      "check": " CPL position R8",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation R8",
+      "pass": true
+    },
+    {
+      "check": " CPL position C12",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C12",
+      "pass": true
+    },
+    {
+      "check": " CPL position C30",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C30",
+      "pass": true
+    },
+    {
+      "check": " CPL position C49",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C49",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF6",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF6",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF11",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF11",
+      "pass": true
+    },
+    {
+      "check": " CPL position CF2",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation CF2",
+      "pass": true
+    },
+    {
+      "check": " CPL position C45",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C45",
+      "pass": true
+    },
+    {
+      "check": " CPL position U18",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation U18",
+      "pass": true
+    },
+    {
+      "check": " CPL position C47",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation C47",
+      "pass": true
+    },
+    {
+      "check": " CPL position RF15",
+      "pass": true
+    },
+    {
+      "check": " CPL rotation RF15",
+      "pass": true
+    },
+    {
+      "check": " drill count",
+      "pass": true
+    },
+    {
+      "check": " round drill ",
+      "pass": true
+    },
+    {
+      "check": " round drill ",
+      "pass": true
+    },
+    {
+      "check": " round drill ",
+      "pass": true
+    },
+    {
+      "check": " PTH plating header",
+      "pass": true
+    },
+    {
+      "check": " PTH drill coordinates and diameters within 0.000501mm export rounding",
+      "pass": true
+    },
+    {
+      "check": " NPTH plating header",
+      "pass": true
+    },
+    {
+      "check": " NPTH drill coordinates and diameters within 0.000501mm export rounding",
+      "pass": true
+    },
+    {
+      "check": " local footprint R5",
+      "pass": true
+    },
+    {
+      "check": " model path R5",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF10",
+      "pass": true
+    },
+    {
+      "check": " model path CF10",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF12",
+      "pass": true
+    },
+    {
+      "check": " model path CF12",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD10",
+      "pass": true
+    },
+    {
+      "check": " model path PD10",
+      "pass": true
+    },
+    {
+      "check": " local footprint R2",
+      "pass": true
+    },
+    {
+      "check": " model path R2",
+      "pass": true
+    },
+    {
+      "check": " local footprint U6",
+      "pass": true
+    },
+    {
+      "check": " model path U6",
+      "pass": true
+    },
+    {
+      "check": " local footprint U5",
+      "pass": true
+    },
+    {
+      "check": " model path U5",
+      "pass": true
+    },
+    {
+      "check": " local footprint D17",
+      "pass": true
+    },
+    {
+      "check": " model path D17",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD7",
+      "pass": true
+    },
+    {
+      "check": " model path PD7",
+      "pass": true
+    },
+    {
+      "check": " local footprint C16",
+      "pass": true
+    },
+    {
+      "check": " model path C16",
+      "pass": true
+    },
+    {
+      "check": " local footprint U11",
+      "pass": true
+    },
+    {
+      "check": " model path U11",
+      "pass": true
+    },
+    {
+      "check": " local footprint C17",
+      "pass": true
+    },
+    {
+      "check": " model path C17",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF14",
+      "pass": true
+    },
+    {
+      "check": " model path CF14",
+      "pass": true
+    },
+    {
+      "check": " local footprint D13",
+      "pass": true
+    },
+    {
+      "check": " model path D13",
+      "pass": true
+    },
+    {
+      "check": " local footprint C28",
+      "pass": true
+    },
+    {
+      "check": " model path C28",
+      "pass": true
+    },
+    {
+      "check": " local footprint R18",
+      "pass": true
+    },
+    {
+      "check": " model path R18",
+      "pass": true
+    },
+    {
+      "check": " local footprint D2",
+      "pass": true
+    },
+    {
+      "check": " model path D2",
+      "pass": true
+    },
+    {
+      "check": " local footprint C27",
+      "pass": true
+    },
+    {
+      "check": " model path C27",
+      "pass": true
+    },
+    {
+      "check": " local footprint C36",
+      "pass": true
+    },
+    {
+      "check": " model path C36",
+      "pass": true
+    },
+    {
+      "check": " local footprint R20",
+      "pass": true
+    },
+    {
+      "check": " model path R20",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD9",
+      "pass": true
+    },
+    {
+      "check": " model path PD9",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF13",
+      "pass": true
+    },
+    {
+      "check": " model path RF13",
+      "pass": true
+    },
+    {
+      "check": " local footprint C24",
+      "pass": true
+    },
+    {
+      "check": " model path C24",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF7",
+      "pass": true
+    },
+    {
+      "check": " model path CF7",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD14",
+      "pass": true
+    },
+    {
+      "check": " model path PD14",
+      "pass": true
+    },
+    {
+      "check": " local footprint U10",
+      "pass": true
+    },
+    {
+      "check": " model path U10",
+      "pass": true
+    },
+    {
+      "check": " local footprint D11",
+      "pass": true
+    },
+    {
+      "check": " model path D11",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF6",
+      "pass": true
+    },
+    {
+      "check": " model path CF6",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF5",
+      "pass": true
+    },
+    {
+      "check": " model path CF5",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD1",
+      "pass": true
+    },
+    {
+      "check": " model path PD1",
+      "pass": true
+    },
+    {
+      "check": " local footprint U19",
+      "pass": true
+    },
+    {
+      "check": " model path U19",
+      "pass": true
+    },
+    {
+      "check": " local footprint C22",
+      "pass": true
+    },
+    {
+      "check": " model path C22",
+      "pass": true
+    },
+    {
+      "check": " local footprint C38",
+      "pass": true
+    },
+    {
+      "check": " model path C38",
+      "pass": true
+    },
+    {
+      "check": " local footprint R6",
+      "pass": true
+    },
+    {
+      "check": " model path R6",
+      "pass": true
+    },
+    {
+      "check": " local footprint C4",
+      "pass": true
+    },
+    {
+      "check": " model path C4",
+      "pass": true
+    },
+    {
+      "check": " local footprint R27",
+      "pass": true
+    },
+    {
+      "check": " model path R27",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD12",
+      "pass": true
+    },
+    {
+      "check": " model path PD12",
+      "pass": true
+    },
+    {
+      "check": " local footprint D20",
+      "pass": true
+    },
+    {
+      "check": " model path D20",
+      "pass": true
+    },
+    {
+      "check": " local footprint D8",
+      "pass": true
+    },
+    {
+      "check": " model path D8",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF12",
+      "pass": true
+    },
+    {
+      "check": " model path RF12",
+      "pass": true
+    },
+    {
+      "check": " local footprint U1",
+      "pass": true
+    },
+    {
+      "check": " model path U1",
+      "pass": true
+    },
+    {
+      "check": " local footprint C19",
+      "pass": true
+    },
+    {
+      "check": " model path C19",
+      "pass": true
+    },
+    {
+      "check": " local footprint C15",
+      "pass": true
+    },
+    {
+      "check": " model path C15",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF4",
+      "pass": true
+    },
+    {
+      "check": " model path RF4",
+      "pass": true
+    },
+    {
+      "check": " local footprint C14",
+      "pass": true
+    },
+    {
+      "check": " model path C14",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD5",
+      "pass": true
+    },
+    {
+      "check": " model path PD5",
+      "pass": true
+    },
+    {
+      "check": " local footprint C8",
+      "pass": true
+    },
+    {
+      "check": " model path C8",
+      "pass": true
+    },
+    {
+      "check": " local footprint D9",
+      "pass": true
+    },
+    {
+      "check": " model path D9",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD4",
+      "pass": true
+    },
+    {
+      "check": " model path PD4",
+      "pass": true
+    },
+    {
+      "check": " local footprint R17",
+      "pass": true
+    },
+    {
+      "check": " model path R17",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF3",
+      "pass": true
+    },
+    {
+      "check": " model path RF3",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF1",
+      "pass": true
+    },
+    {
+      "check": " model path RF1",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD3",
+      "pass": true
+    },
+    {
+      "check": " model path PD3",
+      "pass": true
+    },
+    {
+      "check": " local footprint J1",
+      "pass": true
+    },
+    {
+      "check": " model path J1",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF2",
+      "pass": true
+    },
+    {
+      "check": " model path RF2",
+      "pass": true
+    },
+    {
+      "check": " local footprint J2",
+      "pass": true
+    },
+    {
+      "check": " local footprint C5",
+      "pass": true
+    },
+    {
+      "check": " model path C5",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF7",
+      "pass": true
+    },
+    {
+      "check": " model path RF7",
+      "pass": true
+    },
+    {
+      "check": " local footprint D5",
+      "pass": true
+    },
+    {
+      "check": " model path D5",
+      "pass": true
+    },
+    {
+      "check": " local footprint U8",
+      "pass": true
+    },
+    {
+      "check": " model path U8",
+      "pass": true
+    },
+    {
+      "check": " local footprint U7",
+      "pass": true
+    },
+    {
+      "check": " model path U7",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD11",
+      "pass": true
+    },
+    {
+      "check": " model path PD11",
+      "pass": true
+    },
+    {
+      "check": " local footprint C3",
+      "pass": true
+    },
+    {
+      "check": " model path C3",
+      "pass": true
+    },
+    {
+      "check": " local footprint C29",
+      "pass": true
+    },
+    {
+      "check": " model path C29",
+      "pass": true
+    },
+    {
+      "check": " local footprint C1",
+      "pass": true
+    },
+    {
+      "check": " model path C1",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF10",
+      "pass": true
+    },
+    {
+      "check": " model path RF10",
+      "pass": true
+    },
+    {
+      "check": " local footprint C21",
+      "pass": true
+    },
+    {
+      "check": " model path C21",
+      "pass": true
+    },
+    {
+      "check": " local footprint D6",
+      "pass": true
+    },
+    {
+      "check": " model path D6",
+      "pass": true
+    },
+    {
+      "check": " local footprint C35",
+      "pass": true
+    },
+    {
+      "check": " model path C35",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF1",
+      "pass": true
+    },
+    {
+      "check": " model path CF1",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF9",
+      "pass": true
+    },
+    {
+      "check": " model path CF9",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD16",
+      "pass": true
+    },
+    {
+      "check": " model path PD16",
+      "pass": true
+    },
+    {
+      "check": " local footprint C40",
+      "pass": true
+    },
+    {
+      "check": " model path C40",
+      "pass": true
+    },
+    {
+      "check": " local footprint C31",
+      "pass": true
+    },
+    {
+      "check": " model path C31",
+      "pass": true
+    },
+    {
+      "check": " local footprint R1",
+      "pass": true
+    },
+    {
+      "check": " model path R1",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF13",
+      "pass": true
+    },
+    {
+      "check": " model path CF13",
+      "pass": true
+    },
+    {
+      "check": " local footprint C11",
+      "pass": true
+    },
+    {
+      "check": " model path C11",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF4",
+      "pass": true
+    },
+    {
+      "check": " model path CF4",
+      "pass": true
+    },
+    {
+      "check": " local footprint C18",
+      "pass": true
+    },
+    {
+      "check": " model path C18",
+      "pass": true
+    },
+    {
+      "check": " local footprint C33",
+      "pass": true
+    },
+    {
+      "check": " model path C33",
+      "pass": true
+    },
+    {
+      "check": " local footprint U2",
+      "pass": true
+    },
+    {
+      "check": " model path U2",
+      "pass": true
+    },
+    {
+      "check": " local footprint D12",
+      "pass": true
+    },
+    {
+      "check": " model path D12",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF3",
+      "pass": true
+    },
+    {
+      "check": " model path CF3",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF8",
+      "pass": true
+    },
+    {
+      "check": " model path CF8",
+      "pass": true
+    },
+    {
+      "check": " local footprint R10",
+      "pass": true
+    },
+    {
+      "check": " model path R10",
+      "pass": true
+    },
+    {
+      "check": " local footprint C32",
+      "pass": true
+    },
+    {
+      "check": " model path C32",
+      "pass": true
+    },
+    {
+      "check": " local footprint C37",
+      "pass": true
+    },
+    {
+      "check": " model path C37",
+      "pass": true
+    },
+    {
+      "check": " local footprint R28",
+      "pass": true
+    },
+    {
+      "check": " model path R28",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD2",
+      "pass": true
+    },
+    {
+      "check": " model path PD2",
+      "pass": true
+    },
+    {
+      "check": " local footprint R15",
+      "pass": true
+    },
+    {
+      "check": " model path R15",
+      "pass": true
+    },
+    {
+      "check": " local footprint R7",
+      "pass": true
+    },
+    {
+      "check": " model path R7",
+      "pass": true
+    },
+    {
+      "check": " local footprint R13",
+      "pass": true
+    },
+    {
+      "check": " model path R13",
+      "pass": true
+    },
+    {
+      "check": " local footprint U16",
+      "pass": true
+    },
+    {
+      "check": " model path U16",
+      "pass": true
+    },
+    {
+      "check": " local footprint D4",
+      "pass": true
+    },
+    {
+      "check": " model path D4",
+      "pass": true
+    },
+    {
+      "check": " local footprint D1",
+      "pass": true
+    },
+    {
+      "check": " model path D1",
+      "pass": true
+    },
+    {
+      "check": " local footprint C25",
+      "pass": true
+    },
+    {
+      "check": " model path C25",
+      "pass": true
+    },
+    {
+      "check": " local footprint D7",
+      "pass": true
+    },
+    {
+      "check": " model path D7",
+      "pass": true
+    },
+    {
+      "check": " local footprint C7",
+      "pass": true
+    },
+    {
+      "check": " model path C7",
+      "pass": true
+    },
+    {
+      "check": " local footprint D19",
+      "pass": true
+    },
+    {
+      "check": " model path D19",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD8",
+      "pass": true
+    },
+    {
+      "check": " model path PD8",
+      "pass": true
+    },
+    {
+      "check": " local footprint U12",
+      "pass": true
+    },
+    {
+      "check": " model path U12",
+      "pass": true
+    },
+    {
+      "check": " local footprint D18",
+      "pass": true
+    },
+    {
+      "check": " model path D18",
+      "pass": true
+    },
+    {
+      "check": " local footprint C9",
+      "pass": true
+    },
+    {
+      "check": " model path C9",
+      "pass": true
+    },
+    {
+      "check": " local footprint D15",
+      "pass": true
+    },
+    {
+      "check": " model path D15",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD15",
+      "pass": true
+    },
+    {
+      "check": " model path PD15",
+      "pass": true
+    },
+    {
+      "check": " local footprint C13",
+      "pass": true
+    },
+    {
+      "check": " model path C13",
+      "pass": true
+    },
+    {
+      "check": " local footprint C26",
+      "pass": true
+    },
+    {
+      "check": " model path C26",
+      "pass": true
+    },
+    {
+      "check": " local footprint D16",
+      "pass": true
+    },
+    {
+      "check": " model path D16",
+      "pass": true
+    },
+    {
+      "check": " local footprint C46",
+      "pass": true
+    },
+    {
+      "check": " model path C46",
+      "pass": true
+    },
+    {
+      "check": " local footprint C23",
+      "pass": true
+    },
+    {
+      "check": " model path C23",
+      "pass": true
+    },
+    {
+      "check": " local footprint U14",
+      "pass": true
+    },
+    {
+      "check": " model path U14",
+      "pass": true
+    },
+    {
+      "check": " local footprint C20",
+      "pass": true
+    },
+    {
+      "check": " model path C20",
+      "pass": true
+    },
+    {
+      "check": " local footprint D3",
+      "pass": true
+    },
+    {
+      "check": " model path D3",
+      "pass": true
+    },
+    {
+      "check": " local footprint R19",
+      "pass": true
+    },
+    {
+      "check": " model path R19",
+      "pass": true
+    },
+    {
+      "check": " local footprint D14",
+      "pass": true
+    },
+    {
+      "check": " model path D14",
+      "pass": true
+    },
+    {
+      "check": " local footprint C48",
+      "pass": true
+    },
+    {
+      "check": " model path C48",
+      "pass": true
+    },
+    {
+      "check": " local footprint R12",
+      "pass": true
+    },
+    {
+      "check": " model path R12",
+      "pass": true
+    },
+    {
+      "check": " local footprint C10",
+      "pass": true
+    },
+    {
+      "check": " model path C10",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF11",
+      "pass": true
+    },
+    {
+      "check": " model path CF11",
+      "pass": true
+    },
+    {
+      "check": " local footprint C34",
+      "pass": true
+    },
+    {
+      "check": " model path C34",
+      "pass": true
+    },
+    {
+      "check": " local footprint R16",
+      "pass": true
+    },
+    {
+      "check": " model path R16",
+      "pass": true
+    },
+    {
+      "check": " local footprint C44",
+      "pass": true
+    },
+    {
+      "check": " model path C44",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD13",
+      "pass": true
+    },
+    {
+      "check": " model path PD13",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF14",
+      "pass": true
+    },
+    {
+      "check": " model path RF14",
+      "pass": true
+    },
+    {
+      "check": " local footprint R3",
+      "pass": true
+    },
+    {
+      "check": " model path R3",
+      "pass": true
+    },
+    {
+      "check": " local footprint U4",
+      "pass": true
+    },
+    {
+      "check": " model path U4",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF9",
+      "pass": true
+    },
+    {
+      "check": " model path RF9",
+      "pass": true
+    },
+    {
+      "check": " local footprint R11",
+      "pass": true
+    },
+    {
+      "check": " model path R11",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF5",
+      "pass": true
+    },
+    {
+      "check": " model path RF5",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF15",
+      "pass": true
+    },
+    {
+      "check": " model path CF15",
+      "pass": true
+    },
+    {
+      "check": " local footprint R14",
+      "pass": true
+    },
+    {
+      "check": " model path R14",
+      "pass": true
+    },
+    {
+      "check": " local footprint R9",
+      "pass": true
+    },
+    {
+      "check": " model path R9",
+      "pass": true
+    },
+    {
+      "check": " local footprint R4",
+      "pass": true
+    },
+    {
+      "check": " model path R4",
+      "pass": true
+    },
+    {
+      "check": " local footprint C2",
+      "pass": true
+    },
+    {
+      "check": " model path C2",
+      "pass": true
+    },
+    {
+      "check": " local footprint FB1",
+      "pass": true
+    },
+    {
+      "check": " model path FB1",
+      "pass": true
+    },
+    {
+      "check": " local footprint PD6",
+      "pass": true
+    },
+    {
+      "check": " model path PD6",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF8",
+      "pass": true
+    },
+    {
+      "check": " model path RF8",
+      "pass": true
+    },
+    {
+      "check": " local footprint D10",
+      "pass": true
+    },
+    {
+      "check": " model path D10",
+      "pass": true
+    },
+    {
+      "check": " local footprint U3",
+      "pass": true
+    },
+    {
+      "check": " model path U3",
+      "pass": true
+    },
+    {
+      "check": " local footprint U9",
+      "pass": true
+    },
+    {
+      "check": " model path U9",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF16",
+      "pass": true
+    },
+    {
+      "check": " model path RF16",
+      "pass": true
+    },
+    {
+      "check": " local footprint R29",
+      "pass": true
+    },
+    {
+      "check": " model path R29",
+      "pass": true
+    },
+    {
+      "check": " local footprint C6",
+      "pass": true
+    },
+    {
+      "check": " model path C6",
+      "pass": true
+    },
+    {
+      "check": " local footprint U13",
+      "pass": true
+    },
+    {
+      "check": " model path U13",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF16",
+      "pass": true
+    },
+    {
+      "check": " model path CF16",
+      "pass": true
+    },
+    {
+      "check": " local footprint R8",
+      "pass": true
+    },
+    {
+      "check": " model path R8",
+      "pass": true
+    },
+    {
+      "check": " local footprint C12",
+      "pass": true
+    },
+    {
+      "check": " model path C12",
+      "pass": true
+    },
+    {
+      "check": " local footprint C30",
+      "pass": true
+    },
+    {
+      "check": " model path C30",
+      "pass": true
+    },
+    {
+      "check": " local footprint C49",
+      "pass": true
+    },
+    {
+      "check": " model path C49",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF6",
+      "pass": true
+    },
+    {
+      "check": " model path RF6",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF11",
+      "pass": true
+    },
+    {
+      "check": " model path RF11",
+      "pass": true
+    },
+    {
+      "check": " local footprint CF2",
+      "pass": true
+    },
+    {
+      "check": " model path CF2",
+      "pass": true
+    },
+    {
+      "check": " local footprint C45",
+      "pass": true
+    },
+    {
+      "check": " model path C45",
+      "pass": true
+    },
+    {
+      "check": " local footprint U18",
+      "pass": true
+    },
+    {
+      "check": " model path U18",
+      "pass": true
+    },
+    {
+      "check": " local footprint C47",
+      "pass": true
+    },
+    {
+      "check": " model path C47",
+      "pass": true
+    },
+    {
+      "check": " local footprint RF15",
+      "pass": true
+    },
+    {
+      "check": " model path RF15",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP11",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP2",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP9",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP7",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP4",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP3",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP6",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP5",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP1",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP8",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP12",
+      "pass": true
+    },
+    {
+      "check": " local footprint TP10",
+      "pass": true
+    },
+    {
+      "check": "carrier four CAM copper layers",
+      "pass": true
+    },
+    {
+      "check": "carrier ('top', 'mask')",
+      "pass": true
+    },
+    {
+      "check": "carrier ('bottom', 'mask')",
+      "pass": true
+    },
+    {
+      "check": "carrier ('top', 'paste')",
+      "pass": true
+    },
+    {
+      "check": "carrier ('top', 'silk')",
+      "pass": true
+    },
+    {
+      "check": "carrier ('bottom', 'silk')",
+      "pass": true
+    },
+    {
+      "check": "carrier outline nonempty",
+      "pass": true
+    },
+    {
+      "check": "carrier contour segment count",
+      "pass": true
+    },
+    {
+      "check": "carrier contour coordinates",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL exactly matches fitted BOM",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL front only",
+      "pass": true
+    },
+    {
+      "check": "carrier U18 stencil aperture count",
+      "pass": true
+    },
+    {
+      "check": "carrier U18 stencil flash 0",
+      "pass": true
+    },
+    {
+      "check": "carrier U18 stencil dimensions 0",
+      "pass": true
+    },
+    {
+      "check": "carrier U18 stencil flash 1",
+      "pass": true
+    },
+    {
+      "check": "carrier U18 stencil dimensions 1",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil aperture count",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 0",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 0",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 1",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 1",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 2",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 2",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 3",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 3",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 4",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 4",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil flash 5",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 stencil dimensions 5",
+      "pass": true
+    },
+    {
+      "check": "carrier U19 no central paste",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C28",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C28",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C27",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C27",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C36",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C36",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C24",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C24",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C22",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C22",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C38",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C38",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R27",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R27",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R17",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position J1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation J1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C29",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C29",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C21",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C21",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C35",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C35",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C40",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C40",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C31",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C31",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C33",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C33",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C32",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C32",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C37",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C37",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R28",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R28",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C25",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C25",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C7",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C26",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C26",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C46",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C46",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C23",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C23",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C20",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R19",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C48",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C48",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C34",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C34",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C44",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C44",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF5",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R14",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R4",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position FB1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation FB1",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position PD6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation PD6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position D10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation D10",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U3",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U9",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R29",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R29",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U13",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF16",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position R8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation R8",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C12",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C30",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C30",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C49",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C49",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF6",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF11",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position CF2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation CF2",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C45",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C45",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position U18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation U18",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position C47",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation C47",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL position RF15",
+      "pass": true
+    },
+    {
+      "check": "carrier CPL rotation RF15",
+      "pass": true
+    },
+    {
+      "check": "carrier drill count",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier round drill ",
+      "pass": true
+    },
+    {
+      "check": "carrier PTH plating header",
+      "pass": true
+    },
+    {
+      "check": "carrier PTH drill coordinates and diameters within 0.000501mm export rounding",
+      "pass": true
+    },
+    {
+      "check": "carrier NPTH plating header",
+      "pass": true
+    },
+    {
+      "check": "carrier NPTH drill coordinates and diameters within 0.000501mm export rounding",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D17",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D17",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C17",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C17",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C28",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C28",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R18",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R18",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C27",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C27",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C36",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C36",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R20",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R20",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C24",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C24",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U19",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U19",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C22",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C22",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C38",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C38",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R27",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R27",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D20",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D20",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C19",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C19",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R17",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R17",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint J1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path J1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint H1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint J2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint H2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint H3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C29",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C29",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C21",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C21",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C35",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C35",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C40",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C40",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C31",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C31",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint FID3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C18",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C18",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C33",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C33",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C32",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C32",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C37",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C37",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R28",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R28",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C25",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C25",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C7",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D19",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D19",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D18",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D18",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C26",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C26",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint FID2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C46",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C46",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C23",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C23",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C20",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C20",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R19",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R19",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C48",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C48",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C34",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C34",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C44",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C44",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF5",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R14",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R14",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R4",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint H4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint FB1",
+      "pass": true
+    },
+    {
+      "check": "carrier model path FB1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint PD6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path PD6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint D10",
+      "pass": true
+    },
+    {
+      "check": "carrier model path D10",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U3",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U9",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R29",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R29",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U13",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U13",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF16",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF16",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint R8",
+      "pass": true
+    },
+    {
+      "check": "carrier model path R8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C12",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C30",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C30",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C49",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C49",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF6",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint FID1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF11",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint CF2",
+      "pass": true
+    },
+    {
+      "check": "carrier model path CF2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C45",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C45",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint U18",
+      "pass": true
+    },
+    {
+      "check": "carrier model path U18",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint C47",
+      "pass": true
+    },
+    {
+      "check": "carrier model path C47",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint RF15",
+      "pass": true
+    },
+    {
+      "check": "carrier model path RF15",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP11",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP2",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP9",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP7",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP4",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP3",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP6",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP5",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP1",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP8",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP12",
+      "pass": true
+    },
+    {
+      "check": "carrier local footprint TP10",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "unit": {
+      "copper_layers": [
+        [
+          "top",
+          "copper"
+        ],
+        [
+          "bottom",
+          "copper"
+        ],
+        [
+          "inner_2",
+          "copper"
+        ],
+        [
+          "inner_1",
+          "copper"
+        ]
+      ],
+      "drills": 540,
+      "outline_segments": 304,
+      "fitted_parts": 155
+    },
+    "carrier": {
+      "copper_layers": [
+        [
+          "top",
+          "copper"
+        ],
+        [
+          "bottom",
+          "copper"
+        ],
+        [
+          "inner_1",
+          "copper"
+        ],
+        [
+          "inner_2",
+          "copper"
+        ]
+      ],
+      "drills": 544,
+      "outline_segments": 341,
+      "fitted_parts": 155
+    }
+  },
+  "board_hashes": {
+    "ir_glasses_EVT_E6_F302.kicad_pcb": "78e1606b2da7bf06c1248aad76af8598d62e52775b978ba39bfd0a7e3056416a",
+    "carrier/ir_glasses_EVT_E6_F302_carrier.kicad_pcb": "06a687b4021dcce17e9bb61b66099c1a4cb4842b50d49b116edb4d6e499cf840"
+  },
+  "cam_hashes": {
+    "manufacturing/ir_glasses_EVT_E6_F302-In2_Cu.g2": "ed9e0f5979676e89f9d562dc91cf1939fe227b4aa03d31e82a060dd994ca3d42",
+    "manufacturing/ir_glasses_EVT_E6_F302-F_Silkscreen.gto": "3e397782618f8d82dd5383c135199a4030bf3a7e707b64b58eda6e50d7fe6bcc",
+    "manufacturing/ir_glasses_EVT_E6_F302-B_Silkscreen.gbo": "4500bdff835bd8c967f0454c348443f9dbfb2d11ab097651662a30e327647f53",
+    "manufacturing/ir_glasses_EVT_E6_F302-B_Mask.gbs": "b5940cff5498609b29a39a3697ec426424c78a3ed59e729cb63e76f764487c04",
+    "manufacturing/ir_glasses_EVT_E6_F302-PTH.drl": "329dbf0b642c95d7d243e45cc701e47060660d111c72ed110a60edba40087f2a",
+    "manufacturing/ir_glasses_EVT_E6_F302-F_Paste.gtp": "41d3a805c01251cb5cc57451622eba8174f18d937743e41591b028f20efc92bb",
+    "manufacturing/positions_jlc.csv": "eb336de23211f1ce380d059571b04ff7f09f2bc7d55268c206957a83612a2e64",
+    "manufacturing/ir_glasses_EVT_E6_F302-B_Cu.gbl": "5ef990583d0598fba8092158f2bfadd120cadb8e6e8d8ca4dda674f9e9713a55",
+    "manufacturing/ir_glasses_EVT_E6_F302-NPTH.drl": "e0de9111aeeb8522f5477cdb28f215134b8a203bdb03f6dc71c7036a8b58c389",
+    "manufacturing/ir_glasses_EVT_E6_F302-F_Cu.gtl": "9c7a94e497a160993437c81422f166f67cec296f80b273950819bb250c886ff8",
+    "manufacturing/ir_glasses_EVT_E6_F302-job.gbrjob": "eeb778b901240d552168b0d92be08925058ff821b27dd9730753a44747e02a15",
+    "manufacturing/ir_glasses_EVT_E6_F302-In1_Cu.g1": "12cc3f0b25e66cac698c5f99b1d321fe90bbe85fb7a66b118d499438aab1ab56",
+    "manufacturing/ir_glasses_EVT_E6_F302-Edge_Cuts.gm1": "9dc68b1842363714e02da64b063db39864530747e65f1fb2cb3212c5502887c0",
+    "manufacturing/ir_glasses_EVT_E6_F302-F_Mask.gts": "f3a3beb848126568ec88844a8c611fb286db51c71e0c5725bf8ed25c266f086b",
+    "manufacturing/positions_raw.csv": "9613b41fd11927e40455ac03f317d0a1489e7e19026783055ad3d41658c0c085",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-B_Silkscreen.gbo": "9e33a47959e222323798a04f8189f5569baa8dc5aa05616b6e0d7d34b4a0b994",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-PTH.drl": "ada881a2d47f8d6d2e76a82f2da556dbd6c40d6272612770320a3dcd57d0bb1f",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-F_Silkscreen.gto": "df7cb23b6b024dc9bde5f733c40455fb73c3d1ab6a28447219665f32828c1c6e",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-In1_Cu.g1": "5bb5a835ff66251d7c9b034e0f3cbf38f23fa589b89ae90784b9d777e0783853",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-NPTH.drl": "aee44434e9419809091b4ca882a849747979ab1b592d6de740afa8da744d08ac",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-F_Cu.gtl": "f3dc3ce20d82480968fe719590574d56575e98a819dfc03e95c4e59f71c8a230",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-job.gbrjob": "b331976ff7ffa1cf4642bf16b730116f4899d51a6bc6f3af54186f93d0813364",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-Edge_Cuts.gm1": "9200705c98dab3a136a135162f73406ba97718db527f63977995ca44e1a8e0f4",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-F_Mask.gts": "300a7d6c1d791fa10343307a0d5fd0238a193b4bdca6419e8938343affbfdfac",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-B_Cu.gbl": "e5343cbdaf5918059353c61a1ca7d760fe10d763b0be5abb830d48f8f6c031ec",
+    "carrier/manufacturing/positions_jlc.csv": "eb336de23211f1ce380d059571b04ff7f09f2bc7d55268c206957a83612a2e64",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-F_Paste.gtp": "149dd2941b230f100af4b5bec09ce4a419a701df62f54898d39abf83e7b0459f",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-In2_Cu.g2": "42269e954cf0f509e409e1ed75fa52c27572650142502954a183d0c550a6d825",
+    "carrier/manufacturing/positions_raw.csv": "9613b41fd11927e40455ac03f317d0a1489e7e19026783055ad3d41658c0c085",
+    "carrier/manufacturing/ir_glasses_EVT_E6_F302_carrier-B_Mask.gbs": "cd2cf792e6d980bb8769b667a9d337da69ed1c3f5c395967b417515af883814c"
+  },
+  "not_tested": [
+    "factory DFM",
+    "SMT platform rotation corrections",
+    "bench optical/electrical performance"
+  ]
+}

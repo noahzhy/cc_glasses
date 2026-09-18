@@ -1,0 +1,12 @@
+{
+  "revision": "EVT E6 F302 R2",
+  "minimum_led_eye_distance_mm": 25,
+  "distance_source": "User confirmed 2026-09-18",
+  "operating_temperature_C": null,
+  "first_batch_quantity": null,
+  "default_fps": 30,
+  "alternative_fps": 24,
+  "led_request_us": 100,
+  "optical_safety_status": "measurement_pending",
+  "production_release_status": "not_approved"
+}

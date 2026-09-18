@@ -1,0 +1,3924 @@
+{
+  "items": [
+    {
+      "type": "via",
+      "start": [
+        115.5375,
+        62.625
+      ],
+      "end": [
+        115.5375,
+        62.625
+      ],
+      "width": 0.35,
+      "drill": 0.15,
+      "layers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "net": "GND",
+      "netcode": 2,
+      "id": "grid_18312"
+    },
+    {
+      "type": "track",
+      "start": [
+        116.175,
+        62.7
+      ],
+      "end": [
+        116.175,
+        62.6875
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18316"
+    },
+    {
+      "type": "via",
+      "start": [
+        116.175,
+        62.6875
+      ],
+      "end": [
+        116.175,
+        62.6875
+      ],
+      "width": 0.35,
+      "drill": 0.15,
+      "layers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18317"
+    },
+    {
+      "type": "track",
+      "start": [
+        116.175,
+        62.6875
+      ],
+      "end": [
+        116.1875,
+        62.6875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18321"
+    },
+    {
+      "type": "track",
+      "start": [
+        116.1875,
+        62.6875
+      ],
+      "end": [
+        116.5,
+        63.0
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18322"
+    },
+    {
+      "type": "track",
+      "start": [
+        99.75,
+        60.675
+      ],
+      "end": [
+        99.625,
+        60.675
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18323"
+    },
+    {
+      "type": "track",
+      "start": [
+        114.8875,
+        63.35
+      ],
+      "end": [
+        115.175,
+        63.6375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18324"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.175,
+        63.6375
+      ],
+      "end": [
+        115.1875,
+        63.6375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18325"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.1875,
+        63.6375
+      ],
+      "end": [
+        115.7,
+        64.15
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18326"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.7,
+        64.15
+      ],
+      "end": [
+        115.7125,
+        64.15
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18327"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.7125,
+        64.15
+      ],
+      "end": [
+        115.7375,
+        64.175
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18328"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.7375,
+        64.175
+      ],
+      "end": [
+        115.7625,
+        64.175
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18329"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.7625,
+        64.175
+      ],
+      "end": [
+        115.775,
+        64.1875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18330"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.775,
+        64.1875
+      ],
+      "end": [
+        115.7875,
+        64.1875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18331"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.7875,
+        64.1875
+      ],
+      "end": [
+        115.8,
+        64.2
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18332"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.8,
+        64.2
+      ],
+      "end": [
+        115.825,
+        64.2
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18333"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.825,
+        64.2
+      ],
+      "end": [
+        115.8375,
+        64.2125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18334"
+    },
+    {
+      "type": "track",
+      "start": [
+        115.8375,
+        64.2125
+      ],
+      "end": [
+        116.05,
+        64.2125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18335"
+    },
+    {
+      "type": "track",
+      "start": [
+        116.05,
+        64.2125
+      ],
+      "end": [
+        117.125,
+        65.2875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18336"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.125,
+        65.2875
+      ],
+      "end": [
+        117.125,
+        65.3
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18337"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.125,
+        65.3
+      ],
+      "end": [
+        117.1625,
+        65.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18338"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        65.3375
+      ],
+      "end": [
+        117.1625,
+        65.35
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18339"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        65.35
+      ],
+      "end": [
+        117.175,
+        65.3625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18340"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        65.3625
+      ],
+      "end": [
+        117.175,
+        65.3875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18341"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        65.3875
+      ],
+      "end": [
+        117.1875,
+        65.4
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18342"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1875,
+        65.4
+      ],
+      "end": [
+        117.1875,
+        66.85
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18343"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1875,
+        66.85
+      ],
+      "end": [
+        117.175,
+        66.8625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18344"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        66.8625
+      ],
+      "end": [
+        117.175,
+        66.875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18345"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        66.875
+      ],
+      "end": [
+        117.1625,
+        66.875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18346"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        66.875
+      ],
+      "end": [
+        117.1625,
+        66.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18347"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        66.9
+      ],
+      "end": [
+        117.15,
+        66.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18348"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.15,
+        66.9
+      ],
+      "end": [
+        117.15,
+        66.9125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18349"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.15,
+        66.9125
+      ],
+      "end": [
+        117.1375,
+        66.9125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18350"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1375,
+        66.9125
+      ],
+      "end": [
+        117.1375,
+        66.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18351"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1375,
+        66.9375
+      ],
+      "end": [
+        117.125,
+        66.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18352"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.125,
+        66.95
+      ],
+      "end": [
+        117.125,
+        67.2
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18353"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.125,
+        67.2
+      ],
+      "end": [
+        117.1625,
+        67.2375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18354"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        67.2375
+      ],
+      "end": [
+        117.1625,
+        67.25
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18355"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1625,
+        67.25
+      ],
+      "end": [
+        117.175,
+        67.2625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18356"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        67.2625
+      ],
+      "end": [
+        117.175,
+        67.2875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18357"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.175,
+        67.2875
+      ],
+      "end": [
+        117.1875,
+        67.3
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18358"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1875,
+        67.3
+      ],
+      "end": [
+        117.1875,
+        67.5875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18359"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.1875,
+        67.5875
+      ],
+      "end": [
+        117.4,
+        67.8
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18360"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.4,
+        67.8
+      ],
+      "end": [
+        117.4125,
+        67.8
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18361"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.4125,
+        67.8
+      ],
+      "end": [
+        117.4375,
+        67.825
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18362"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.4375,
+        67.825
+      ],
+      "end": [
+        117.4625,
+        67.825
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18363"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.4625,
+        67.825
+      ],
+      "end": [
+        117.475,
+        67.8375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18364"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.475,
+        67.8375
+      ],
+      "end": [
+        117.4875,
+        67.8375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18365"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.4875,
+        67.8375
+      ],
+      "end": [
+        117.5,
+        67.85
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18366"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.5,
+        67.85
+      ],
+      "end": [
+        117.525,
+        67.85
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18367"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.525,
+        67.85
+      ],
+      "end": [
+        117.5375,
+        67.8625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18368"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.5375,
+        67.8625
+      ],
+      "end": [
+        117.825,
+        67.8625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18369"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.825,
+        67.8625
+      ],
+      "end": [
+        117.9125,
+        67.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18370"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.9125,
+        67.95
+      ],
+      "end": [
+        117.925,
+        67.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18371"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.925,
+        67.95
+      ],
+      "end": [
+        118.875,
+        68.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18372"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.875,
+        68.9
+      ],
+      "end": [
+        118.8875,
+        68.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18373"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.8875,
+        68.9
+      ],
+      "end": [
+        118.9125,
+        68.925
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18374"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.9125,
+        68.925
+      ],
+      "end": [
+        118.9375,
+        68.925
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18375"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.9375,
+        68.925
+      ],
+      "end": [
+        118.95,
+        68.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18376"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.95,
+        68.9375
+      ],
+      "end": [
+        118.9625,
+        68.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18377"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.9625,
+        68.9375
+      ],
+      "end": [
+        118.975,
+        68.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18378"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.975,
+        68.95
+      ],
+      "end": [
+        119.0,
+        68.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18379"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.0,
+        68.95
+      ],
+      "end": [
+        119.0125,
+        68.9625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18380"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.0125,
+        68.9625
+      ],
+      "end": [
+        119.175,
+        68.9625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18381"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.175,
+        68.9625
+      ],
+      "end": [
+        119.1875,
+        68.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18382"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.1875,
+        68.95
+      ],
+      "end": [
+        119.2125,
+        68.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18383"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.2125,
+        68.95
+      ],
+      "end": [
+        119.225,
+        68.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18384"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.225,
+        68.9375
+      ],
+      "end": [
+        119.2375,
+        68.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18385"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.2375,
+        68.9375
+      ],
+      "end": [
+        119.25,
+        68.925
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18386"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.25,
+        68.925
+      ],
+      "end": [
+        119.275,
+        68.925
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18387"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.275,
+        68.925
+      ],
+      "end": [
+        119.3,
+        68.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18388"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.3,
+        68.9
+      ],
+      "end": [
+        119.3125,
+        68.9
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18389"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.3125,
+        68.9
+      ],
+      "end": [
+        119.4,
+        68.8125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18390"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.4,
+        68.8125
+      ],
+      "end": [
+        120.9375,
+        68.8125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18391"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.9375,
+        68.8125
+      ],
+      "end": [
+        120.95,
+        68.8
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18392"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.95,
+        68.8
+      ],
+      "end": [
+        120.9625,
+        68.8
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18393"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.9625,
+        68.8
+      ],
+      "end": [
+        120.975,
+        68.7875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18394"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.975,
+        68.7875
+      ],
+      "end": [
+        121.025,
+        68.7875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18395"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.025,
+        68.7875
+      ],
+      "end": [
+        121.0625,
+        68.75
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18396"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.0625,
+        68.75
+      ],
+      "end": [
+        121.075,
+        68.75
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18397"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.075,
+        68.75
+      ],
+      "end": [
+        121.0875,
+        68.7375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18398"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.0875,
+        68.7375
+      ],
+      "end": [
+        121.1,
+        68.7375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18399"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.1,
+        68.7375
+      ],
+      "end": [
+        121.1875,
+        68.65
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18400"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.1875,
+        68.65
+      ],
+      "end": [
+        121.1875,
+        68.6375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18401"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.1875,
+        68.6375
+      ],
+      "end": [
+        121.2,
+        68.625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18402"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2,
+        68.625
+      ],
+      "end": [
+        121.2,
+        68.6125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18403"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2,
+        68.6125
+      ],
+      "end": [
+        121.2375,
+        68.575
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18404"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2375,
+        68.575
+      ],
+      "end": [
+        121.2375,
+        68.5375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18405"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2375,
+        68.5375
+      ],
+      "end": [
+        121.25,
+        68.525
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18406"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.25,
+        68.525
+      ],
+      "end": [
+        121.25,
+        68.5125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18407"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.25,
+        68.5125
+      ],
+      "end": [
+        121.2625,
+        68.5
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18408"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2625,
+        68.5
+      ],
+      "end": [
+        121.2625,
+        68.2625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18409"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2625,
+        68.2625
+      ],
+      "end": [
+        121.775,
+        67.75
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18410"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.775,
+        67.75
+      ],
+      "end": [
+        121.775,
+        67.7375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18411"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.775,
+        67.7375
+      ],
+      "end": [
+        121.8125,
+        67.7
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18412"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8125,
+        67.7
+      ],
+      "end": [
+        121.8125,
+        67.675
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18413"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8125,
+        67.675
+      ],
+      "end": [
+        121.8375,
+        67.65
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18414"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8375,
+        67.65
+      ],
+      "end": [
+        121.8375,
+        67.625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18415"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8375,
+        67.625
+      ],
+      "end": [
+        121.85,
+        67.6125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18416"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.85,
+        67.6125
+      ],
+      "end": [
+        121.85,
+        67.5625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18417"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.85,
+        67.5625
+      ],
+      "end": [
+        121.8625,
+        67.55
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18418"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8625,
+        67.55
+      ],
+      "end": [
+        121.8625,
+        67.375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18419"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8625,
+        67.375
+      ],
+      "end": [
+        121.825,
+        67.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18420"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.825,
+        67.3375
+      ],
+      "end": [
+        121.825,
+        67.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18421"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.825,
+        67.3125
+      ],
+      "end": [
+        121.8,
+        67.2875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18422"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8,
+        67.2875
+      ],
+      "end": [
+        121.8,
+        67.2625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18423"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.8,
+        67.2625
+      ],
+      "end": [
+        121.3,
+        66.7625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18424"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.3,
+        66.7625
+      ],
+      "end": [
+        121.3,
+        66.6125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18425"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.3,
+        66.6125
+      ],
+      "end": [
+        121.275,
+        66.5875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18426"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.275,
+        66.5875
+      ],
+      "end": [
+        121.275,
+        66.5
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18427"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.275,
+        66.5
+      ],
+      "end": [
+        121.2625,
+        66.4875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18428"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2625,
+        66.4875
+      ],
+      "end": [
+        121.2625,
+        66.0875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18429"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2625,
+        66.0875
+      ],
+      "end": [
+        121.25,
+        66.075
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18430"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.25,
+        66.075
+      ],
+      "end": [
+        121.25,
+        66.0625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18431"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.25,
+        66.0625
+      ],
+      "end": [
+        121.2375,
+        66.05
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18432"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2375,
+        66.05
+      ],
+      "end": [
+        121.2375,
+        66.0125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18433"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2375,
+        66.0125
+      ],
+      "end": [
+        121.2,
+        65.975
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18434"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2,
+        65.975
+      ],
+      "end": [
+        121.2,
+        65.9625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18435"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.2,
+        65.9625
+      ],
+      "end": [
+        121.1875,
+        65.95
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18436"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.1875,
+        65.95
+      ],
+      "end": [
+        121.1875,
+        65.9375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18437"
+    },
+    {
+      "type": "track",
+      "start": [
+        121.1875,
+        65.9375
+      ],
+      "end": [
+        120.65,
+        65.4
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18438"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.65,
+        65.4
+      ],
+      "end": [
+        120.575,
+        65.4
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18439"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.575,
+        65.4
+      ],
+      "end": [
+        120.5625,
+        65.3875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18440"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.5625,
+        65.3875
+      ],
+      "end": [
+        120.075,
+        65.3875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18441"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.075,
+        65.3875
+      ],
+      "end": [
+        120.05,
+        65.3625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18442"
+    },
+    {
+      "type": "track",
+      "start": [
+        120.05,
+        65.3625
+      ],
+      "end": [
+        119.65,
+        65.3625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18443"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.65,
+        65.3625
+      ],
+      "end": [
+        119.6375,
+        65.35
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18444"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.6375,
+        65.35
+      ],
+      "end": [
+        119.6125,
+        65.35
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18445"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.6125,
+        65.35
+      ],
+      "end": [
+        119.6,
+        65.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18446"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.6,
+        65.3375
+      ],
+      "end": [
+        119.575,
+        65.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18447"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.575,
+        65.3375
+      ],
+      "end": [
+        119.55,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18448"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.55,
+        65.3125
+      ],
+      "end": [
+        119.5375,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18449"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.5375,
+        65.3125
+      ],
+      "end": [
+        119.525,
+        65.3
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18450"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.525,
+        65.3
+      ],
+      "end": [
+        119.5125,
+        65.3
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18451"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.5125,
+        65.3
+      ],
+      "end": [
+        119.5,
+        65.2875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18452"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.5,
+        65.2875
+      ],
+      "end": [
+        119.4875,
+        65.2875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18453"
+    },
+    {
+      "type": "track",
+      "start": [
+        119.4875,
+        65.2875
+      ],
+      "end": [
+        118.2375,
+        64.0375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18454"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.2375,
+        64.0375
+      ],
+      "end": [
+        118.2375,
+        63.975
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18455"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.2375,
+        63.975
+      ],
+      "end": [
+        118.175,
+        63.9125
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18456"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.175,
+        63.9125
+      ],
+      "end": [
+        118.175,
+        63.8375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18457"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.175,
+        63.8375
+      ],
+      "end": [
+        118.125,
+        63.7875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18458"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.125,
+        63.7875
+      ],
+      "end": [
+        118.125,
+        63.7375
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18459"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.125,
+        63.7375
+      ],
+      "end": [
+        118.075,
+        63.6875
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18460"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.075,
+        63.6875
+      ],
+      "end": [
+        118.075,
+        63.675
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18461"
+    },
+    {
+      "type": "track",
+      "start": [
+        118.075,
+        63.675
+      ],
+      "end": [
+        117.65,
+        63.25
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18462"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.65,
+        63.25
+      ],
+      "end": [
+        117.65,
+        63.225
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18463"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.65,
+        63.225
+      ],
+      "end": [
+        117.6,
+        63.175
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18464"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.6,
+        63.175
+      ],
+      "end": [
+        117.6,
+        63.1625
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18465"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.6,
+        63.1625
+      ],
+      "end": [
+        117.2375,
+        62.8
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18466"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.2375,
+        62.8
+      ],
+      "end": [
+        117.2375,
+        62.65
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18467"
+    },
+    {
+      "type": "track",
+      "start": [
+        117.2375,
+        62.65
+      ],
+      "end": [
+        117.1125,
+        62.525
+      ],
+      "width": 0.1,
+      "layers": [
+        0
+      ],
+      "net": "UART_TX",
+      "netcode": 120,
+      "id": "grid_18468"
+    },
+    {
+      "type": "track",
+      "start": [
+        114.9,
+        62.65
+      ],
+      "end": [
+        114.8125,
+        62.65
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18469"
+    },
+    {
+      "type": "track",
+      "start": [
+        114.8125,
+        62.65
+      ],
+      "end": [
+        114.575,
+        62.8875
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18470"
+    },
+    {
+      "type": "track",
+      "start": [
+        114.575,
+        62.8875
+      ],
+      "end": [
+        114.2,
+        62.8875
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18471"
+    },
+    {
+      "type": "track",
+      "start": [
+        114.2,
+        62.8875
+      ],
+      "end": [
+        113.4375,
+        63.65
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18472"
+    },
+    {
+      "type": "track",
+      "start": [
+        113.4375,
+        63.65
+      ],
+      "end": [
+        113.425,
+        63.65
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18473"
+    },
+    {
+      "type": "track",
+      "start": [
+        113.425,
+        63.65
+      ],
+      "end": [
+        113.0125,
+        64.0625
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18474"
+    },
+    {
+      "type": "track",
+      "start": [
+        113.0125,
+        64.0625
+      ],
+      "end": [
+        113.0,
+        64.0625
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18475"
+    },
+    {
+      "type": "track",
+      "start": [
+        113.0,
+        64.0625
+      ],
+      "end": [
+        112.975,
+        64.0875
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18476"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.975,
+        64.0875
+      ],
+      "end": [
+        112.95,
+        64.0875
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18477"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.95,
+        64.0875
+      ],
+      "end": [
+        112.9375,
+        64.1
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18478"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.9375,
+        64.1
+      ],
+      "end": [
+        112.925,
+        64.1
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18479"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.925,
+        64.1
+      ],
+      "end": [
+        112.9125,
+        64.1125
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18480"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.9125,
+        64.1125
+      ],
+      "end": [
+        112.8875,
+        64.1125
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18481"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.8875,
+        64.1125
+      ],
+      "end": [
+        112.875,
+        64.125
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18482"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.875,
+        64.125
+      ],
+      "end": [
+        112.3,
+        64.125
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18483"
+    },
+    {
+      "type": "track",
+      "start": [
+        112.3,
+        64.125
+      ],
+      "end": [
+        111.4125,
+        65.0125
+      ],
+      "width": 0.1,
+      "layers": [
+        1
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18484"
+    },
+    {
+      "type": "via",
+      "start": [
+        111.4125,
+        65.0125
+      ],
+      "end": [
+        111.4125,
+        65.0125
+      ],
+      "width": 0.35,
+      "drill": 0.15,
+      "layers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18485"
+    },
+    {
+      "type": "track",
+      "start": [
+        111.4125,
+        65.0125
+      ],
+      "end": [
+        107.9,
+        65.0125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18489"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.9,
+        65.0125
+      ],
+      "end": [
+        107.8375,
+        65.075
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18490"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.8375,
+        65.075
+      ],
+      "end": [
+        107.825,
+        65.075
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18491"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.825,
+        65.075
+      ],
+      "end": [
+        107.8,
+        65.1
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18492"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.8,
+        65.1
+      ],
+      "end": [
+        107.775,
+        65.1
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18493"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.775,
+        65.1
+      ],
+      "end": [
+        107.7625,
+        65.1125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18494"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.7625,
+        65.1125
+      ],
+      "end": [
+        107.75,
+        65.1125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18495"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.75,
+        65.1125
+      ],
+      "end": [
+        107.7375,
+        65.125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18496"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.7375,
+        65.125
+      ],
+      "end": [
+        107.7125,
+        65.125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18497"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.7125,
+        65.125
+      ],
+      "end": [
+        107.7,
+        65.1375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18498"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.7,
+        65.1375
+      ],
+      "end": [
+        107.175,
+        65.1375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18499"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.175,
+        65.1375
+      ],
+      "end": [
+        107.0375,
+        65.275
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18500"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.0375,
+        65.275
+      ],
+      "end": [
+        107.025,
+        65.275
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18501"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.025,
+        65.275
+      ],
+      "end": [
+        107.0,
+        65.3
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18502"
+    },
+    {
+      "type": "track",
+      "start": [
+        107.0,
+        65.3
+      ],
+      "end": [
+        106.975,
+        65.3
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18503"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.975,
+        65.3
+      ],
+      "end": [
+        106.9625,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18504"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.9625,
+        65.3125
+      ],
+      "end": [
+        106.95,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18505"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.95,
+        65.3125
+      ],
+      "end": [
+        106.9375,
+        65.325
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18506"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.9375,
+        65.325
+      ],
+      "end": [
+        106.9125,
+        65.325
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18507"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.9125,
+        65.325
+      ],
+      "end": [
+        106.9,
+        65.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18508"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.9,
+        65.3375
+      ],
+      "end": [
+        106.7125,
+        65.3375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18509"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.7125,
+        65.3375
+      ],
+      "end": [
+        106.6875,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18510"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.6875,
+        65.3125
+      ],
+      "end": [
+        106.6375,
+        65.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18511"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.6375,
+        65.3125
+      ],
+      "end": [
+        106.2125,
+        64.8875
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18512"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.2125,
+        64.8875
+      ],
+      "end": [
+        106.125,
+        64.8875
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18513"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.125,
+        64.8875
+      ],
+      "end": [
+        106.0625,
+        64.825
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18514"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.0625,
+        64.825
+      ],
+      "end": [
+        106.025,
+        64.825
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18515"
+    },
+    {
+      "type": "track",
+      "start": [
+        106.025,
+        64.825
+      ],
+      "end": [
+        104.5125,
+        63.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18516"
+    },
+    {
+      "type": "track",
+      "start": [
+        104.5125,
+        63.3125
+      ],
+      "end": [
+        104.075,
+        63.3125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18517"
+    },
+    {
+      "type": "track",
+      "start": [
+        104.075,
+        63.3125
+      ],
+      "end": [
+        103.7875,
+        63.025
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18518"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.7875,
+        63.025
+      ],
+      "end": [
+        103.775,
+        63.025
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18519"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.775,
+        63.025
+      ],
+      "end": [
+        103.75,
+        63.0
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18520"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.75,
+        63.0
+      ],
+      "end": [
+        103.725,
+        63.0
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18521"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.725,
+        63.0
+      ],
+      "end": [
+        103.7125,
+        62.9875
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18522"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.7125,
+        62.9875
+      ],
+      "end": [
+        103.7,
+        62.9875
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18523"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.7,
+        62.9875
+      ],
+      "end": [
+        103.6875,
+        62.975
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18524"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.6875,
+        62.975
+      ],
+      "end": [
+        103.6625,
+        62.975
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18525"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.6625,
+        62.975
+      ],
+      "end": [
+        103.65,
+        62.9625
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18526"
+    },
+    {
+      "type": "track",
+      "start": [
+        103.65,
+        62.9625
+      ],
+      "end": [
+        102.3125,
+        62.9625
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18527"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.3125,
+        62.9625
+      ],
+      "end": [
+        102.2125,
+        62.8625
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18528"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.2125,
+        62.8625
+      ],
+      "end": [
+        102.2,
+        62.8625
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18529"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.2,
+        62.8625
+      ],
+      "end": [
+        102.175,
+        62.8375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18530"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.175,
+        62.8375
+      ],
+      "end": [
+        102.15,
+        62.8375
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18531"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.15,
+        62.8375
+      ],
+      "end": [
+        102.1375,
+        62.825
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18532"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.1375,
+        62.825
+      ],
+      "end": [
+        102.125,
+        62.825
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18533"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.125,
+        62.825
+      ],
+      "end": [
+        102.1125,
+        62.8125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18534"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.1125,
+        62.8125
+      ],
+      "end": [
+        102.0875,
+        62.8125
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18535"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.0875,
+        62.8125
+      ],
+      "end": [
+        102.075,
+        62.8
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18536"
+    },
+    {
+      "type": "track",
+      "start": [
+        102.075,
+        62.8
+      ],
+      "end": [
+        101.5,
+        62.8
+      ],
+      "width": 0.1,
+      "layers": [
+        3
+      ],
+      "net": "UART_RX",
+      "netcode": 110,
+      "id": "grid_18537"
+    }
+  ],
+  "failed": [],
+  "processed": 24
+}
