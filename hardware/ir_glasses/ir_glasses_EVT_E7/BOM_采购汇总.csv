@@ -1,0 +1,40 @@
+﻿位号,单板数量,简要参数,封装,制造商,型号,立创商城编码,商品链接
+J1,1,5P; pitch 0.5mm; top contact; slide lock; FPC thickness 0.3mm; height 2mm,J:GUOCONN_0.5K-AS-5PWB-RW,GUOCONN,0.5K-AS-5PWB-RW,C51901197,https://www.lcsc.com/product-detail/C51901197.html
+"C33, C34",2,CAP CER 1nF 50V C0G 0402; ±5%,C:0402,FH,0402CG102J500NT,C53547,https://www.lcsc.com/product-detail/C53547.html
+"CF1, CF2, CF3, CF4, CF5, CF6, CF7, CF8, CF9, CF10, CF11, CF12, CF13, CF14, CF15, CF16",16,CAP CER 22pF 50V C0G 0402; ±5%,C:0402,FH,0402CG220J500NT,C1555,https://www.lcsc.com/product-detail/C1555.html
+"R2, R3, R4, R10, R16, R19, R27, R28",8,RES 10kΩ ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF1002TCE,C25744,https://www.lcsc.com/product-detail/C25744.html
+"R5, R15, RF1, RF2, RF3, RF4, RF5, RF6, RF7, RF8, RF9, RF10, RF11, RF12, RF13, RF14, RF15, RF16",18,RES 100kΩ ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF1003TCE,C25741,https://www.lcsc.com/product-detail/C25741.html
+R29,1,RES 110kΩ ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF1103TCE,C25745,https://www.lcsc.com/product-detail/C25745.html
+R18,1,RES 200Ω ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF2000TCE,C25087,https://www.lcsc.com/product-detail/C25087.html
+"R8, R9",2,RES 22Ω ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF220JTCE,C25092,https://www.lcsc.com/product-detail/C25092.html
+"R6, R7, R17",3,RES 4.7kΩ ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF4701TCE,C25900,https://www.lcsc.com/product-detail/C25900.html
+R13,1,RES 47Ω ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF470JTCE,C25118,https://www.lcsc.com/product-detail/C25118.html
+R20,1,RES 6.2kΩ ±1% 62.5mW 0402,R:0402,UNI-ROYAL,0402WGF6201TCE,C25915,https://www.lcsc.com/product-detail/C25915.html
+R1,1,RES 2.67kΩ ±1% 62.5mW 0402,R:0402,Viking,ARG02FTC2671,C284464,https://www.lcsc.com/product-detail/C284464.html
+FB1,1,FERRITE BEAD 600Ω 0603 1LN; ±25%; 500mA; 600Ω@100MHz,L:0603,Murata,BLM18AG601SN1D,C19330,https://www.lcsc.com/product-detail/C19330.html
+C28,1,CAP CER 47uF 16V X5R 1210; ±10%,C:1210,YAGEO,CC1210KKX5R7BB476,C596320,https://www.lcsc.com/product-detail/C596320.html
+C11,1,CAP CER 10nF 50V X7R 0402; ±10%,C:0402,Samsung Electro-Mechanics,CL05B103KB5NNNC,C15195,https://www.lcsc.com/product-detail/C15195.html
+"C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13, C14, C15, C16, C17, C31, C32, C35, C36, C44, C48, C49",22,CAP CER 100nF 16V X7R 0402; ±10%,C:0402,Samsung Electro-Mechanics,CL05B104KO5NNNC,C1525,https://www.lcsc.com/product-detail/C1525.html
+C38,1,CAP CER 22nF 50V X7R 0402; ±10%,C:0402,Samsung Electro-Mechanics,CL05B223KB5VPNC,C307335,https://www.lcsc.com/product-detail/C307335.html
+"C25, C26, C27, C40",4,CAP CER 10uF 10V X5R 0603; ±10%,C:0603,Samsung Electro-Mechanics,CL10A106KP8NNNC,C19702,https://www.lcsc.com/product-detail/C19702.html
+"C29, C30",2,CAP CER 330pF 50V C0G 0402; ±5%,C:0402,Murata,GRM1555C1H331JA01D,C76965,https://www.lcsc.com/product-detail/C76965.html
+"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16",16,EMITTER IR 65mA SMD,IR:1206,Everlight,IR11-21C/TR8,C19269752,https://www.lcsc.com/product-detail/C19269752.html
+U10,1,3D accelerometer and 3D gyroscope,IC:LGA-14,STMicroelectronics,LSM6DS3TR-C,C967633,https://www.lcsc.com/product-detail/C967633.html
+D20,1,LED YELLOW GREEN WATER CLEAR 0603 SMD,LED:0603,Lite-On,LTST-C190KGKT,C125094,https://www.lcsc.com/product-detail/C125094.html
+"PD1, PD2, PD3, PD4, PD5, PD6, PD7, PD8, PD9, PD10, PD11, PD12, PD13, PD14, PD15, PD16",16,Silicon PIN photodiode; peak 940nm; 1206,PD:1206,Everlight,PD15-21B/TR8,C2921391,https://www.lcsc.com/product-detail/C2921391.html
+U11,1,ESD DIODE 3.3VWM 26VC SOT-23,IC:SOT-23,Nexperia,"PESD3V3L2BT,215",C55440,https://www.lcsc.com/product-detail/C55440.html
+"D18, D19",2,ESD DIODE 3.3VWM SC-79(SOD-523),D:SOD-523,Nexperia,"PESD3V3U1UB,115",C2443469,https://www.lcsc.com/product-detail/C2443469.html
+D17,1,ESD DIODE 5VWM 14VC SOD-323,D:SOD-323,Nexperia,"PESD5V0S1BA,115",C19224,https://www.lcsc.com/product-detail/C19224.html
+"R11, R12, R14",3,RES 100Ω ±1% 62.5mW 0402,R:0402,YAGEO,RC0402FR-07100RL,C106232,https://www.lcsc.com/product-detail/C106232.html
+U13,1,Single Inverter Gate,IC:SOT-23-5,Texas Instruments,SN74LVC1G04DBVR,C7827,https://www.lcsc.com/product-detail/C7827.html
+U12,1,Single Retriggerable Monostable Multivibrator With Schmitt-Trigger Inputs,IC:SSOP-8,Texas Instruments,SN74LVC1G123DCTR,C123302,https://www.lcsc.com/product-detail/C123302.html
+U9,1,"Arm-based Cortex-M4 32b MCU+FPU, up to 256KB Flash+40KB SRAM, 2 ADCs, 1 DAC ch., 4 comp, 2 PGA, timers, 2.0-3.6 V",IC:LQFP-48,STMicroelectronics,STM32F302CCT6,C262946,https://www.lcsc.com/product-detail/C262946.html
+"C1, C18, C19, C20, C21, C22, C23, C37, C46, C47",10,1uF X7R ±10% 16V 0402 Ceramic Capacitors ,C:0402,CCTC,TCC0402X7R105K160AT,C49210445,https://www.lcsc.com/product-detail/C49210445.html
+U1,1,"16-Channel, Constant-Current LED Driver with Pre-Charge FET",IC:VQFN-24,Texas Instruments,TLC59283RGER,C485815,https://www.lcsc.com/product-detail/C485815.html
+U6,1,"10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems",IC:SOT-23-5,Texas Instruments,TLV9061IDBVR,C398358,https://www.lcsc.com/product-detail/C398358.html
+U16,1,"10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems",IC:VSSOP-8_3x3mm_P0.65mm,Texas Instruments,TLV9062IDGKR,C398356,https://www.lcsc.com/product-detail/C398356.html
+"U2, U3, U4, U5",4,"10MHz, RRIO, CMOS operational amplifier suitable for cost-sensitive systems",IC:TSSOP-14,Texas Instruments,TLV9064IPWR,C779410,https://www.lcsc.com/product-detail/C779410.html
+"U7, U8",2,TMUX13xx 5V Bidirectional 8:1 Single-Channel and 4:1 Dual-Channel Multiplexer with Injection Current Control,IC:TSSOP-16,Texas Instruments,TMUX1308PWR,C970231,https://www.lcsc.com/product-detail/C970231.html
+U18,1,Precision Adjustable Current-Limited Power-Distribution Switches,IC:TPS2553_DRV0006,Texas Instruments,TPS2553DRVR,C138719,https://www.lcsc.com/product-detail/C138719.html
+U14,1,IC SURGE STOPPER 2.7V~23V QFN-10(2x2),IC:VQFN-10-HR,Texas Instruments,TPS259470ARPWR,C3662799,https://www.lcsc.com/product-detail/C3662799.html
+U19,1,TPS3702 High-Precision Overvoltage and Undervoltage Monitor,IC:TPS3702_DDC0006,Texas Instruments,TPS3702CX33DDCR,C2068031,https://www.lcsc.com/product-detail/C2068031.html

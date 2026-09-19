@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T01:12:28",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/12e83720-f793-511b-b9f2-2280ea643385",
+            "violations": []
+        }
+    ],
+    "source": "ir_glasses_EVT_E7.kicad_sch"
+}

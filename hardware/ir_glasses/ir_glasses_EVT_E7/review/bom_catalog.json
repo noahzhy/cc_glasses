@@ -1,0 +1,659 @@
+{
+  "C106232": {
+    "MPN": "RC0402FR-07100RL",
+    "Parameters": "RES 100Ω ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "100Ω",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C106232.html",
+    "Checked_at": "2026-09-18T09:25:18.283113+00:00"
+  },
+  "C123302": {
+    "MPN": "SN74LVC1G123DCTR",
+    "Parameters": "Single Retriggerable Monostable Multivibrator With Schmitt-Trigger Inputs",
+    "Package": "SSOP-8",
+    "Attributes": {
+      "Input Type": "Schmitt trigger",
+      "Logic Type": "Monostable",
+      "Number Of Channels": "1"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C123302.html",
+    "Checked_at": "2026-09-18T09:25:18.284097+00:00"
+  },
+  "C125094": {
+    "MPN": "LTST-C190KGKT",
+    "Parameters": "LED YELLOW GREEN WATER CLEAR 0603 SMD",
+    "Package": "0603",
+    "Attributes": {
+      "Installation method": "-",
+      "Color Temperature": "-",
+      "Peak Wavelength": "574nm",
+      "Lens Color": "Water Clear",
+      "Luminous Intensity": "35mcd",
+      "Viewing Angle": "130°",
+      "Forward Current": "20mA",
+      "Illumination Color": "Yellow Green",
+      "Lamp Holder Type": "-",
+      "Voltage - Forward(Vf)": "2V",
+      "Operating Temperature": "-30℃~+85℃",
+      "Wavelength": "567.5nm~576.5nm",
+      "Diode Configuration": "Discrete Diode"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C125094.html",
+    "Checked_at": "2026-09-18T09:25:18.284219+00:00"
+  },
+  "C138719": {
+    "MPN": "TPS2553DRVR",
+    "Parameters": "Precision Adjustable Current-Limited Power-Distribution Switches",
+    "Package": "WSON-6-EP(2x2)",
+    "Attributes": {
+      "Operating Temperature": "-40℃~+150℃",
+      "Features": "Overcurrent Protection;Short-Circuit  Protection;Over temperature protection;Overvoltage protection;Under-voltage lockout;Reverse current blocking;Soft-start;Integrated charge pump;Latch protection;Reverse voltage protection",
+      "number of channels": "1",
+      "Control Input Logic": "Active High",
+      "Maximum Continuous Current": "1.5A",
+      "Operating Voltage": "2.5V~6.5V",
+      "RDS(on)": "100mΩ",
+      "Type": "High Side Switch"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C138719.html",
+    "Checked_at": "2026-09-18T09:25:18.284313+00:00"
+  },
+  "C15195": {
+    "MPN": "CL05B103KB5NNNC",
+    "Parameters": "CAP CER 10nF 50V X7R 0402; ±10%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "10nF",
+      "Temperature Coefficient": "X7R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "50V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C15195.html",
+    "Checked_at": "2026-09-18T09:25:20.040466+00:00"
+  },
+  "C1525": {
+    "MPN": "CL05B104KO5NNNC",
+    "Parameters": "CAP CER 100nF 16V X7R 0402; ±10%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "100nF",
+      "Temperature Coefficient": "X7R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "16V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C1525.html",
+    "Checked_at": "2026-09-18T09:25:20.267329+00:00"
+  },
+  "C1555": {
+    "MPN": "0402CG220J500NT",
+    "Parameters": "CAP CER 22pF 50V C0G 0402; ±5%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "22pF",
+      "Temperature Coefficient": "C0G",
+      "Tolerance": "±5%",
+      "Voltage Rating": "50V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C1555.html",
+    "Checked_at": "2026-09-18T09:25:20.791908+00:00"
+  },
+  "C19224": {
+    "MPN": "PESD5V0S1BA,115",
+    "Parameters": "ESD DIODE 5VWM 14VC SOD-323",
+    "Package": "SOD-323",
+    "Attributes": {
+      "Clamping Voltage": "14V",
+      "Operating Temperature": "-55℃~+150℃",
+      "Peak Pulse Current (Ipp)": "12A@8/20us",
+      "Peak Pulse Power Dissipation (Ppp)": "130W@8/20us",
+      "Number of Channels": "1",
+      "Voltage - Breakdown": "9.5V",
+      "type": "ESD",
+      "Reverse Leakage Current (Ir)": "5nA",
+      "Polarity": "Bidirectional",
+      "Reverse Stand-Off Voltage (Vrwm)": "5V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C19224.html",
+    "Checked_at": "2026-09-18T09:25:21.726265+00:00"
+  },
+  "C19269752": {
+    "MPN": "IR11-21C/TR8",
+    "Parameters": "EMITTER IR 65mA SMD",
+    "Package": "1206",
+    "Attributes": {
+      "Voltage - DC Reverse(Vr)": "5V",
+      "Current - DC Forward(If)": "65mA",
+      "Half wave width": "45nm",
+      "Wavelength - Dominant": "940nm",
+      "Voltage - Forward(Vf)": "1.2V",
+      "Viewing Angle": "100°",
+      "Pd - Power Dissipation": "130mW",
+      "Operating Temperature": "-25℃~+85℃"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C19269752.html",
+    "Checked_at": "2026-09-18T09:25:21.975530+00:00"
+  },
+  "C19330": {
+    "MPN": "BLM18AG601SN1D",
+    "Parameters": "FERRITE BEAD 600Ω 0603 1LN; ±25%; 500mA; 600Ω@100MHz",
+    "Package": "0603",
+    "Attributes": {
+      "DC Resistance(DCR)": "380mΩ",
+      "Operating Temperature": "-55℃~+125℃",
+      "Number of Lines": "1",
+      "Tolerance": "±25%",
+      "Current Rating": "500mA",
+      "Impedance @ Frequency": "600Ω@100MHz"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C19330.html",
+    "Checked_at": "2026-09-18T09:25:22.697781+00:00"
+  },
+  "C19702": {
+    "MPN": "CL10A106KP8NNNC",
+    "Parameters": "CAP CER 10uF 10V X5R 0603; ±10%",
+    "Package": "0603",
+    "Attributes": {
+      "Capacitance": "10uF",
+      "Temperature Coefficient": "X5R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "10V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C19702.html",
+    "Checked_at": "2026-09-18T09:25:22.885896+00:00"
+  },
+  "C2068031": {
+    "MPN": "TPS3702CX33DDCR",
+    "Parameters": "TPS3702 High-Precision Overvoltage and Undervoltage Monitor",
+    "Package": "TSOT-23-6",
+    "Attributes": {
+      "Reset Timeout": "-",
+      "Operating Temperature": "-40℃~+125℃",
+      "output type": "Open-drain",
+      "Function": "-",
+      "Reset Active Level": "Active Low",
+      "standby current": "7uA",
+      "Voltage - Supply": "2V~18V",
+      "ChipType": "Voltage monitor",
+      "Threshold Voltage": "3.3V",
+      "Number of Voltages Monitored": "1"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C2068031.html",
+    "Checked_at": "2026-09-18T09:25:23.415276+00:00"
+  },
+  "C2443469": {
+    "MPN": "PESD3V3U1UB,115",
+    "Parameters": "ESD DIODE 3.3VWM SC-79(SOD-523)",
+    "Package": "SC-79(SOD-523)",
+    "Attributes": {
+      "Operating Temperature": "-55℃~+150℃",
+      "Voltage - Breakdown": "5.6V",
+      "Number of Channels": "1",
+      "type": "ESD",
+      "Polarity": "Unidirectional",
+      "Reverse Leakage Current (Ir)": "1nA",
+      "Reverse Stand-Off Voltage (Vrwm)": "3.3V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C2443469.html",
+    "Checked_at": "2026-09-18T09:25:23.632148+00:00"
+  },
+  "C25087": {
+    "MPN": "0402WGF2000TCE",
+    "Parameters": "RES 200Ω ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Power(Watts)": "62.5mW",
+      "Resistance": "200Ω",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25087.html",
+    "Checked_at": "2026-09-18T09:25:24.400768+00:00"
+  },
+  "C25092": {
+    "MPN": "0402WGF220JTCE",
+    "Parameters": "RES 22Ω ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "22Ω",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Tolerance": "±1%",
+      "Temperature Coefficient": "±100ppm/℃"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25092.html",
+    "Checked_at": "2026-09-18T09:25:24.619574+00:00"
+  },
+  "C25118": {
+    "MPN": "0402WGF470JTCE",
+    "Parameters": "RES 47Ω ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "47Ω",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Tolerance": "±1%",
+      "Temperature Coefficient": "±100ppm/℃"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25118.html",
+    "Checked_at": "2026-09-18T09:25:25.132753+00:00"
+  },
+  "C25741": {
+    "MPN": "0402WGF1003TCE",
+    "Parameters": "RES 100kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "100kΩ",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25741.html",
+    "Checked_at": "2026-09-18T09:25:25.296772+00:00"
+  },
+  "C25744": {
+    "MPN": "0402WGF1002TCE",
+    "Parameters": "RES 10kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "10kΩ",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25744.html",
+    "Checked_at": "2026-09-18T09:25:26.301873+00:00"
+  },
+  "C25745": {
+    "MPN": "0402WGF1103TCE",
+    "Parameters": "RES 110kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "110kΩ",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25745.html",
+    "Checked_at": "2026-09-18T09:25:26.329708+00:00"
+  },
+  "C25900": {
+    "MPN": "0402WGF4701TCE",
+    "Parameters": "RES 4.7kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "4.7kΩ",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25900.html",
+    "Checked_at": "2026-09-18T09:25:26.755925+00:00"
+  },
+  "C25915": {
+    "MPN": "0402WGF6201TCE",
+    "Parameters": "RES 6.2kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Resistance": "6.2kΩ",
+      "Power(Watts)": "62.5mW",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thick Film Resistor",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C25915.html",
+    "Checked_at": "2026-09-18T09:25:26.984703+00:00"
+  },
+  "C262946": {
+    "MPN": "STM32F302CCT6",
+    "Parameters": "Arm-based Cortex-M4 32b MCU+FPU, up to 256KB Flash+40KB SRAM, 2 ADCs, 1 DAC ch., 4 comp, 2 PGA, timers, 2.0-3.6 V",
+    "Package": "LQFP-48(7x7)",
+    "Attributes": {
+      "DAC (Bit)": "12bit",
+      "ADC (Bit)": "12bit",
+      "Number of I/O": "37",
+      "Operating Temperature": "-40℃~+85℃",
+      "Voltage - Supply": "2V~3.6V",
+      "Program Memory Type": "FLASH",
+      "EEPROM": "-",
+      "Program Storage Size": "256KB",
+      "CPU Core": "ARM Cortex-M4",
+      "Core Size": "32 Bit",
+      "CPU Maximum Speed": "72MHz",
+      "Oscillator Type": "Built-in"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C262946.html",
+    "Checked_at": "2026-09-18T09:25:27.965943+00:00"
+  },
+  "C284464": {
+    "MPN": "ARG02FTC2671",
+    "Parameters": "RES 2.67kΩ ±1% 62.5mW 0402",
+    "Package": "0402",
+    "Attributes": {
+      "Power(Watts)": "62.5mW",
+      "Resistance": "2.67kΩ",
+      "Voltage Rating": "50V",
+      "Operating Temperature": "-55℃~+155℃",
+      "Type": "Thin Film Resistor",
+      "Temperature Coefficient": "±25ppm/℃",
+      "Tolerance": "±1%"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C284464.html",
+    "Checked_at": "2026-09-18T09:25:27.998980+00:00"
+  },
+  "C2921391": {
+    "MPN": "PD15-21B/TR8",
+    "Parameters": "Silicon PIN photodiode; peak 940nm; 1206",
+    "Package": "1206",
+    "Attributes": {
+      "Spectral Range": "730nm~1100nm",
+      "Dark Current": "10nA",
+      "Operating Temperature": "-25℃~+85℃"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C2921391.html",
+    "Checked_at": "2026-09-18T09:25:28.370714+00:00"
+  },
+  "C307335": {
+    "MPN": "CL05B223KB5VPNC",
+    "Parameters": "CAP CER 22nF 50V X7R 0402; ±10%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "22nF",
+      "Temperature Coefficient": "X7R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "50V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C307335.html",
+    "Checked_at": "2026-09-18T09:25:28.661400+00:00"
+  },
+  "C3662799": {
+    "MPN": "TPS259470ARPWR",
+    "Parameters": "IC SURGE STOPPER 2.7V~23V QFN-10(2x2)",
+    "Package": "QFN-10(2x2)",
+    "Attributes": {
+      "Features": "Overcurrent Protection;Short-Circuit  Protection;Overvoltage clamping protection;Under-voltage lockout;Thermal Protection",
+      "Trigger Current": "500mA~6A",
+      "Width": "2mm",
+      "FET Type": "Integrated FET",
+      "Threshold Voltage": "-",
+      "Length": "2mm",
+      "Height": "1mm",
+      "Peak Output Current(Source)": "-",
+      "Number of Channels": "1",
+      "Voltage - Supply": "2.7V~23V",
+      "RDS(on)": "28.3mΩ",
+      "Peak Output Current(Sink)": "-",
+      "Operating Temperature": "-40℃~+125℃"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C3662799.html",
+    "Checked_at": "2026-09-18T09:25:29.644113+00:00"
+  },
+  "C398356": {
+    "MPN": "TLV9062IDGKR",
+    "Parameters": "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems",
+    "Package": "VSSOP-8",
+    "Attributes": {
+      "Output Current": "50mA",
+      "Number of Channels": "2",
+      "Vos - Input Offset Voltage": "1.6mV",
+      "Slew Rate": "55V/us",
+      "Input Offset Current(Ios)": "0.05pA",
+      "Operating Temperature": "-40℃~+125℃",
+      "Common Mode Rejection Ratio(CMRR)": "103dB",
+      "Ib - Input Bias Current": "0.5pA",
+      "Input Offset Voltage Drift(Vos TC)": "530nV/℃",
+      "Quiescent Current": "538uA",
+      "Gain Bandwidth Product": "10MHz",
+      "Features": "Built-in compensation;EMI filtering/RF suppression;Enable/shutdown function;ESD protection",
+      "Input Voltage Noise Density": "10nV/√Hz@1kHz",
+      "Dual Supply": "-",
+      "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+      "Single Supply": "1.8V~5.5V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C398356.html",
+    "Checked_at": "2026-09-18T09:25:29.659092+00:00"
+  },
+  "C398358": {
+    "MPN": "TLV9061IDBVR",
+    "Parameters": "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems",
+    "Package": "SOT-23-5",
+    "Attributes": {
+      "Output Current": "50mA",
+      "Number of Channels": "1",
+      "Vos - Input Offset Voltage": "1.6mV",
+      "Slew Rate": "6.5V/us",
+      "Input Offset Current(Ios)": "0.05pA",
+      "Operating Temperature": "-40℃~+125℃",
+      "Common Mode Rejection Ratio(CMRR)": "103dB",
+      "Ib - Input Bias Current": "0.5pA",
+      "Input Offset Voltage Drift(Vos TC)": "530nV/℃",
+      "Quiescent Current": "538uA",
+      "Gain Bandwidth Product": "10MHz",
+      "Features": "Enable/shutdown function;EMI filtering/RF suppression;ESD protection",
+      "Input Voltage Noise Density": "10nV/√Hz@1kHz",
+      "Dual Supply": "-",
+      "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+      "Single Supply": "1.8V~5.5V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C398358.html",
+    "Checked_at": "2026-09-18T09:25:30.179823+00:00"
+  },
+  "C485815": {
+    "MPN": "TLC59283RGER",
+    "Parameters": "16-Channel, Constant-Current LED Driver with Pre-Charge FET",
+    "Package": "VQFN-24-EP(4x4)",
+    "Attributes": {
+      "Output Current": "45mA",
+      "Operating Temperature": "-40℃~+85℃",
+      "Frequency - Switching": "35MHz",
+      "Dimming": "-",
+      "Voltage - Input(AC)": "-",
+      "Number of Channels": "16",
+      "Type": "-",
+      "Features": "-",
+      "Switch tube (built-in/external)": "Built-in",
+      "Output Voltage": "10V",
+      "Topology": "-",
+      "Constant Current Accuracy": "3%",
+      "Voltage - Input(DC)": "3V~5.5V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C485815.html",
+    "Checked_at": "2026-09-18T09:25:30.406752+00:00"
+  },
+  "C49210445": {
+    "MPN": "TCC0402X7R105K160AT",
+    "Parameters": "1uF X7R ±10% 16V 0402 Ceramic Capacitors ",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "1uF",
+      "Temperature Coefficient": "X7R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "16V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C49210445.html",
+    "Checked_at": "2026-09-18T09:25:31.328039+00:00"
+  },
+  "C51901197": {
+    "MPN": "0.5K-AS-5PWB-RW",
+    "Parameters": "5P; pitch 0.5mm; top contact; slide lock; FPC thickness 0.3mm; height 2mm",
+    "Package": "SMD,P=0.5mm,Surface Mount,Right Angle",
+    "Attributes": {
+      "Locking Feature": "Slide Lock",
+      "Operating Temperature": "-25℃~+85℃",
+      "Number of Contacts": "5P",
+      "Pitch": "0.5mm",
+      "Height Above Board": "2mm",
+      "Contact Type": "Top Contact",
+      "Mounting Type": "Surface Mount, Right Angle",
+      "FFC, FCB Thickness": "0.3mm",
+      "Contact Plating": "Tin",
+      "Contact Material": "Phosphor bronze"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C51901197.html",
+    "Checked_at": "2026-09-18T09:25:31.400240+00:00"
+  },
+  "C53547": {
+    "MPN": "0402CG102J500NT",
+    "Parameters": "CAP CER 1nF 50V C0G 0402; ±5%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "1nF",
+      "Temperature Coefficient": "C0G",
+      "Tolerance": "±5%",
+      "Voltage Rating": "50V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C53547.html",
+    "Checked_at": "2026-09-18T09:25:31.874256+00:00"
+  },
+  "C55440": {
+    "MPN": "PESD3V3L2BT,215",
+    "Parameters": "ESD DIODE 3.3VWM 26VC SOT-23",
+    "Package": "SOT-23",
+    "Attributes": {
+      "Clamping Voltage": "26V",
+      "Operating Temperature": "-65℃~+150℃",
+      "Peak Pulse Current (Ipp)": "15A@8/20us",
+      "Peak Pulse Power Dissipation (Ppp)": "350W",
+      "Number of Channels": "2",
+      "Voltage - Breakdown": "5.8V",
+      "type": "ESD",
+      "Polarity": "Bidirectional",
+      "Reverse Leakage Current (Ir)": "90nA",
+      "Reverse Stand-Off Voltage (Vrwm)": "3.3V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C55440.html",
+    "Checked_at": "2026-09-18T09:25:33.090356+00:00"
+  },
+  "C596320": {
+    "MPN": "CC1210KKX5R7BB476",
+    "Parameters": "CAP CER 47uF 16V X5R 1210; ±10%",
+    "Package": "1210",
+    "Attributes": {
+      "Capacitance": "47uF",
+      "Temperature Coefficient": "X5R",
+      "Tolerance": "±10%",
+      "Voltage Rating": "16V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C596320.html",
+    "Checked_at": "2026-09-18T09:25:33.585524+00:00"
+  },
+  "C76965": {
+    "MPN": "GRM1555C1H331JA01D",
+    "Parameters": "CAP CER 330pF 50V C0G 0402; ±5%",
+    "Package": "0402",
+    "Attributes": {
+      "Capacitance": "330pF",
+      "Temperature Coefficient": "C0G",
+      "Tolerance": "±5%",
+      "Voltage Rating": "50V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C76965.html",
+    "Checked_at": "2026-09-18T09:25:34.725107+00:00"
+  },
+  "C779410": {
+    "MPN": "TLV9064IPWR",
+    "Parameters": "10MHz, RRIO, CMOS operational amplifier suitable for cost-sensitive systems",
+    "Package": "TSSOP-14",
+    "Attributes": {
+      "Output Current": "50mA",
+      "Number of Channels": "4",
+      "Vos - Input Offset Voltage": "1.6mV",
+      "Slew Rate": "6.5V/us",
+      "Input Offset Current(Ios)": "0.05pA",
+      "Operating Temperature": "-40℃~+125℃",
+      "Common Mode Rejection Ratio(CMRR)": "87dB",
+      "Ib - Input Bias Current": "81pA",
+      "Input Offset Voltage Drift(Vos TC)": "530nV/℃",
+      "Quiescent Current": "538uA",
+      "Gain Bandwidth Product": "10MHz",
+      "Features": "Enable/shutdown function;EMI filtering/RF suppression;ESD protection",
+      "Input Voltage Noise Density": "16nV/√Hz@1kHz",
+      "Dual Supply": "-",
+      "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+      "Single Supply": "1.8V~5.5V"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C779410.html",
+    "Checked_at": "2026-09-18T09:25:35.251157+00:00"
+  },
+  "C7827": {
+    "MPN": "SN74LVC1G04DBVR",
+    "Parameters": "Single Inverter Gate",
+    "Package": "SOT-23-5",
+    "Attributes": {
+      "Input Type": "-",
+      "Logic Family": "74LVC",
+      "Voltage - Supply": "1.65V~5.5V",
+      "Output Logic Level - Low": "400mV",
+      "Propagation Delay": "3.7ns@5V,50pF",
+      "Features": "Power shutdown protection",
+      "Input Logic Level - Low": "700mV~800mV",
+      "Operating Temperature": "-40℃~+125℃",
+      "Input Logic Level - High": "1.7V~2V",
+      "Output Logic Level - High": "2.4V",
+      "Quiescent Current(Iq)": "10uA",
+      "Number of Channels": "1",
+      "Current - Output High(IOH)": "32mA",
+      "Current - Output Low(IOL)": "32mA"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C7827.html",
+    "Checked_at": "2026-09-18T09:25:35.277565+00:00"
+  },
+  "C967633": {
+    "MPN": "LSM6DS3TR-C",
+    "Parameters": "3D accelerometer and 3D gyroscope",
+    "Package": "LGA-14(2.5x3)",
+    "Attributes": {
+      "Output Bits": "16bit",
+      "Accelerometer Sensing Axis": "X,Y,Z",
+      "Cache Size": "4KB",
+      "Standby Current": "3uA",
+      "Acceleration Measurement Range (MAX)": "±16g"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C967633.html",
+    "Checked_at": "2026-09-18T09:25:35.382627+00:00"
+  },
+  "C970231": {
+    "MPN": "TMUX1308PWR",
+    "Parameters": "TMUX13xx 5V Bidirectional 8:1 Single-Channel and 4:1 Dual-Channel Multiplexer with Injection Current Control",
+    "Package": "TSSOP-16-175mil",
+    "Attributes": {
+      "Features": "Fault protection;Bidirectional analog channel;Fail-safe disconnect",
+      "Operating Temperature": "-40℃~+125℃",
+      "Ron": "370Ω",
+      "Voltage - Supply": "1.62V~5.5V",
+      "Number of Channels": "1",
+      "Propagation Delay": "10ns",
+      "Con": "40pF"
+    },
+    "Source": "https://www.lcsc.com/product-detail/C970231.html",
+    "Checked_at": "2026-09-18T09:25:36.326105+00:00"
+  }
+}

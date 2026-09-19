@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "S") (type "KiCad") (uri "${KIPRJMOD}/libraries/S.kicad_sym") (options "") (descr "Project local symbols")) (lib (name "Review") (type "KiCad") (uri "${KIPRJMOD}/libraries/Review.kicad_sym") (options "") (descr "Review symbols with verified package pin numbers")))

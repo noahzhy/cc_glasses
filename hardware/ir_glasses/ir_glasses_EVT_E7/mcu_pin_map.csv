@@ -1,0 +1,49 @@
+锘縋in,MCU_name,Net,Function
+1,VBAT,3V3,Power / GPIO; see schematic
+2,PC13,unconnected-(U9-PC13-Pad2),NC
+3,PC14,unconnected-(U9-PC14-Pad3),NC
+4,PC15,unconnected-(U9-PC15-Pad4),NC
+5,PF0,unconnected-(U9-PF0-Pad5),NC
+6,PF1,unconnected-(U9-PF1-Pad6),NC
+7,NRST,NRST,Power / GPIO; see schematic
+8,VSSA,GND,Power / GPIO; see schematic
+9,VDDA,3V3,Power / GPIO; see schematic
+10,PA0,ADC_A,"ADC1_IN1, analog"
+11,PA1,MUX_A1,Power / GPIO; see schematic
+12,PA2,unconnected-(U9-PA2-Pad12),NC
+13,PA3,unconnected-(U9-PA3-Pad13),NC
+14,PA4,ADC_B,"ADC2_IN1, analog"
+15,PA5,MUX_A0,Power / GPIO; see schematic
+16,PA6,MUX_B0,Power / GPIO; see schematic
+17,PA7,MUX_B1,Power / GPIO; see schematic
+18,PB0,MUX_EN_N,Power / GPIO; see schematic
+19,PB1,LED_LAT,Power / GPIO; see schematic
+20,PB2,IMU_INT,Power / GPIO; see schematic
+21,PB10,LED_SCLK,Power / GPIO; see schematic
+22,PB11,LED_SIN,Power / GPIO; see schematic
+23,VSS,GND,Power / GPIO; see schematic
+24,VDD,3V3,Power / GPIO; see schematic
+25,PB12,unconnected-(U9-PB12-Pad25),NC
+26,PB13,unconnected-(U9-PB13-Pad26),NC
+27,PB14,MUX_B2,Power / GPIO; see schematic
+28,PB15,LED_ENABLE,"TIM1_CH3N, AF4"
+29,PA8,STATUS_LED_N,Power / GPIO; see schematic
+30,PA9,UART_TX,"USART1_TX, AF7"
+31,PA10,UART_RX,"USART1_RX, AF7"
+32,PA11,unconnected-(U9-PA11-Pad32),NC
+33,PA12,unconnected-(U9-PA12-Pad33),NC
+34,PA13,SWDIO,"SWDIO, AF0"
+35,VSS,GND,Power / GPIO; see schematic
+36,VDD,3V3,Power / GPIO; see schematic
+37,PA14,SWCLK,"SWCLK, AF0"
+38,PA15,unconnected-(U9-PA15-Pad38),NC
+39,PB3,unconnected-(U9-PB3-Pad39),NC
+40,PB4,unconnected-(U9-PB4-Pad40),NC
+41,PB5,unconnected-(U9-PB5-Pad41),NC
+42,PB6,I2C_SCL,"I2C1_SCL, AF4"
+43,PB7,I2C_SDA,"I2C1_SDA, AF4"
+44,BOOT0,BOOT0,"BOOT0, R5 100k pulldown"
+45,PB8,unconnected-(U9-PB8-Pad45),NC
+46,PB9,MUX_A2,Power / GPIO; see schematic
+47,VSS,GND,Power / GPIO; see schematic
+48,VDD,3V3,Power / GPIO; see schematic

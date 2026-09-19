@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "electrical_components": 164,
+  "pins_compared": 522,
+  "removed": [
+    "C24",
+    "C45",
+    "TP5",
+    "TP6"
+  ],
+  "retained_pin_changes": 0,
+  "erc_violations": 0,
+  "drc_errors": 0,
+  "drc_warnings": 0,
+  "unrouted": 0,
+  "schematic_parity": 0,
+  "single_project": true,
+  "e6_unchanged": true,
+  "all_electrical_components_front": true,
+  "copper_layers": 4,
+  "thickness_mm": 1.6,
+  "outline_unchanged": true,
+  "manufacturing_rules_match_requirements": true,
+  "minimum_via_drill_mm": 0.2,
+  "minimum_via_annular_ring_mm": 0.1,
+  "rule_changes": {
+    "min_through_hole_diameter": [
+      0.15,
+      0.2
+    ],
+    "min_via_diameter": [
+      0.35,
+      0.4
+    ],
+    "min_microvia_drill": [
+      0.1,
+      0.2
+    ],
+    "min_microvia_diameter": [
+      0.2,
+      0.4
+    ]
+  },
+  "minimum_via_hole_to_pad_mm": 0.10383774382581282,
+  "scope": "Static design review; bench tests pending",
+  "hashes": {
+    "ir_glasses_EVT_E7.kicad_sch": "978339932d1c399d003a9a369b7d60ba4c891b6953acf0a186d7cae8af1750da",
+    "ir_glasses_EVT_E7.kicad_pcb": "b72c8b3da89e97aaa6524084c4803fd5dfc168ff17fab4a67eadd32514efd5d1",
+    "ir_glasses_EVT_E7.kicad_pro": "b888c105da9b8d5dd0681619019e0598ce20c0529c6586eff75f9f5e02c9453c",
+    "netlist.xml": "56a4b189d01558f479570b9b72059063f368705296642f1785da188636b10f0c",
+    "erc.json": "c4ea5ac857171a7c1dae2a71b762d9df9f3a4861c941951d415d45130b503d92",
+    "drc.json": "e2cac6014fb1ddbd0b280bacf883383ea9699e85a789ae57792ccbba9f65206d"
+  }
+}

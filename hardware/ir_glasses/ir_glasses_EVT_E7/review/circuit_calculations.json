@@ -1,0 +1,102 @@
+{
+  "model": "Idealized single-pole sensitivity, not a silicon guarantee",
+  "tia": [
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 20.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 89.16544490696727,
+      "settle_us": 18.615000000000002
+    },
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 20.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 89.31681592790596,
+      "settle_us": 20.625
+    },
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 50.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 87.91704685161804,
+      "settle_us": 18.224999999999998
+    },
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 50.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 88.29456612352335,
+      "settle_us": 20.275000000000002
+    },
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 100.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 85.85393121384362,
+      "settle_us": 17.53
+    },
+    {
+      "gbw_hz": 5000000.0,
+      "cin_pf": 100.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 86.59806327989824,
+      "settle_us": 19.66
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 20.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 89.58254393018488,
+      "settle_us": 18.73
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 20.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 89.65829333710971,
+      "settle_us": 20.720000000000002
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 50.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 88.9569300743068,
+      "settle_us": 18.540000000000003
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 50.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 89.14569882766658,
+      "settle_us": 20.55
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 100.0,
+      "cf_pf": 20.9,
+      "phase_margin_deg": 87.91612650926986,
+      "settle_us": 18.215
+    },
+    {
+      "gbw_hz": 10000000.0,
+      "cin_pf": 100.0,
+      "cf_pf": 23.1,
+      "phase_margin_deg": 88.2932462230969,
+      "settle_us": 20.259999999999998
+    }
+  ],
+  "tps2553_current_ma": {
+    "min": 210.6064979828264,
+    "nom": 242.58551453172637,
+    "max": 279.60428151976424
+  },
+  "u19_trip_v": [
+    3.468998554455446,
+    3.5326356666666663
+  ],
+  "led_nominal_ma": 19.816629213483147,
+  "adc_acquisition_us": 5.125,
+  "adc_conversion_us": 6.166666666666667,
+  "bias_tau_ms": 5.0
+}

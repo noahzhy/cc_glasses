@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-09-19T15:54:49.826991+00:00",
+  "status": "static_checks_passed_bench_and_factory_release_pending",
+  "fitted_parts": 153,
+  "unique_skus": 39,
+  "excluded_from_bom": [
+    "J2",
+    "TP1",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP7",
+    "TP8",
+    "TP9"
+  ],
+  "matched_pins": 522,
+  "bom_schematic_cpl_match": true,
+  "catalog_mapping": "39 archived supplier records; 2026-09-18",
+  "live_stock_and_assembly_availability": "not_verified",
+  "sha256": {
+    "BOM.csv": "750d64eb8714f005a9847d8b3fa59a32928e264b06138057ffeef2ed1921968e",
+    "BOM_采购汇总.csv": "e94a2bbc82d1541b069d76e652e73c1367595568f284ab16efb47d6857799869",
+    "assembly_positions.csv": "267a2d4531788ec8a7d2d3ad9e84c63721e6e17886a99dffbb367b1db4b99e9c",
+    "ir_glasses_EVT_E7.kicad_sch": "978339932d1c399d003a9a369b7d60ba4c891b6953acf0a186d7cae8af1750da",
+    "ir_glasses_EVT_E7.kicad_pcb": "b72c8b3da89e97aaa6524084c4803fd5dfc168ff17fab4a67eadd32514efd5d1"
+  }
+}

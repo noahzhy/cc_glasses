@@ -1,0 +1,13 @@
+{
+  "ir_glasses_EVT_E6_F302.kicad_pcb": "46906332ca25468295e80d32093b9d34b8e127a53d72a1566f822d9de8550fdb",
+  "ir_glasses_EVT_E6_F302.kicad_pro": "3ac4da6cd2c2f9f88ce5619a280620437967485a3491c1571a14502e95bf4c3a",
+  "ir_glasses_EVT_E6_F302.kicad_sch": "0ef067b2196753ee7418bde62ae92be72180ce9bdd2234a2ec40314af06b034d",
+  "carrier\\ir_glasses_EVT_E6_F302_carrier.kicad_pcb": "716fbca9899fbbad2aa08950e5a9a4b1f87fb057535b3b186ca301a6dabb99cb",
+  "carrier\\ir_glasses_EVT_E6_F302_carrier.kicad_pro": "e0d1be018987909ca8191ca033628cdfe9521e8fd4a658c1c37052321afbfcb9",
+  "evidence\\before_centerline_prune.kicad_pcb": "f82dae48633a099f2a1a4f386ff374f7a742f9cb5b0784c5a6ca6f715b6ce5e2",
+  "evidence\\before_freerouting.kicad_pcb": "ff9a10048d7db458f3b1847aabbb667bae178a64aab9ea9a4fbd334527f28fb7",
+  "evidence\\cleanup_backup.kicad_pcb": "fc881fb521df8c3b06d853825ef6dbbee1a53b171408b802dd1856c45a4f36b6",
+  "evidence\\prune_backup.kicad_pcb": "a5ed110a8576a7890c7d3e464b4fcdf3c5aa179b44552ba4d477527ae49c925b",
+  "evidence\\preproduction_audit\\before_silkscreen.kicad_pcb": "567f1e648f860e5bdf71532d9861fdd6b681c9afb7d11c6d0782958534e0208e",
+  "evidence\\preproduction_audit\\before_silkscreen.kicad_pro": "2e442a9d81fec2dd587e3db0be0252924c65a754c28220f1b1abb5711e95a167"
+}

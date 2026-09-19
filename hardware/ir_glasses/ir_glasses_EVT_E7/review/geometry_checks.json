@@ -1,0 +1,184 @@
+{
+  "reference_projection": {
+    "signal_segments_on_in1": 53,
+    "required_projected_copper_gap_mm": 0.3,
+    "ground_zone_clearance_mm": 0.2,
+    "nearest": {
+      "copper_gap_mm": 0.3040389070111819,
+      "reference_net": "/LED_SIN",
+      "analog_net": "/MUX_B"
+    },
+    "violations": []
+  },
+  "board_sha256": "b72c8b3da89e97aaa6524084c4803fd5dfc168ff17fab4a67eadd32514efd5d1",
+  "routes_outside_baseboard": [],
+  "via_hole_to_pad_violations": [],
+  "minimum_hole_to_pad_mm": 0.10383774382581282,
+  "nearest_vias": [
+    {
+      "uuid": "c8d4bd3d-9b20-4204-8dd6-7ebec00843f0",
+      "net": "/LED_K1",
+      "xy": [
+        118.43195,
+        61.38563
+      ],
+      "nearest_pad": "U1.2",
+      "hole_to_pad_mm": 0.10383774382581282
+    },
+    {
+      "uuid": "fc0d60fd-d1ba-4735-831b-f19f9b3b28e1",
+      "net": "/LED_K3",
+      "xy": [
+        118.426752,
+        62.360922
+      ],
+      "nearest_pad": "U1.4",
+      "hole_to_pad_mm": 0.10388553059038189
+    },
+    {
+      "uuid": "414db761-4698-4e6c-94a3-a919f1bd55b3",
+      "net": "/LED_BLANK",
+      "xy": [
+        122.997466,
+        67.953999
+      ],
+      "nearest_pad": "U13.4",
+      "hole_to_pad_mm": 0.10399899999999601
+    },
+    {
+      "uuid": "a3f0e66e-74a7-487d-93fc-e255142bbc50",
+      "net": "/LED_K16",
+      "xy": [
+        123.578999,
+        61.243025
+      ],
+      "nearest_pad": "U1.17",
+      "hole_to_pad_mm": 0.10399899999999604
+    },
+    {
+      "uuid": "fc7581ad-db5b-4033-8069-68b9f19500c5",
+      "net": "3V3",
+      "xy": [
+        126.990958,
+        60.113857
+      ],
+      "nearest_pad": "C35.1",
+      "hole_to_pad_mm": 0.10399921038701768
+    },
+    {
+      "uuid": "4e1de5a7-d720-4b2c-b427-dc4fd14bfb64",
+      "net": "/PD_IN2",
+      "xy": [
+        75.3064,
+        64.397653
+      ],
+      "nearest_pad": "RF2.2",
+      "hole_to_pad_mm": 0.10399950590382495
+    },
+    {
+      "uuid": "f0a9a8ca-cf25-4166-a40a-57c3c7a674f5",
+      "net": "/LED_K3",
+      "xy": [
+        60.057323,
+        106.051527
+      ],
+      "nearest_pad": "D3.2",
+      "hole_to_pad_mm": 0.10399958632665757
+    },
+    {
+      "uuid": "931b4888-6855-4aef-92ac-2b923fd88622",
+      "net": "/LED_K14",
+      "xy": [
+        159.050795,
+        65.799967
+      ],
+      "nearest_pad": "D14.2",
+      "hole_to_pad_mm": 0.10399966861002141
+    },
+    {
+      "uuid": "9a564aad-699e-45bc-853e-a466310e30bc",
+      "net": "/LED_K1",
+      "xy": [
+        96.398626,
+        99.588894
+      ],
+      "nearest_pad": "D1.2",
+      "hole_to_pad_mm": 0.10400000567893031
+    },
+    {
+      "uuid": "4a339007-4bbb-4dba-822d-985ee9aa8b2b",
+      "net": "/PD_IN9",
+      "xy": [
+        140.942401,
+        64.293662
+      ],
+      "nearest_pad": "RF9.2",
+      "hole_to_pad_mm": 0.10400003829656648
+    }
+  ],
+  "nonground_tracks_on_reference_layer": [
+    "00ee8434-0868-4135-bc13-51ae23f834a1",
+    "088797d3-1244-4d8a-9c89-af3c9e1e33eb",
+    "12b2cb5c-eeb8-4922-8bdc-28991b357769",
+    "22d2307c-26e8-4b1d-98d7-fb2856420537",
+    "28b66c06-5b17-4459-9bc2-1770c82f2dc8",
+    "3eb734f9-959d-42ac-8ade-1e949c72327b",
+    "59a6f305-877f-4a7b-b7bf-9d50ac1df8ef",
+    "9047ffba-dc78-4c36-a568-c7e517dd2806",
+    "9535b2ee-f3dd-4189-8834-4f8d315e919a",
+    "99c0e5e6-5d72-479e-8ad5-5861b84a17fe",
+    "a810e84f-b753-43f2-967c-1c6b93f54076",
+    "a877af3d-3060-4b24-a891-ac18d736620f",
+    "aa231ed5-416b-4038-8ffc-fa1b8761a4c4",
+    "bdd71763-2123-45c5-ab98-cbf3295318d3",
+    "e02525bb-467b-4b53-b581-5aa820394f24",
+    "ed07e46f-0cf0-4a6d-b5f8-7b22b5653343",
+    "3da90a0e-159c-418d-9bb1-69a63898f980",
+    "3fc0a346-7f6f-4a0b-9322-5d044eeb6323",
+    "57abc615-4e33-4d5c-ab28-358d168c6f20",
+    "60ababbc-4166-4537-b215-920f6429f5bb",
+    "6472ab3c-be3d-40d5-9c81-2d9318655260",
+    "6a3fc0ea-7281-4ba8-9f0a-406fceb9017e",
+    "84b44e4b-6b8f-4040-8d96-c43df26786ea",
+    "a1131a55-3ad6-4b1f-9914-4f10e500b03b",
+    "bc1b7454-b618-48ad-9728-615763199906",
+    "da1e3899-fc48-4a73-b303-5c1957cabab4",
+    "e1426f8e-d7f1-4594-bb6c-68db84c870fd",
+    "e7d0df3e-e4b4-4ed6-80a4-b1aa34f2f68a",
+    "efa891fe-3511-468f-b251-200e7b5e048b",
+    "f352453e-5d71-435f-92f7-de7b1783d244",
+    "f4d2afd0-01cd-455c-ac46-7aa72b02c31b",
+    "f5dd2622-903e-4501-893c-129e6510c7fd",
+    "f8ae29d9-bb22-41f2-861a-de90fd4bd9b7",
+    "0c8daa3e-a8e9-476d-8441-dd08e6ad2c4a",
+    "1d9523ca-0b89-4444-bbc6-068f8f6b27eb",
+    "2d89be95-5126-4b16-bd21-76db87450ee8",
+    "31d93994-65e0-49cd-b5da-d7a9b08baedb",
+    "368ea3a7-03b9-4c83-803a-b60ec5b49dc2",
+    "440f59d5-0443-4f67-9bc7-29be8c205350",
+    "5cd474d7-0742-49b2-8825-78d644d657d7",
+    "8055f3be-50c8-4061-a178-787a9c28ec47",
+    "89ce1ac2-9fd4-4d48-abcc-64b147f324d0",
+    "c031fce2-b7a3-488b-a9c3-28cc3c356601",
+    "c4e4a6df-0cdf-4ac5-a440-262e5a79fe45",
+    "f97ae6da-ba49-4e4d-b121-1b6a795ad406",
+    "fcad5619-bf10-4f2c-969e-16f14358d6c7",
+    "0cf061f8-d977-4e9d-a770-a74b94e17e85",
+    "2f16e4b5-6cd3-4b7f-8552-c01893b0267e",
+    "96c4b967-f346-4458-8681-4da698430e95",
+    "9a3d0fc4-6ab9-40cf-a4b1-96b578abb9e8",
+    "a50272bc-f871-4023-8367-4c5f018a9d81",
+    "c40c7b6b-1255-4245-9a82-5379209f8fe9",
+    "c6183db9-64bb-425f-929d-3f12fb141cf3"
+  ],
+  "ground_regions": 1,
+  "ground_area_mm2": 1667.2965272682277,
+  "route_objects_by_layer": {
+    "[0]": 3537,
+    "[0, 1, 2, 3]": 568,
+    "[3]": 4459,
+    "[2]": 3650,
+    "[1]": 53
+  },
+  "scope": "Geometric checks; mask registration and tenting require DFM"
+}
